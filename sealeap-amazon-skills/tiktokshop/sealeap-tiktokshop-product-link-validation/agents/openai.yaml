@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Shop 视频挂链与失效商品验收"
+  short_description: "TikTok Shop 视频挂链与失效商品验收，核查具体资格、状态与证据并输出可验收的方案"
+  default_prompt: "使用 $sealeap-tiktokshop-product-link-validation，根据我提供的资料完成分析，列出证据、缺口、分支判断与验收清单。"

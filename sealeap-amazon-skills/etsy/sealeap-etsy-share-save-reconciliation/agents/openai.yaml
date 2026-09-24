@@ -1,0 +1,4 @@
+interface:
+  display_name: "Etsy Share & Save 资格与费用对账"
+  short_description: "Etsy Share & Save 资格与费用对账，核查具体资格、状态与证据并输出可验收的方案"
+  default_prompt: "使用 $sealeap-etsy-share-save-reconciliation，根据我提供的资料完成分析，列出证据、缺口、分支判断与验收清单。"

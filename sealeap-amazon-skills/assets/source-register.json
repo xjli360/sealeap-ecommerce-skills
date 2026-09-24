@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "created_on": "2026-09-23",
-  "edition": "v4",
+  "edition": "v5",
   "sources": [
     {
       "id": "S01",
@@ -1019,6 +1019,115 @@
       "used_by": [
         "sealeap-tiktokshop-commercial-audio-clearance",
         "sealeap-tiktokshop-creator-brief-rights"
+      ]
+    },
+    {
+      "id": "D01",
+      "platform": "shopify",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "只采用筛选定义与主题显示分离、原始选项命名检查和买家端验收思路。",
+      "limitations": "旧菜单、特定主题能力、转化或SEO承诺不作为现行规则；原文中的工具推广和身份案例未采用。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-shopify-storefront-filter-audit"
+      ]
+    },
+    {
+      "id": "D02",
+      "platform": "ebay",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "采用允许接单与暂停、拍卖例外、自动回复独立设置和保存回读的检查思路。",
+      "limitations": "不采用不会产生缺陷的保证、固定最佳模式或旧界面路径；原案例中的商户信息与经营规模不公开。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ebay-time-away-readiness"
+      ]
+    },
+    {
+      "id": "D03",
+      "platform": "etsy",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "100,000以上",
+        "likes": "1,000–9,999"
+      },
+      "content_coverage": "selected_auto_transcript_sections_00m00s_10m00s_and_27m00s_end",
+      "quality_scope": "采用官方讲解的参与状态、平台生成链接、外部流量与费用账单核对；设计软件演示未用于方法。",
+      "limitations": "仅核读约0–10分钟及27分钟至结尾的项目说明和问答，未通读中段软件演示；旧活动和奖励数值不作永久规则，不把归因当增量。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-etsy-share-save-reconciliation"
+      ]
+    },
+    {
+      "id": "D04",
+      "platform": "walmart",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "0–49"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "采用候选筛选、资格/参与/完成状态和退出后核对的运营框架；费用和门槛只用当前规则及后台报价。",
+      "limitations": "旧教程的评价数、成交窗口、激励和单价不采用；不将项目等同其他平台测评计划，不采纳排名、销量或正面评价保证。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-walmart-review-program-planning"
+      ]
+    },
+    {
+      "id": "D05",
+      "platform": "tiktokshop",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "50–99"
+      },
+      "content_coverage": "complete_auto_transcript_limited_mechanical_sections_adopted",
+      "quality_scope": "仅采纳橱窗与视频挂链是独立步骤、商品资格和锚点检查的有限操作片段；其余路径来自当前官方规则。",
+      "limitations": "剔除开头和结尾的个人收益承诺、任意视频配商品示范、照搬爆款和地域营销宣传；它们不构成合格方法或收益证据。已读完整字幕不代表认可整条视频。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-tiktokshop-product-link-validation"
+      ]
+    },
+    {
+      "id": "D06",
+      "platform": "tiktokshop",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "50–99"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "把真实使用过程拆成清晰步骤，呈现可观察结果，再给出指向对应商品的行动提示。",
+      "limitations": "素材结构并不保证点击、转化或销量；不用于证明商品挂链或更换链接的技术功能，不复制原视频示例和措辞。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-tiktokshop-short-video-tests"
       ]
     }
   ],

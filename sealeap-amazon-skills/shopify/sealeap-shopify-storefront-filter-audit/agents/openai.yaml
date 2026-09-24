@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify 站内筛选与买家结果验收"
+  short_description: "Shopify 站内筛选与买家结果验收，核查具体资格、状态与证据并输出可验收的方案"
+  default_prompt: "使用 $sealeap-shopify-storefront-filter-audit，根据我提供的资料完成分析，列出证据、缺口、分支判断与验收清单。"

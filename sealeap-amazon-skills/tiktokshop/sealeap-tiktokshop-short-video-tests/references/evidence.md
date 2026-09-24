@@ -16,6 +16,7 @@
 | 编号 | 渠道 | 互动证据与范围 | 支持的有限判断 |
 | --- | --- | --- | --- |
 | N01 | GitHub | stars 100–999；forks 100–999；live_public_api；mapped_topic_capability_and_method_sections | MIT开源仓库的主题划分与已读有限框架；详细业务流程为M重写。 |
+| D06 | YouTube | views 1,000–9,999；likes 50–99；2026-09-24 authenticated_browser；complete_auto_transcript；单条视频口径 | 真实步骤演示、可见结果与对应商品行动提示；不支持挂链功能、算法权重或收益保证。 |
 
 
 个人社媒原帖、精确计数和身份映射只留在仓库外的受限审计中。开源组织许可所需归属公开保留，不将许可证署名当成应删的私人信息。互动只支持传播观察，不证明方法正确。

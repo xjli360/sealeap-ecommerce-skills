@@ -1,0 +1,45 @@
+{
+  "checked_on": "2026-09-24",
+  "rules": {
+    "R42": {
+      "title": "Shopify 站内筛选配置与限制",
+      "url": "https://help.shopify.com/en/manual/online-store/storefront-search/search-and-discovery-filters",
+      "note": "主题显示能力、数据来源、筛选逻辑与市场显示条件分别核验；配置成功不等于买家端可用。"
+    },
+    "R43": {
+      "title": "eBay Time Away",
+      "url": "https://www.ebay.com/help/selling/selling-tools/time-away?id=5137",
+      "note": "允许接单与暂停销售影响不同；拍卖、既有订单和部分交期例外仍需处理，自动回复单独设置。"
+    },
+    "R44": {
+      "title": "Etsy Share & Save",
+      "url": "https://help.etsy.com/hc/en-us/articles/16981332744087-How-to-Save-on-Etsy-Fees-with-the-Share-Save-Program",
+      "note": "有效外链、参与状态、归因窗口和最后点击共同决定资格；Offsite Ads与临时优惠条款需要单独核对。"
+    },
+    "R45": {
+      "title": "Walmart Review Accelerator 项目概览",
+      "url": "https://marketplacelearn.walmart.com/guides/review-accelerator-overview",
+      "note": "区分 Post-Purchase Reviews 与 Recognized Reviewer；资格、商品状态和项目要求按当前资料及后台核验，不沿用旧视频门槛。"
+    },
+    "R46": {
+      "title": "Walmart 评价激励的参与和计费",
+      "url": "https://marketplacelearn.walmart.com/guides/success-hub-get-more-reviews-with-incentives",
+      "note": "目标、当期报价、实际发布评价、退出后结算分别管理；此流程不能自动外推到另一子项目。"
+    },
+    "R47": {
+      "title": "TikTok Shop 视频挂链",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5804034343962411",
+      "note": "美国站教程；身份和账户界面决定可用挂链类型，商品身份与实际视频内容应一致。"
+    },
+    "R48": {
+      "title": "TikTok Shop 发布后补链",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5178002307598122",
+      "note": "美国站近期无商品链接视频的补链功能；既有有效链接不能据此任意修改，音轨与内容资格另核。"
+    },
+    "R49": {
+      "title": "TikTok Shop 失效商品重新挂链",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3759443559679790",
+      "note": "美国站失效商品的独立重挂功能；按视频时间、互动、异常状态和当前界面判断，推荐相似商品仍须逐项核对。"
+    }
+  }
+}

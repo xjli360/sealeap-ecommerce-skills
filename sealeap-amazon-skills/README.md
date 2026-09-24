@@ -1,8 +1,8 @@
 # SeaLeap 五平台技能目录
 
-114个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
+119个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
 
-## shopify · 26 Skills
+## shopify · 27 Skills
 
 | Skill | 方向 | 定位 |
 | --- | --- | --- |
@@ -32,8 +32,9 @@
 | [Shopify 主题许可与恢复准备](shopify/sealeap-shopify-theme-license-recovery/SKILL.md) | 运营 | 专项任务 |
 | [Shopify 营销组合建模数据准备](shopify/sealeap-shopify-mmm-data-readiness/SKILL.md) | 广告 | 专项任务 |
 | [Shopify 边际收益与预算方案评审](shopify/sealeap-shopify-marginal-budget-review/SKILL.md) | 广告 | 专项任务 |
+| [Shopify 站内筛选与买家结果验收](shopify/sealeap-shopify-storefront-filter-audit/SKILL.md) | 运营 | 专项任务 |
 
-## etsy · 22 Skills
+## etsy · 23 Skills
 
 | Skill | 方向 | 定位 |
 | --- | --- | --- |
@@ -59,8 +60,9 @@
 | [Etsy 材料库存与手作产能](etsy/sealeap-etsy-capacity-planning/SKILL.md) | 运营 | 专项任务 |
 | [Etsy 储备金与可用现金诊断](etsy/sealeap-etsy-reserve-cashflow/SKILL.md) | 运营 | 专项任务 |
 | [Etsy 休店与恢复接单验收](etsy/sealeap-etsy-vacation-restart/SKILL.md) | 运营 | 专项任务 |
+| [Etsy Share & Save 资格与费用对账](etsy/sealeap-etsy-share-save-reconciliation/SKILL.md) | 运营 | 专项任务 |
 
-## ebay · 22 Skills
+## ebay · 23 Skills
 
 | Skill | 方向 | 定位 |
 | --- | --- | --- |
@@ -86,8 +88,9 @@
 | [eBay 商品队列与销售复盘](ebay/sealeap-ebay-store-analytics/SKILL.md) | 运营 | 专项任务 |
 | [eBay 国际配送范围与政策变更](ebay/sealeap-ebay-international-shipping-controls/SKILL.md) | 运营 | 专项任务 |
 | [eBay 合并运费与购物篮验收](ebay/sealeap-ebay-combined-shipping-audit/SKILL.md) | 运营 | 专项任务 |
+| [eBay Time Away 与休假履约准备](ebay/sealeap-ebay-time-away-readiness/SKILL.md) | 运营 | 专项任务 |
 
-## tiktokshop · 21 Skills
+## tiktokshop · 22 Skills
 
 | Skill | 方向 | 定位 |
 | --- | --- | --- |
@@ -112,8 +115,9 @@
 | [TikTok Shop GMV Max 目标与预算实验](tiktokshop/sealeap-tiktokshop-gmvmax-testing/SKILL.md) | 广告 | 专项任务 |
 | [TikTok Shop 全域指标与贡献对账](tiktokshop/sealeap-tiktokshop-analytics-attribution/SKILL.md) | 广告 | 专项任务 |
 | [TikTok Shop 商用音乐与跨平台素材验收](tiktokshop/sealeap-tiktokshop-commercial-audio-clearance/SKILL.md) | 运营 | 专项任务 |
+| [TikTok Shop 视频挂链与失效商品验收](tiktokshop/sealeap-tiktokshop-product-link-validation/SKILL.md) | 运营 | 专项任务 |
 
-## walmart · 23 Skills
+## walmart · 24 Skills
 
 | Skill | 方向 | 定位 |
 | --- | --- | --- |
@@ -140,5 +144,6 @@
 | [Walmart WFS 包装与标签预检](walmart/sealeap-walmart-wfs-packaging-labels/SKILL.md) | 运营 | 专项任务 |
 | [Walmart WFS 箱内明细与数量核对](walmart/sealeap-walmart-wfs-box-reconciliation/SKILL.md) | 运营 | 专项任务 |
 | [Walmart WFS 收货差异与处理准备](walmart/sealeap-walmart-wfs-receiving-resolution/SKILL.md) | 运营 | 专项任务 |
+| [Walmart 官方评价计划资格与预算](walmart/sealeap-walmart-review-program-planning/SKILL.md) | 运营 | 专项任务 |
 
-每个目录保留MIT许可与全部本地参考。[本轮增量](RESEARCH-MORE-20260924.md) · [研究边界](RESEARCH.md) · [验证](VALIDATION.md)。
+每个目录保留MIT许可与全部本地参考。[最新补充](RESEARCH-EXTRA-20260924.md) · [前一批增量](RESEARCH-MORE-20260924.md) · [研究边界](RESEARCH.md) · [验证](VALIDATION.md)。

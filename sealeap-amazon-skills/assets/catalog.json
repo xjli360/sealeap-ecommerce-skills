@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "collection": "sealeap-amazon-skills",
-  "edition": "2026-09-24-research-more",
+  "edition": "2026-09-24-research-extra",
   "platforms": [
     "shopify",
     "etsy",
@@ -1599,13 +1599,15 @@
       "title": "TikTok Shop 短视频脚本与测试",
       "path": "tiktokshop/sealeap-tiktokshop-short-video-tests",
       "sources": [
-        "N01"
+        "N01",
+        "D06"
       ],
       "rule_checks": [],
       "merged_topics": [
         "脚本矩阵",
         "拍摄brief",
-        "实验复盘"
+        "实验复盘",
+        "真实步骤演示与单变量内容试验"
       ],
       "scope": "specialist"
     },
@@ -2403,6 +2405,114 @@
       ],
       "scope": "specialist",
       "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-shopify-storefront-filter-audit",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 站内筛选与买家结果验收",
+      "path": "shopify/sealeap-shopify-storefront-filter-audit",
+      "sources": [
+        "D01"
+      ],
+      "rule_checks": [
+        "R42"
+      ],
+      "merged_topics": [
+        "筛选字段与来源映射",
+        "买家端条件—预期—实际结果矩阵",
+        "主题、数据与市场限制的分支诊断",
+        "按优先级排序的修复与恢复方案"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-extra"
+    },
+    {
+      "name": "sealeap-etsy-share-save-reconciliation",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy Share & Save 资格与费用对账",
+      "path": "etsy/sealeap-etsy-share-save-reconciliation",
+      "sources": [
+        "D03"
+      ],
+      "rule_checks": [
+        "R44"
+      ],
+      "merged_topics": [
+        "外部入口与追踪链接登记",
+        "订单资格与 Offsite Ads 冲突表",
+        "预计返还—账上返还—冲销对账桥",
+        "差异原因、未知项和复核步骤"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-extra"
+    },
+    {
+      "name": "sealeap-ebay-time-away-readiness",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay Time Away 与休假履约准备",
+      "path": "ebay/sealeap-ebay-time-away-readiness",
+      "sources": [
+        "D02"
+      ],
+      "rule_checks": [
+        "R43"
+      ],
+      "merged_topics": [
+        "固定价、拍卖与特殊交易覆盖表",
+        "既有订单及售后值守安排",
+        "Time Away 与自动回复设置验收",
+        "复工积压与恢复接单检查表"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-extra"
+    },
+    {
+      "name": "sealeap-walmart-review-program-planning",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart 官方评价计划资格与预算",
+      "path": "walmart/sealeap-walmart-review-program-planning",
+      "sources": [
+        "D04"
+      ],
+      "rule_checks": [
+        "R45",
+        "R46"
+      ],
+      "merged_topics": [
+        "子项目资格与 SKU 候选表",
+        "费用分项与零/部分/完成情景",
+        "参与、停止与尾部结算计划",
+        "真实评价反馈与商品改进记录"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-extra"
+    },
+    {
+      "name": "sealeap-tiktokshop-product-link-validation",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 视频挂链与失效商品验收",
+      "path": "tiktokshop/sealeap-tiktokshop-product-link-validation",
+      "sources": [
+        "D05"
+      ],
+      "rule_checks": [
+        "R47",
+        "R48",
+        "R49"
+      ],
+      "merged_topics": [
+        "角色与功能资格矩阵",
+        "首链/补链/重挂分支记录",
+        "视频—商品一致性检查表",
+        "买家端挂链验收与后续复查清单"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-extra"
     }
   ]
 }
