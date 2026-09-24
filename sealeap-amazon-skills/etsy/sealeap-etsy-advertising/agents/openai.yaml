@@ -1,0 +1,4 @@
+interface:
+  display_name: "Etsy 站内与站外广告诊断"
+  short_description: "Etsy 站内与站外广告诊断，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-etsy-advertising，分析 Etsy Ads 和 Offsite Ads 是否赚钱，按实际订单成本核算，并给出可控范围内的预算和商品筛选建议。"

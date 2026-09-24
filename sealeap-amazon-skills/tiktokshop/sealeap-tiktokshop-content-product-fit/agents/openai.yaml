@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Shop 商品与演示适配"
+  short_description: "TikTok Shop 商品与演示适配，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-tiktokshop-content-product-fit，根据我提供的数据完成TikTok Shop 商品与演示适配，说明依据、缺口和下一步。"

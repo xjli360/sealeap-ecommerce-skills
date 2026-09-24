@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+.source-materials/
+.private/
+research-private/
+source-audit.json
+*raw-transcript*
+*raw-response*
+*private-audit*
+

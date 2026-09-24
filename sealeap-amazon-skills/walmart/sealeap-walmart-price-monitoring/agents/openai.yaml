@@ -1,0 +1,4 @@
+interface:
+  display_name: "Walmart 价格监控与利润响应"
+  short_description: "Walmart 价格监控与利润响应，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-walmart-price-monitoring，根据我提供的数据完成Walmart 价格监控与利润响应，说明依据、缺口和下一步。"

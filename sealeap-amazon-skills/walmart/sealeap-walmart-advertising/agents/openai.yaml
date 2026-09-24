@@ -1,0 +1,4 @@
+interface:
+  display_name: "Walmart Connect 广告与利润"
+  short_description: "Walmart Connect 广告与利润，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-walmart-advertising，诊断 Walmart Connect 广告表现，先核对零售准备和订单贡献，再提出自动/手动与广告位的有限测试。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Etsy 定制订单与返工控制"
+  short_description: "Etsy 定制订单与返工控制，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-etsy-custom-orders，根据我提供的数据完成Etsy 定制订单与返工控制，说明依据、缺口和下一步。"

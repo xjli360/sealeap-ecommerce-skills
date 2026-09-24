@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify 供应商与样品验证"
+  short_description: "Shopify 供应商与样品验证，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-shopify-supplier-validation，根据我提供的数据完成Shopify 供应商与样品验证，说明依据、缺口和下一步。"

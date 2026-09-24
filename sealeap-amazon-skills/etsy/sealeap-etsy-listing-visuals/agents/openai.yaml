@@ -1,0 +1,4 @@
+interface:
+  display_name: "Etsy 商品摄影与信息图 brief"
+  short_description: "Etsy 商品摄影与信息图 brief，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-etsy-listing-visuals，根据我提供的数据完成Etsy 商品摄影与信息图 brief，说明依据、缺口和下一步。"

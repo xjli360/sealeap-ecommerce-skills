@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify 店铺运营与转化"
+  short_description: "Shopify 店铺运营与转化，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-shopify-store-operations，检查 Shopify 店铺最近转化下降的原因，按渠道和设备拆解漏斗，给出有证据的前三项修复与验证方案。"

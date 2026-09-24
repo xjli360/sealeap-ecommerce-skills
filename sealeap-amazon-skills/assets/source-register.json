@@ -1,0 +1,820 @@
+{
+  "schema_version": 3,
+  "created_on": "2026-09-23",
+  "edition": "v3",
+  "sources": [
+    {
+      "id": "S01",
+      "platform": "shopify",
+      "channel": "bilibili",
+      "observed_on": "2026-09-23",
+      "metric_verification": "live_public_api",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "1,000–9,999",
+        "favorites": "1,000–9,999",
+        "shares": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "creator_description",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "广告、平台榜单与趋势交叉找候选；热度仍需验证。",
+      "limitations": "不接纳工具推广与热销等于可盈利的推断。",
+      "used_by": [
+        "sealeap-shopify-product-selection"
+      ]
+    },
+    {
+      "id": "S02",
+      "platform": "shopify",
+      "channel": "douyin",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "visible_engagement": "100–999"
+      },
+      "content_coverage": "platform_ai_summary",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "按主动搜索和内容发现区分渠道，分开看点击和转化问题。",
+      "limitations": "计数按页面未标注名称的首个互动计数保留，不冒充实时点赞；固定保本ROAS被删除。",
+      "used_by": [
+        "sealeap-shopify-product-selection",
+        "sealeap-shopify-advertising"
+      ]
+    },
+    {
+      "id": "S04",
+      "platform": "shopify",
+      "channel": "github",
+      "observed_on": "2026-09-23",
+      "metric_verification": "live_public_api",
+      "engagement_bands": {
+        "stars": "1,000–9,999",
+        "forks": "1,000–9,999"
+      },
+      "content_coverage": "readme",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "按需使用脚本，验证主题性能与页面可用性。",
+      "limitations": "不复制主题代码；仓库有独立许可，Stars不等于商业效果。",
+      "used_by": [
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-technical-seo"
+      ]
+    },
+    {
+      "id": "S05",
+      "platform": "shopify",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "0–49"
+      },
+      "content_coverage": "creator_description",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "用数据审计形成转化优化路线，再用A/B测试评估。",
+      "limitations": "只读公开简介，未观看课程。",
+      "used_by": [
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-advertising",
+        "sealeap-shopify-conversion-audit"
+      ]
+    },
+    {
+      "id": "S06",
+      "platform": "shopify",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "10,000–99,999"
+      },
+      "content_coverage": "creator_description_and_chapters",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "速度、后台指标、商品页、客单价及弃单挽回应共同诊断。",
+      "limitations": "仅简介与章节；不采纳案例营收、工具返佣推荐及增长保证。",
+      "used_by": [
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-advertising"
+      ]
+    },
+    {
+      "id": "E01",
+      "platform": "etsy",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "10,000–99,999"
+      },
+      "content_coverage": "creator_description_and_chapters",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "细分需求、关键词与单位利润应放在同一选品流程。",
+      "limitations": "工具估算不是店铺真实成交额；未观看完整视频。",
+      "used_by": [
+        "sealeap-etsy-product-selection",
+        "sealeap-etsy-shop-operations",
+        "sealeap-etsy-advertising"
+      ]
+    },
+    {
+      "id": "E02",
+      "platform": "etsy",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "1,000–9,999"
+      },
+      "content_coverage": "creator_description_and_chapters",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "分清站内与站外广告，投放前完善商品，再看商品级表现。",
+      "limitations": "平台控制能力用当期官方规则复核；未观看完整视频。",
+      "used_by": [
+        "sealeap-etsy-advertising"
+      ]
+    },
+    {
+      "id": "E03",
+      "platform": "etsy",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "1,000–9,999"
+      },
+      "content_coverage": "creator_description_and_chapters",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "围绕买家用途和长尾搜索组织标题、标签。",
+      "limitations": "不采用标题中的收益承诺，不把SEO当排名保证。",
+      "used_by": [
+        "sealeap-etsy-product-selection",
+        "sealeap-etsy-shop-operations"
+      ]
+    },
+    {
+      "id": "B01",
+      "platform": "ebay",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "creator_description_and_chapters",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "结合成交趋势、售出率、竞争与细分需求做商品研究。",
+      "limitations": "保留第三方指标口径，不接受准确无误等营销承诺。",
+      "used_by": [
+        "sealeap-ebay-product-selection"
+      ]
+    },
+    {
+      "id": "B02",
+      "platform": "ebay",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "100,000以上",
+        "likes": "1,000–9,999"
+      },
+      "content_coverage": "creator_description_and_chapters",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "标题、item specifics、实物图片和成交定价一起影响商品表达。",
+      "limitations": "只保留稳定方法，界面和资格不沿用旧视频。",
+      "used_by": [
+        "sealeap-ebay-store-operations",
+        "sealeap-ebay-advertising"
+      ]
+    },
+    {
+      "id": "B03",
+      "platform": "ebay",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "0–49"
+      },
+      "content_coverage": "creator_description_and_chapters",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "CPC广告应结合关键词、报表和展示位置判断。",
+      "limitations": "旧Advanced名称及归因以当前General/Priority规则校正。",
+      "used_by": [
+        "sealeap-ebay-advertising"
+      ]
+    },
+    {
+      "id": "B04",
+      "platform": "ebay",
+      "channel": "bilibili",
+      "observed_on": "2026-09-23",
+      "metric_verification": "live_public_api",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "50–99",
+        "favorites": "100–999",
+        "shares": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "creator_description",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "用市场数据选候选，再用与商品相符的搜索词组织标题。",
+      "limitations": "未观看演示，不复刻工具结果或卖家标题。",
+      "used_by": [
+        "sealeap-ebay-product-selection",
+        "sealeap-ebay-store-operations"
+      ]
+    },
+    {
+      "id": "T01",
+      "platform": "tiktokshop",
+      "channel": "douyin",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "visible_engagement": "50–99"
+      },
+      "content_coverage": "platform_ai_summary",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "从大类缩到子类，再用趋势和多平台信号验证。",
+      "limitations": "首个互动计数未标明确切名称；工具名ASR可能错误，已删除。",
+      "used_by": [
+        "sealeap-tiktokshop-product-selection",
+        "sealeap-tiktokshop-trend-validation"
+      ]
+    },
+    {
+      "id": "T02",
+      "platform": "tiktokshop",
+      "channel": "douyin",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "visible_engagement": "1,000–9,999"
+      },
+      "content_coverage": "author_public_comment",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "素材状态之外还要检查预算、消耗和成交。",
+      "limitations": "仅采用公开答疑可见部分；一美元阈值与固定预算倍数均不采用。",
+      "used_by": [
+        "sealeap-tiktokshop-store-operations",
+        "sealeap-tiktokshop-advertising",
+        "sealeap-tiktokshop-gmvmax-testing"
+      ]
+    },
+    {
+      "id": "T04",
+      "platform": "tiktokshop",
+      "channel": "youtube",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "1,000–9,999"
+      },
+      "content_coverage": "creator_description_and_chapters",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "商品模式、内容、达人入组与brief、履约、广告组成经营流程。",
+      "limitations": "仅简介和章节，不采纳收入承诺，不复制POD设计或素材。",
+      "used_by": [
+        "sealeap-tiktokshop-product-selection",
+        "sealeap-tiktokshop-store-operations",
+        "sealeap-tiktokshop-advertising"
+      ]
+    },
+    {
+      "id": "W01",
+      "platform": "walmart",
+      "channel": "trade_press",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "article_reads": "1,000–9,999"
+      },
+      "content_coverage": "indexed_article_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "先做商品与履约准备，再按探索、验证和扩展管理广告。",
+      "limitations": "不采用算法权重断言、固定溢价或必然爆款；同文转载不算独立信源。",
+      "used_by": [
+        "sealeap-walmart-product-selection",
+        "sealeap-walmart-store-operations",
+        "sealeap-walmart-advertising"
+      ]
+    },
+    {
+      "id": "W02",
+      "platform": "walmart",
+      "channel": "trade_press",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "article_reads": "1,000–9,999"
+      },
+      "content_coverage": "indexed_article_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "明确广告账户、命名、预算、相似商品分组和复盘步骤。",
+      "limitations": "日预算建议不是最低准入或用户授权；营销统计不转为个体收益保证。",
+      "used_by": [
+        "sealeap-walmart-advertising",
+        "sealeap-walmart-sponsored-products-structure"
+      ]
+    },
+    {
+      "id": "W03",
+      "platform": "walmart",
+      "channel": "trade_press",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "article_reads": "1,000–9,999"
+      },
+      "content_coverage": "indexed_article_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "将节日用途、品类和备货日历联动。",
+      "limitations": "历史选品清单不代表今年机会；旧网页快照另显示1901，保留冲突不冒充实时。",
+      "used_by": [
+        "sealeap-walmart-product-selection",
+        "sealeap-walmart-market-demand",
+        "sealeap-walmart-assortment-gaps"
+      ]
+    },
+    {
+      "id": "W04",
+      "platform": "walmart",
+      "channel": "trade_press",
+      "observed_on": "2026-09-23",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "article_reads": "10,000–99,999"
+      },
+      "content_coverage": "indexed_article_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "按商品拆解内容、报价、履约和评价问题，观察筛选器变化。",
+      "limitations": "页面展示计数作为门户阅读快照；不沿用过时菜单、评分权重或徽章门槛。",
+      "used_by": [
+        "sealeap-walmart-store-operations",
+        "sealeap-walmart-listing-quality"
+      ]
+    },
+    {
+      "id": "Z01",
+      "platform": "etsy",
+      "channel": "zhihu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "upvotes": "0–49",
+        "favorites": "100–999",
+        "likes": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_article_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "将店内可见行为、落地页表现与公开竞品评论中的需求组合，区分尚未定类目和深耕类目的选品方式。",
+      "limitations": "旧版GA连接与追踪能力须重核；不采纳逐人跟踪或推断年龄性别等做法，只用匿名汇总的购买任务与公开问题。",
+      "used_by": [
+        "sealeap-etsy-product-selection",
+        "sealeap-etsy-shop-operations",
+        "sealeap-etsy-market-keywords",
+        "sealeap-etsy-competitor-gap",
+        "sealeap-etsy-custom-orders"
+      ]
+    },
+    {
+      "id": "Z02",
+      "platform": "shopify",
+      "channel": "zhihu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "upvotes": "100–999",
+        "favorites": "100–999",
+        "likes": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_article_sections",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "区分活动、广告组、广告三个层级；用受众与创意维度组织基础测试，并按漏斗配置观察指标。",
+      "limitations": "仅核读测试、像素与监测段落；不沿用旧界面、固定日预算、多BM规避封禁或具体历史收益；其公众号镜像未读取且不重复计源。",
+      "used_by": [
+        "sealeap-shopify-advertising",
+        "sealeap-shopify-meta-creative-testing"
+      ]
+    },
+    {
+      "id": "X01",
+      "platform": "shopify",
+      "channel": "xiaohongshu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "100–999",
+        "favorites": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_note_and_complete_public_pdf",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "先核目标国家搜索用语，统一标题、描述与落地页；将上传、关键词校验和广告分组责任分开，维护商品标签规则。",
+      "limitations": "已读公开PDF全部11页；不复制作者产品、账户截图、品牌与已有Skill。纠正其SEO摘要与GMC描述混用，不把固定标题模板、标签映射当平台规则。",
+      "used_by": [
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-advertising",
+        "sealeap-shopify-product-feed",
+        "sealeap-shopify-google-shopping"
+      ]
+    },
+    {
+      "id": "X02",
+      "platform": "etsy",
+      "channel": "xiaohongshu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "100–999",
+        "favorites": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_note_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "测试应先集中少量商品、区分点击吸引力和成交能力，再检查利润与自然需求是否可持续。",
+      "limitations": "不采用1%/2%等统一CTR淘汰线、固定天数、自然订单比例和自动因果诊断；不虚构Etsy逐商品预算控制。",
+      "used_by": [
+        "sealeap-etsy-product-selection",
+        "sealeap-etsy-advertising",
+        "sealeap-etsy-etsy-ads-tests"
+      ]
+    },
+    {
+      "id": "X03",
+      "platform": "tiktokshop",
+      "channel": "xiaohongshu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "0–49",
+        "favorites": "0–49",
+        "comments": "0–49",
+        "attachment_views": "50–99",
+        "attachment_downloads": "0–49",
+        "visible_interactions_total": "50–99"
+      },
+      "content_coverage": "authenticated_note_and_public_whitepaper_sections",
+      "quality_tier": "moderate_combined_engagement",
+      "quality_scope": "将达人内容、自制内容、商城与搜索的商品结构、内容成本和经营目标分别设计，再按商品、内容与营销要素协同。",
+      "limitations": "核读49页公开白皮书中的相关经营章节；发布账号自称官方，但未据名称认定认证身份。赞、收藏和评论合计非独立人数；不采用品牌收入、外溢比例或收益保证，灰度能力与广告控制项另查官方规则。",
+      "used_by": [
+        "sealeap-tiktokshop-product-selection",
+        "sealeap-tiktokshop-store-operations",
+        "sealeap-tiktokshop-advertising",
+        "sealeap-tiktokshop-content-product-fit",
+        "sealeap-tiktokshop-unit-economics",
+        "sealeap-tiktokshop-listing-localization",
+        "sealeap-tiktokshop-affiliate-commissions",
+        "sealeap-tiktokshop-sample-operations",
+        "sealeap-tiktokshop-creator-brief-rights",
+        "sealeap-tiktokshop-live-assortment",
+        "sealeap-tiktokshop-content-calendar",
+        "sealeap-tiktokshop-inventory-spikes",
+        "sealeap-tiktokshop-promotion-margin",
+        "sealeap-tiktokshop-gmvmax-testing",
+        "sealeap-tiktokshop-analytics-attribution"
+      ]
+    },
+    {
+      "id": "Z03",
+      "platform": "ebay",
+      "channel": "zhihu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "upvotes": "0–49",
+        "favorites": "100–999",
+        "likes": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_answer_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "市场定价研究需带入成色、站点与运费；类目建议要在平台上复查真实商品集合，不能直接采用工具首个结果。",
+      "limitations": "不采用过时工具价格、Flash安装、整页搬运、历史付费资格；有出价不等于已成交，工具估算需二次核验。",
+      "used_by": [
+        "sealeap-ebay-product-selection",
+        "sealeap-ebay-store-operations",
+        "sealeap-ebay-category-keywords",
+        "sealeap-ebay-condition-value",
+        "sealeap-ebay-listing-attributes"
+      ]
+    },
+    {
+      "id": "X04",
+      "platform": "walmart",
+      "channel": "xiaohongshu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "100–999",
+        "favorites": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_note_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "用搜索洞察中的曝光、点击、加购和销售排名定位进一步检查的环节，并研究买家任务与商品信息是否一致。",
+      "limitations": "排名不是数量、不能由排名算CTR/CVR；漏斗断点只能生成假设，不等于单一原因；不复制竞品内容或认定其为算法偏好。",
+      "used_by": [
+        "sealeap-walmart-store-operations",
+        "sealeap-walmart-advertising",
+        "sealeap-walmart-search-query-insights"
+      ]
+    },
+    {
+      "id": "Z04",
+      "platform": "shopify",
+      "channel": "zhihu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "upvotes": "100–999",
+        "favorites": "100–999",
+        "likes": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_article_method_sections",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "细分可以从商品、人群任务或待解决问题切入；先生成候选，再验证趋势、竞争和资源适配，最后在同表比较。",
+      "limitations": "未采用大篇幅细分清单、医疗/金融方向推荐、预设转化优势和过时供应工具；评分只表达取舍，不当市场事实。",
+      "used_by": [
+        "sealeap-shopify-product-selection",
+        "sealeap-shopify-competitor-positioning"
+      ]
+    },
+    {
+      "id": "Z05",
+      "platform": "shopify",
+      "channel": "zhihu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "upvotes": "0–49",
+        "favorites": "100–999",
+        "likes": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_article_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "供应方案应随验证程度和稳定单量变化；交接仅保留发货必需信息，承运追踪需回传并与订单对应，备货还要看地域分布。",
+      "limitations": "删除过时服务商推荐、物流承诺和固定日单量门槛；不承诺任何支付渠道能追回款项，不把历史流程当当前平台资格。",
+      "used_by": [
+        "sealeap-shopify-product-selection",
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-supplier-validation",
+        "sealeap-shopify-fulfillment-returns"
+      ]
+    },
+    {
+      "id": "Z06",
+      "platform": "shopify",
+      "channel": "zhihu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "upvotes": "0–49",
+        "favorites": "100–999",
+        "likes": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_article_method_sections",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "邮件分别处理交易通知、促销和行为触发；先记录订阅同意，再按事件分组并测试主题、内容与时机。",
+      "limitations": "不采用固定打开/回收率；不同工具对CTR/CTOR命名不同，须显式记录送达或打开分母；不默认交易通知可塞营销，不虚构缺货或自动发送。",
+      "used_by": [
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-email-lifecycle"
+      ]
+    },
+    {
+      "id": "BL01",
+      "platform": "walmart",
+      "channel": "bilibili",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "50–99",
+        "favorites": "100–999",
+        "coins": "0–49",
+        "shares": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_video_visual_segments",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "演示了广告商品清单选择、商品ID核对和关键词表关联；仅勾选商品或上传模板仍需核对商品状态与后续活动结果。",
+      "limitations": "只视觉核读约18:22、38:24、41:34、55:06片段，不声称全片转录；不复用演示账户、品牌、SKU或金额，旧界面仅作流程参考。",
+      "used_by": [
+        "sealeap-walmart-store-operations",
+        "sealeap-walmart-advertising",
+        "sealeap-walmart-catalog-identity",
+        "sealeap-walmart-keyword-harvest"
+      ]
+    },
+    {
+      "id": "BL02",
+      "platform": "walmart",
+      "channel": "bilibili",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "0–49",
+        "favorites": "50–99",
+        "coins": "0–49",
+        "shares": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_video_visual_segments",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "将价格、配送、库存稳定和店铺绩效纳入报价检查，Listing文字之外还需检查Offer与Buy Box准备。",
+      "limitations": "只视觉核读约11:41及12:46讲义；不采用未证实的算法权重或收益承诺，用当期官方规则复核。",
+      "used_by": [
+        "sealeap-walmart-store-operations",
+        "sealeap-walmart-advertising",
+        "sealeap-walmart-offer-buybox"
+      ]
+    },
+    {
+      "id": "X05",
+      "platform": "ebay",
+      "channel": "xiaohongshu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "50–99",
+        "favorites": "50–99",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_note_body",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "把站内成交研究、关注信号与长期搜索趋势交叉检查，区分季节峰值和持续需求，再结合供应优势小批验证。",
+      "limitations": "WatchCount关注不等于订单；Google Trends不是TikTok搜索量；删除工具实时性保证、多账号推广及库存变化代表利润的推断。",
+      "used_by": [
+        "sealeap-ebay-product-selection",
+        "sealeap-ebay-sold-comps"
+      ]
+    },
+    {
+      "id": "X06",
+      "platform": "shopify",
+      "channel": "xiaohongshu",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "0–49",
+        "favorites": "0–49",
+        "visible_interactions_total": "50–99"
+      },
+      "content_coverage": "authenticated_note_body",
+      "quality_tier": "moderate_combined_engagement",
+      "quality_scope": "先明确细分场景，修好商品信息和技术访问问题，再围绕选择、比较、使用与疑问组织内容。",
+      "limitations": "互动合计含赞和收藏，非独立人数；不采用所有新站必须同一路径、SEO必然转化或保证排名等绝对判断。",
+      "used_by": [
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-product-page-copy",
+        "sealeap-shopify-technical-seo",
+        "sealeap-shopify-content-plan"
+      ]
+    },
+    {
+      "id": "BL03",
+      "platform": "ebay",
+      "channel": "bilibili",
+      "observed_on": "2026-09-23",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "0–49",
+        "favorites": "0–49",
+        "shares": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "authenticated_video_visual_segments",
+      "quality_tier": "qualified_limited_scope",
+      "quality_scope": "冻结站点、类目与日期范围，区分在售与已售标签，结合汇总指标和商品行检查价格与成交结构。",
+      "limitations": "仅视觉核读约00:25、01:32、02:40、03:47片段；使用本视频播放数，不使用合集播放或相邻视频数据；不推断语音全文与工具当前权限。",
+      "used_by": [
+        "sealeap-ebay-product-selection",
+        "sealeap-ebay-store-operations",
+        "sealeap-ebay-sold-comps"
+      ]
+    },
+    {
+      "id": "N01",
+      "platform": "cross-platform",
+      "channel": "github",
+      "observed_on": "2026-09-24",
+      "metric_verification": "live_public_api",
+      "engagement_bands": {
+        "stars": "100–999",
+        "forks": "100–999"
+      },
+      "metric_scope": "repository_not_individual_skill",
+      "content_coverage": "mapped_topic_capability_and_method_sections",
+      "quality_tier": "licensed_upstream_reference",
+      "quality_scope": "MIT开源仓库的主题划分与已读有限框架；详细业务流程为M重写。",
+      "limitations": "Stars/Forks属于整个仓库，不是每个文件的互动或经营验证。Beta简介不当完整方法；固定费率、过时控制与无证据收益被剔除。",
+      "license": "MIT",
+      "used_by": [
+        "sealeap-shopify-competitor-positioning",
+        "sealeap-shopify-unit-economics",
+        "sealeap-shopify-supplier-validation",
+        "sealeap-shopify-product-page-copy",
+        "sealeap-shopify-product-feed",
+        "sealeap-shopify-technical-seo",
+        "sealeap-shopify-content-plan",
+        "sealeap-shopify-conversion-audit",
+        "sealeap-shopify-checkout-recovery",
+        "sealeap-shopify-email-lifecycle",
+        "sealeap-shopify-retention-bundles",
+        "sealeap-shopify-inventory-replenishment",
+        "sealeap-shopify-fulfillment-returns",
+        "sealeap-shopify-international-localization",
+        "sealeap-shopify-meta-creative-testing",
+        "sealeap-shopify-google-shopping",
+        "sealeap-shopify-incrementality-testing",
+        "sealeap-etsy-market-keywords",
+        "sealeap-etsy-competitor-gap",
+        "sealeap-etsy-seasonal-planning",
+        "sealeap-etsy-pricing-capacity",
+        "sealeap-etsy-originality-pod",
+        "sealeap-etsy-digital-products",
+        "sealeap-etsy-listing-seo",
+        "sealeap-etsy-listing-visuals",
+        "sealeap-etsy-product-copy",
+        "sealeap-etsy-custom-orders",
+        "sealeap-etsy-shipping-promises",
+        "sealeap-etsy-service-reviews",
+        "sealeap-etsy-shop-analytics",
+        "sealeap-etsy-brand-content",
+        "sealeap-etsy-etsy-ads-tests",
+        "sealeap-etsy-offsite-ads-profit",
+        "sealeap-etsy-capacity-planning",
+        "sealeap-ebay-sold-comps",
+        "sealeap-ebay-category-keywords",
+        "sealeap-ebay-condition-value",
+        "sealeap-ebay-margin-pricing",
+        "sealeap-ebay-listing-attributes",
+        "sealeap-ebay-listing-photos",
+        "sealeap-ebay-shipping-policy",
+        "sealeap-ebay-returns-diagnosis",
+        "sealeap-ebay-inventory-multichannel",
+        "sealeap-ebay-seller-performance",
+        "sealeap-ebay-price-monitoring",
+        "sealeap-ebay-brand-ip-triage",
+        "sealeap-ebay-offer-promotions",
+        "sealeap-ebay-general-ads",
+        "sealeap-ebay-priority-ads",
+        "sealeap-ebay-ad-attribution",
+        "sealeap-ebay-store-analytics",
+        "sealeap-tiktokshop-trend-validation",
+        "sealeap-tiktokshop-content-product-fit",
+        "sealeap-tiktokshop-unit-economics",
+        "sealeap-tiktokshop-listing-localization",
+        "sealeap-tiktokshop-creator-discovery",
+        "sealeap-tiktokshop-affiliate-commissions",
+        "sealeap-tiktokshop-sample-operations",
+        "sealeap-tiktokshop-creator-brief-rights",
+        "sealeap-tiktokshop-short-video-tests",
+        "sealeap-tiktokshop-live-assortment",
+        "sealeap-tiktokshop-content-calendar",
+        "sealeap-tiktokshop-inventory-spikes",
+        "sealeap-tiktokshop-fulfillment-service",
+        "sealeap-tiktokshop-returns-feedback",
+        "sealeap-tiktokshop-promotion-margin",
+        "sealeap-tiktokshop-gmvmax-testing",
+        "sealeap-tiktokshop-analytics-attribution",
+        "sealeap-walmart-market-demand",
+        "sealeap-walmart-assortment-gaps",
+        "sealeap-walmart-wfs-economics",
+        "sealeap-walmart-pricing-floors",
+        "sealeap-walmart-catalog-identity",
+        "sealeap-walmart-listing-quality",
+        "sealeap-walmart-search-query-insights",
+        "sealeap-walmart-offer-buybox",
+        "sealeap-walmart-inventory-planning",
+        "sealeap-walmart-fulfillment-comparison",
+        "sealeap-walmart-seller-performance",
+        "sealeap-walmart-returns-recovery",
+        "sealeap-walmart-price-monitoring",
+        "sealeap-walmart-sponsored-products-structure",
+        "sealeap-walmart-keyword-harvest",
+        "sealeap-walmart-placement-testing",
+        "sealeap-walmart-ads-reconciliation"
+      ]
+    }
+  ],
+  "updated_on": "2026-09-24"
+}

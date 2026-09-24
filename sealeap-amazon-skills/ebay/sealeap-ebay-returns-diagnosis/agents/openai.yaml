@@ -1,0 +1,4 @@
+interface:
+  display_name: "eBay 退货与描述不符诊断"
+  short_description: "eBay 退货与描述不符诊断，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-ebay-returns-diagnosis，根据我提供的数据完成eBay 退货与描述不符诊断，说明依据、缺口和下一步。"

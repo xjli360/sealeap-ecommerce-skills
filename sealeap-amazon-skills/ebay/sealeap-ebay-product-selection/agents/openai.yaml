@@ -1,0 +1,4 @@
+interface:
+  display_name: "eBay 成交数据选品"
+  short_description: "eBay 成交数据选品，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-ebay-product-selection，根据 eBay 某型号的已售记录和采购报价，按成色与配件分层，给出售价区间和最高可接受采购价。"

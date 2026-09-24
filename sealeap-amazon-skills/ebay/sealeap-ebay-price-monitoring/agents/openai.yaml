@@ -1,0 +1,4 @@
+interface:
+  display_name: "eBay 竞品价格观察与响应"
+  short_description: "eBay 竞品价格观察与响应，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-ebay-price-monitoring，根据我提供的数据完成eBay 竞品价格观察与响应，说明依据、缺口和下一步。"

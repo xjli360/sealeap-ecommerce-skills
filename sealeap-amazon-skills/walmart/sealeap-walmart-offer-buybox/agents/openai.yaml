@@ -1,0 +1,4 @@
+interface:
+  display_name: "Walmart Offer 与 Buy Box 准备"
+  short_description: "Walmart Offer 与 Buy Box 准备，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-walmart-offer-buybox，根据我提供的数据完成Walmart Offer 与 Buy Box 准备，说明依据、缺口和下一步。"

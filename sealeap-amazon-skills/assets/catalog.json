@@ -1,0 +1,2100 @@
+{
+  "schema_version": 3,
+  "collection": "sealeap-amazon-skills",
+  "edition": "2026-09-24",
+  "platforms": [
+    "shopify",
+    "etsy",
+    "ebay",
+    "tiktokshop",
+    "walmart"
+  ],
+  "skills": [
+    {
+      "name": "sealeap-shopify-product-selection",
+      "platform": "shopify",
+      "mode": "selection",
+      "title": "Shopify 选品与市场验证",
+      "path": "shopify/sealeap-shopify-product-selection",
+      "sources": [
+        "S01",
+        "S02",
+        "Z04",
+        "Z05"
+      ],
+      "rule_checks": [
+        "R01"
+      ],
+      "merged_topics": [
+        "细分市场",
+        "趋势选品",
+        "广告素材观察",
+        "供应链筛选",
+        "测品与单位经济",
+        "购买任务细分",
+        "供应阶段与现金风险"
+      ],
+      "topic_reference": "references/niche-and-supply.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-shopify-store-operations",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 店铺运营与转化",
+      "path": "shopify/sealeap-shopify-store-operations",
+      "sources": [
+        "S04",
+        "S05",
+        "S06",
+        "X01",
+        "Z05",
+        "Z06",
+        "X06"
+      ],
+      "rule_checks": [
+        "R01",
+        "R15",
+        "R18"
+      ],
+      "merged_topics": [
+        "商品页优化",
+        "移动端体验",
+        "结账与支付",
+        "SEO",
+        "弃单与留存",
+        "库存履约",
+        "商品Feed字段映射",
+        "供应交接脱敏",
+        "邮件口径与内容意图"
+      ],
+      "topic_reference": "references/feed-and-retention.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-shopify-advertising",
+      "platform": "shopify",
+      "mode": "advertising",
+      "title": "Shopify 获客广告与实验",
+      "path": "shopify/sealeap-shopify-advertising",
+      "sources": [
+        "S02",
+        "S05",
+        "S06",
+        "Z02",
+        "X01"
+      ],
+      "rule_checks": [
+        "R01",
+        "R15"
+      ],
+      "merged_topics": [
+        "渠道选择",
+        "Meta创意",
+        "Google搜索与商品流",
+        "转化归因",
+        "预算分配",
+        "增量测试",
+        "Feed诊断与广告分组",
+        "分层测试矩阵"
+      ],
+      "topic_reference": "references/feed-and-tests.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-etsy-product-selection",
+      "platform": "etsy",
+      "mode": "selection",
+      "title": "Etsy 原创选品与需求验证",
+      "path": "etsy/sealeap-etsy-product-selection",
+      "sources": [
+        "E01",
+        "E03",
+        "Z01",
+        "X02"
+      ],
+      "rule_checks": [
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "merged_topics": [
+        "原创与POD",
+        "礼品细分",
+        "数字商品",
+        "关键词需求",
+        "制作产能",
+        "费用测算",
+        "匿名购买任务研究",
+        "分阶段小批测品"
+      ],
+      "topic_reference": "references/research-and-tests.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-etsy-shop-operations",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 搜索、商品与交付运营",
+      "path": "etsy/sealeap-etsy-shop-operations",
+      "sources": [
+        "E03",
+        "E01",
+        "Z01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "Etsy SEO",
+        "标题标签属性",
+        "商品图片",
+        "定制流程",
+        "数字交付",
+        "客户服务",
+        "客户问题归类",
+        "定制摩擦与交付改进"
+      ],
+      "topic_reference": "references/demand-to-listing.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-etsy-advertising",
+      "platform": "etsy",
+      "mode": "advertising",
+      "title": "Etsy 站内与站外广告诊断",
+      "path": "etsy/sealeap-etsy-advertising",
+      "sources": [
+        "E02",
+        "E01",
+        "X02"
+      ],
+      "rule_checks": [
+        "R03",
+        "R04"
+      ],
+      "merged_topics": [
+        "站内广告",
+        "Offsite Ads",
+        "投放商品筛选",
+        "广告分组",
+        "费用归因",
+        "预算实验",
+        "测品组与观察窗口",
+        "注意力到贡献的诊断"
+      ],
+      "topic_reference": "references/testing-cohorts.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-ebay-product-selection",
+      "platform": "ebay",
+      "mode": "selection",
+      "title": "eBay 成交数据选品",
+      "path": "ebay/sealeap-ebay-product-selection",
+      "sources": [
+        "B01",
+        "B04",
+        "Z03",
+        "X05",
+        "BL03"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "已售记录",
+        "售出率口径",
+        "成色分层",
+        "竞品研究",
+        "价格区间",
+        "采购测算",
+        "Active与Sold口径",
+        "站点时间与类目样本"
+      ],
+      "topic_reference": "references/research-scope.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-ebay-store-operations",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 商品、履约与店铺运营",
+      "path": "ebay/sealeap-ebay-store-operations",
+      "sources": [
+        "B02",
+        "B04",
+        "Z03",
+        "BL03"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "标题与属性",
+        "实物拍摄",
+        "成色披露",
+        "运费与退货",
+        "库存",
+        "经营绩效",
+        "研究结果回填",
+        "类目与成交行核对"
+      ],
+      "topic_reference": "references/research-to-listing.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-ebay-advertising",
+      "platform": "ebay",
+      "mode": "advertising",
+      "title": "eBay 推广广告与归因",
+      "path": "ebay/sealeap-ebay-advertising",
+      "sources": [
+        "B03",
+        "B02"
+      ],
+      "rule_checks": [
+        "R05",
+        "R06"
+      ],
+      "merged_topics": [
+        "General",
+        "Priority",
+        "广告费率",
+        "关键词与CPC",
+        "Direct/Halo",
+        "增量实验"
+      ],
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-tiktokshop-product-selection",
+      "platform": "tiktokshop",
+      "mode": "selection",
+      "title": "TikTok Shop 内容适配选品",
+      "path": "tiktokshop/sealeap-tiktokshop-product-selection",
+      "sources": [
+        "T01",
+        "T04",
+        "X03"
+      ],
+      "rule_checks": [
+        "R10"
+      ],
+      "merged_topics": [
+        "类目筛选",
+        "内容演示",
+        "趋势与销售",
+        "达人适配",
+        "佣金与寄样",
+        "履约与测品",
+        "内容路径适配",
+        "商品角色与完整成本"
+      ],
+      "topic_reference": "references/content-fit.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-tiktokshop-store-operations",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 内容、达人与履约",
+      "path": "tiktokshop/sealeap-tiktokshop-store-operations",
+      "sources": [
+        "T04",
+        "T02",
+        "X03"
+      ],
+      "rule_checks": [
+        "R10",
+        "R08"
+      ],
+      "merged_topics": [
+        "短视频内容",
+        "达人协作",
+        "寄样与brief",
+        "素材授权",
+        "直播准备",
+        "物流售后",
+        "达人与自制内容分工",
+        "直播排品与库存协同"
+      ],
+      "topic_reference": "references/content-commerce.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-tiktokshop-advertising",
+      "platform": "tiktokshop",
+      "mode": "advertising",
+      "title": "TikTok Shop GMV Max 广告诊断",
+      "path": "tiktokshop/sealeap-tiktokshop-advertising",
+      "sources": [
+        "T02",
+        "T04",
+        "X03"
+      ],
+      "rule_checks": [
+        "R08",
+        "R09",
+        "R10"
+      ],
+      "merged_topics": [
+        "Product GMV Max",
+        "LIVE GMV Max",
+        "素材状态",
+        "目标ROI",
+        "预算",
+        "全域归因",
+        "达人和自制素材成本",
+        "素材供给与全域归因"
+      ],
+      "topic_reference": "references/content-cost.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-walmart-product-selection",
+      "platform": "walmart",
+      "mode": "selection",
+      "title": "Walmart 市场与商品选择",
+      "path": "walmart/sealeap-walmart-product-selection",
+      "sources": [
+        "W01",
+        "W03"
+      ],
+      "rule_checks": [
+        "R13",
+        "R14"
+      ],
+      "merged_topics": [
+        "站内需求",
+        "跨平台迁移",
+        "同规格比价",
+        "季节选品",
+        "WFS经济性",
+        "首批备货"
+      ],
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-walmart-store-operations",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart 目录、报价与履约运营",
+      "path": "walmart/sealeap-walmart-store-operations",
+      "sources": [
+        "W01",
+        "W04",
+        "X04",
+        "BL01",
+        "BL02"
+      ],
+      "rule_checks": [
+        "R14",
+        "R13",
+        "R16",
+        "R17"
+      ],
+      "merged_topics": [
+        "目录身份",
+        "Listing Quality",
+        "内容采纳",
+        "Buy Box报价",
+        "库存配送",
+        "售后",
+        "搜索排名与份额口径",
+        "Offer准备与商品映射"
+      ],
+      "topic_reference": "references/search-diagnostics.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-walmart-advertising",
+      "platform": "walmart",
+      "mode": "advertising",
+      "title": "Walmart Connect 广告与利润",
+      "path": "walmart/sealeap-walmart-advertising",
+      "sources": [
+        "W01",
+        "W02",
+        "X04",
+        "BL01",
+        "BL02"
+      ],
+      "rule_checks": [
+        "R11",
+        "R12",
+        "R13",
+        "R16",
+        "R17"
+      ],
+      "merged_topics": [
+        "零售准备",
+        "自动探索",
+        "手动关键词",
+        "广告位",
+        "预算",
+        "利润归因",
+        "搜索份额到广告假设",
+        "商品ID与导入回读"
+      ],
+      "topic_reference": "references/search-to-campaign.md",
+      "scope": "integrated"
+    },
+    {
+      "name": "sealeap-shopify-competitor-positioning",
+      "platform": "shopify",
+      "mode": "selection",
+      "title": "Shopify 竞品定位与差异化",
+      "path": "shopify/sealeap-shopify-competitor-positioning",
+      "sources": [
+        "N01",
+        "Z04"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "竞品对照表",
+        "差异化假设",
+        "样品与信息验证清单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-unit-economics",
+      "platform": "shopify",
+      "mode": "selection",
+      "title": "Shopify 单位经济与获客上限",
+      "path": "shopify/sealeap-shopify-unit-economics",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R24"
+      ],
+      "merged_topics": [
+        "订单贡献桥接表",
+        "CAC与回收期情景",
+        "费用缺口"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-supplier-validation",
+      "platform": "shopify",
+      "mode": "selection",
+      "title": "Shopify 供应商与样品验证",
+      "path": "shopify/sealeap-shopify-supplier-validation",
+      "sources": [
+        "N01",
+        "Z05"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "供应比较表",
+        "样品验收单",
+        "小批验证计划"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-product-page-copy",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 商品页事实与文案",
+      "path": "shopify/sealeap-shopify-product-page-copy",
+      "sources": [
+        "N01",
+        "X06"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "字段级文案草稿",
+        "事实证据表",
+        "FAQ与图片需求"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-product-feed",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 商品 Feed 映射与诊断",
+      "path": "shopify/sealeap-shopify-product-feed",
+      "sources": [
+        "N01",
+        "X01"
+      ],
+      "rule_checks": [
+        "R15"
+      ],
+      "merged_topics": [
+        "字段映射表",
+        "异常分级",
+        "修正与回读记录"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-technical-seo",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 技术 SEO 与页面性能",
+      "path": "shopify/sealeap-shopify-technical-seo",
+      "sources": [
+        "N01",
+        "S04",
+        "X06"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "URL问题表",
+        "性能证据",
+        "修复优先级与验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-content-plan",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 搜索内容与购买指南",
+      "path": "shopify/sealeap-shopify-content-plan",
+      "sources": [
+        "N01",
+        "X06"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "意图到页面映射",
+        "内容brief",
+        "排期与复盘口径"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-conversion-audit",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 转化漏斗与页面实验",
+      "path": "shopify/sealeap-shopify-conversion-audit",
+      "sources": [
+        "N01",
+        "S05"
+      ],
+      "rule_checks": [
+        "R01"
+      ],
+      "merged_topics": [
+        "漏斗口径表",
+        "问题证据",
+        "单变量实验单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-checkout-recovery",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 结账排错与弃单恢复",
+      "path": "shopify/sealeap-shopify-checkout-recovery",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R22"
+      ],
+      "merged_topics": [
+        "结账问题分层",
+        "恢复流程草稿",
+        "去重与贡献口径"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-email-lifecycle",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 生命周期邮件与留存",
+      "path": "shopify/sealeap-shopify-email-lifecycle",
+      "sources": [
+        "N01",
+        "Z06"
+      ],
+      "rule_checks": [
+        "R18"
+      ],
+      "merged_topics": [
+        "流程矩阵",
+        "分母明确的指标表",
+        "消息草稿"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-retention-bundles",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 复购、组合与优惠经济性",
+      "path": "shopify/sealeap-shopify-retention-bundles",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "组合候选表",
+        "优惠情景",
+        "队列复盘"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-inventory-replenishment",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 多仓库存与补货",
+      "path": "shopify/sealeap-shopify-inventory-replenishment",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "SKU补货表",
+        "调拨候选",
+        "缺口和积压动作"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-fulfillment-returns",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 履约与退货成本诊断",
+      "path": "shopify/sealeap-shopify-fulfillment-returns",
+      "sources": [
+        "N01",
+        "Z05"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "履约异常矩阵",
+        "退货贡献桥接",
+        "修复计划"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-international-localization",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 多市场本地化验收",
+      "path": "shopify/sealeap-shopify-international-localization",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R23"
+      ],
+      "merged_topics": [
+        "市场差异表",
+        "本地化文案",
+        "购买路径验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-meta-creative-testing",
+      "platform": "shopify",
+      "mode": "advertising",
+      "title": "Shopify Meta 素材假设与测试",
+      "path": "shopify/sealeap-shopify-meta-creative-testing",
+      "sources": [
+        "N01",
+        "Z02"
+      ],
+      "rule_checks": [
+        "R01"
+      ],
+      "merged_topics": [
+        "素材矩阵",
+        "脚本brief",
+        "测试与止损表"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-google-shopping",
+      "platform": "shopify",
+      "mode": "advertising",
+      "title": "Shopify Google 商品广告优化",
+      "path": "shopify/sealeap-shopify-google-shopping",
+      "sources": [
+        "N01",
+        "X01"
+      ],
+      "rule_checks": [
+        "R15",
+        "R01"
+      ],
+      "merged_topics": [
+        "商品分组表",
+        "诊断证据",
+        "有限投放方案"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-incrementality-testing",
+      "platform": "shopify",
+      "mode": "advertising",
+      "title": "Shopify 增量与营销实验",
+      "path": "shopify/sealeap-shopify-incrementality-testing",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R01"
+      ],
+      "merged_topics": [
+        "实验设计单",
+        "分组与监测表",
+        "效果区间和决策"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-market-keywords",
+      "platform": "etsy",
+      "mode": "selection",
+      "title": "Etsy 搜索需求与关键词分层",
+      "path": "etsy/sealeap-etsy-market-keywords",
+      "sources": [
+        "N01",
+        "Z01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "意图词库",
+        "词到商品映射",
+        "需求缺口"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-competitor-gap",
+      "platform": "etsy",
+      "mode": "selection",
+      "title": "Etsy 竞品与可制作差异",
+      "path": "etsy/sealeap-etsy-competitor-gap",
+      "sources": [
+        "N01",
+        "Z01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "竞品比较表",
+        "差异化候选",
+        "制作验证"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-seasonal-planning",
+      "platform": "etsy",
+      "mode": "selection",
+      "title": "Etsy 季节选品与交付倒排",
+      "path": "etsy/sealeap-etsy-seasonal-planning",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "季节倒排表",
+        "产能/物料计划",
+        "截止与停止条件"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-pricing-capacity",
+      "platform": "etsy",
+      "mode": "selection",
+      "title": "Etsy 工时定价与净贡献",
+      "path": "etsy/sealeap-etsy-pricing-capacity",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R03"
+      ],
+      "merged_topics": [
+        "成本与工时报价表",
+        "利润情景",
+        "产能约束"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-originality-pod",
+      "platform": "etsy",
+      "mode": "selection",
+      "title": "Etsy 原创与 POD 上市检查",
+      "path": "etsy/sealeap-etsy-originality-pod",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02",
+        "R25"
+      ],
+      "merged_topics": [
+        "原创与许可清单",
+        "样品验收",
+        "上市缺口"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-digital-products",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 数字商品与下载验收",
+      "path": "etsy/sealeap-etsy-digital-products",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "数字交付清单",
+        "兼容/打印验收",
+        "说明草稿"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-listing-seo",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 标题、标签与属性",
+      "path": "etsy/sealeap-etsy-listing-seo",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "字段改写表",
+        "关键词覆盖",
+        "事实核对与复盘"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-listing-visuals",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 商品摄影与信息图 brief",
+      "path": "etsy/sealeap-etsy-listing-visuals",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "图片序列",
+        "拍摄/设计brief",
+        "真实性验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-product-copy",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 商品描述与购买预期",
+      "path": "etsy/sealeap-etsy-product-copy",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "描述与FAQ草稿",
+        "事实对应",
+        "待确认字段"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-custom-orders",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 定制订单与返工控制",
+      "path": "etsy/sealeap-etsy-custom-orders",
+      "sources": [
+        "N01",
+        "Z01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "定制输入模板",
+        "报价与版本表",
+        "沟通草稿"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-shipping-promises",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 运费、制作与交期承诺",
+      "path": "etsy/sealeap-etsy-shipping-promises",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "地区运费/交期表",
+        "截止安排",
+        "异常处理"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-service-reviews",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 客服问题与评价改进",
+      "path": "etsy/sealeap-etsy-service-reviews",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02",
+        "R29"
+      ],
+      "merged_topics": [
+        "问题分类表",
+        "客服回复草稿",
+        "产品改进清单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-shop-analytics",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 流量、订单与经营复盘",
+      "path": "etsy/sealeap-etsy-shop-analytics",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R03",
+        "R04"
+      ],
+      "merged_topics": [
+        "指标字典",
+        "变化拆解",
+        "行动优先级"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-brand-content",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 品牌表达与站外内容",
+      "path": "etsy/sealeap-etsy-brand-content",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02"
+      ],
+      "merged_topics": [
+        "品牌信息表",
+        "内容brief",
+        "页面承接与复盘"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-etsy-ads-tests",
+      "platform": "etsy",
+      "mode": "advertising",
+      "title": "Etsy 站内广告商品测试",
+      "path": "etsy/sealeap-etsy-etsy-ads-tests",
+      "sources": [
+        "N01",
+        "X02"
+      ],
+      "rule_checks": [
+        "R04"
+      ],
+      "merged_topics": [
+        "测试商品表",
+        "预算/损失边界",
+        "复盘记录"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-offsite-ads-profit",
+      "platform": "etsy",
+      "mode": "advertising",
+      "title": "Etsy Offsite Ads 资格与费用",
+      "path": "etsy/sealeap-etsy-offsite-ads-profit",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R03"
+      ],
+      "merged_topics": [
+        "资格判定",
+        "订单费用对账",
+        "净贡献与定价情景"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-etsy-capacity-planning",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 材料库存与手作产能",
+      "path": "etsy/sealeap-etsy-capacity-planning",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R02",
+        "R25"
+      ],
+      "merged_topics": [
+        "工序产能表",
+        "物料/排单计划",
+        "接单边界"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-sold-comps",
+      "platform": "ebay",
+      "mode": "selection",
+      "title": "eBay 已售样本与成交比价",
+      "path": "ebay/sealeap-ebay-sold-comps",
+      "sources": [
+        "N01",
+        "BL03",
+        "X05"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "同口径成交表",
+        "价格区间",
+        "样本偏差"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-category-keywords",
+      "platform": "ebay",
+      "mode": "selection",
+      "title": "eBay 类目与商品属性需求",
+      "path": "ebay/sealeap-ebay-category-keywords",
+      "sources": [
+        "N01",
+        "Z03"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "查询与类目表",
+        "属性缺口",
+        "排除词"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-condition-value",
+      "platform": "ebay",
+      "mode": "selection",
+      "title": "eBay 成色分层与整备价值",
+      "path": "ebay/sealeap-ebay-condition-value",
+      "sources": [
+        "N01",
+        "Z03"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "成色证据表",
+        "整备收益情景",
+        "采购判断"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-margin-pricing",
+      "platform": "ebay",
+      "mode": "selection",
+      "title": "eBay 费用、运费与价格底线",
+      "path": "ebay/sealeap-ebay-margin-pricing",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R05",
+        "R06"
+      ],
+      "merged_topics": [
+        "订单利润表",
+        "议价底线",
+        "费用情景"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-listing-attributes",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 标题、属性与变体修正",
+      "path": "ebay/sealeap-ebay-listing-attributes",
+      "sources": [
+        "N01",
+        "Z03"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "刊登字段变更表",
+        "事实依据",
+        "前台验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-listing-photos",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 实物照片与缺陷披露",
+      "path": "ebay/sealeap-ebay-listing-photos",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "拍摄清单",
+        "缺陷说明",
+        "图文一致性验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-shipping-policy",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 配送模板与到货承诺",
+      "path": "ebay/sealeap-ebay-shipping-policy",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R27"
+      ],
+      "merged_topics": [
+        "配送方案表",
+        "模板草稿",
+        "交付证据清单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-returns-diagnosis",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 退货与描述不符诊断",
+      "path": "ebay/sealeap-ebay-returns-diagnosis",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R07",
+        "R27"
+      ],
+      "merged_topics": [
+        "退货根因表",
+        "贡献损失",
+        "改进与沟通草稿"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-inventory-multichannel",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 单件库存与多渠道同步",
+      "path": "ebay/sealeap-ebay-inventory-multichannel",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R27"
+      ],
+      "merged_topics": [
+        "库存身份表",
+        "同步状态机",
+        "超卖测试清单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-seller-performance",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 卖家绩效与缺陷复核",
+      "path": "ebay/sealeap-ebay-seller-performance",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R27"
+      ],
+      "merged_topics": [
+        "绩效口径表",
+        "异常订单证据",
+        "修复/申诉草稿"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-price-monitoring",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 竞品价格观察与响应",
+      "path": "ebay/sealeap-ebay-price-monitoring",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "价格变化表",
+        "可比性审计",
+        "响应方案"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-brand-ip-triage",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 品牌与 VeRO 证据初筛",
+      "path": "ebay/sealeap-ebay-brand-ip-triage",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R26"
+      ],
+      "merged_topics": [
+        "权利与证据矩阵",
+        "待核问题",
+        "投诉草稿"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-offer-promotions",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 议价与促销贡献",
+      "path": "ebay/sealeap-ebay-offer-promotions",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R05",
+        "R07"
+      ],
+      "merged_topics": [
+        "促销/议价方案",
+        "叠加计算",
+        "复盘"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-general-ads",
+      "platform": "ebay",
+      "mode": "advertising",
+      "title": "eBay General 费率与商品选择",
+      "path": "ebay/sealeap-ebay-general-ads",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R05",
+        "R06"
+      ],
+      "merged_topics": [
+        "商品池",
+        "费率情景",
+        "费用复核与实验"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-priority-ads",
+      "platform": "ebay",
+      "mode": "advertising",
+      "title": "eBay Priority CPC 与关键词",
+      "path": "ebay/sealeap-ebay-priority-ads",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R05",
+        "R06"
+      ],
+      "merged_topics": [
+        "关键词诊断",
+        "CPC区间",
+        "预算/损失边界"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-ad-attribution",
+      "platform": "ebay",
+      "mode": "advertising",
+      "title": "eBay 广告归因与账单对账",
+      "path": "ebay/sealeap-ebay-ad-attribution",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R06"
+      ],
+      "merged_topics": [
+        "订单级对账",
+        "归因分类",
+        "差异清单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-ebay-store-analytics",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 商品队列与销售复盘",
+      "path": "ebay/sealeap-ebay-store-analytics",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R07"
+      ],
+      "merged_topics": [
+        "队列指标表",
+        "变化桥接",
+        "经营动作"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-trend-validation",
+      "platform": "tiktokshop",
+      "mode": "selection",
+      "title": "TikTok Shop 趋势与需求验证",
+      "path": "tiktokshop/sealeap-tiktokshop-trend-validation",
+      "sources": [
+        "N01",
+        "T01"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "趋势证据表",
+        "需求假设",
+        "小批验证"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-content-product-fit",
+      "platform": "tiktokshop",
+      "mode": "selection",
+      "title": "TikTok Shop 商品与演示适配",
+      "path": "tiktokshop/sealeap-tiktokshop-content-product-fit",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "演示适配矩阵",
+        "样品测试",
+        "内容验证brief"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-unit-economics",
+      "platform": "tiktokshop",
+      "mode": "selection",
+      "title": "TikTok Shop 佣金与内容全成本",
+      "path": "tiktokshop/sealeap-tiktokshop-unit-economics",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [
+        "R09",
+        "R10"
+      ],
+      "merged_topics": [
+        "SKU贡献表",
+        "佣金/投流上限",
+        "现金情景"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-listing-localization",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 商品卡与本地表达",
+      "path": "tiktokshop/sealeap-tiktokshop-listing-localization",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "商品卡改写",
+        "跨素材一致性表",
+        "待补证据"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-creator-discovery",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 达人筛选与匹配",
+      "path": "tiktokshop/sealeap-tiktokshop-creator-discovery",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R10"
+      ],
+      "merged_topics": [
+        "匿名候选矩阵",
+        "核验问题",
+        "合作试验建议"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-affiliate-commissions",
+      "platform": "tiktokshop",
+      "mode": "advertising",
+      "title": "TikTok Shop 联盟佣金设计",
+      "path": "tiktokshop/sealeap-tiktokshop-affiliate-commissions",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [
+        "R10"
+      ],
+      "merged_topics": [
+        "佣金情景",
+        "合作条件",
+        "生效与结算检查"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-sample-operations",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 寄样与内容交付",
+      "path": "tiktokshop/sealeap-tiktokshop-sample-operations",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [
+        "R10"
+      ],
+      "merged_topics": [
+        "寄样状态表",
+        "成本台账",
+        "交付验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-creator-brief-rights",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 达人 brief 与素材许可",
+      "path": "tiktokshop/sealeap-tiktokshop-creator-brief-rights",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [
+        "R08",
+        "R10"
+      ],
+      "merged_topics": [
+        "合作brief",
+        "权利矩阵",
+        "内容验收单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-short-video-tests",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 短视频脚本与测试",
+      "path": "tiktokshop/sealeap-tiktokshop-short-video-tests",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "脚本矩阵",
+        "拍摄brief",
+        "实验复盘"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-live-assortment",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 直播排品与场次复盘",
+      "path": "tiktokshop/sealeap-tiktokshop-live-assortment",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "场次runbook",
+        "排品与库存表",
+        "复盘"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-content-calendar",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 内容日历与素材资产",
+      "path": "tiktokshop/sealeap-tiktokshop-content-calendar",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "内容矩阵",
+        "周排期",
+        "素材版本与许可台账"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-inventory-spikes",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 爆量与库存风险",
+      "path": "tiktokshop/sealeap-tiktokshop-inventory-spikes",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [
+        "R28"
+      ],
+      "merged_topics": [
+        "SKU情景表",
+        "补货/限量建议",
+        "预警"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-fulfillment-service",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 履约与客服时限",
+      "path": "tiktokshop/sealeap-tiktokshop-fulfillment-service",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R28"
+      ],
+      "merged_topics": [
+        "履约时限表",
+        "异常订单队列",
+        "客服草稿"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-returns-feedback",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 退货与内容预期",
+      "path": "tiktokshop/sealeap-tiktokshop-returns-feedback",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R28"
+      ],
+      "merged_topics": [
+        "退货原因矩阵",
+        "内容修正",
+        "净贡献复盘"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-promotion-margin",
+      "platform": "tiktokshop",
+      "mode": "advertising",
+      "title": "TikTok Shop 活动与优惠叠加",
+      "path": "tiktokshop/sealeap-tiktokshop-promotion-margin",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [
+        "R10"
+      ],
+      "merged_topics": [
+        "优惠叠加表",
+        "活动排期",
+        "贡献与库存边界"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-gmvmax-testing",
+      "platform": "tiktokshop",
+      "mode": "advertising",
+      "title": "TikTok Shop GMV Max 目标与预算实验",
+      "path": "tiktokshop/sealeap-tiktokshop-gmvmax-testing",
+      "sources": [
+        "N01",
+        "T02",
+        "X03"
+      ],
+      "rule_checks": [
+        "R08",
+        "R09"
+      ],
+      "merged_topics": [
+        "诊断表",
+        "单变量试验",
+        "回退条件"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-tiktokshop-analytics-attribution",
+      "platform": "tiktokshop",
+      "mode": "advertising",
+      "title": "TikTok Shop 全域指标与贡献对账",
+      "path": "tiktokshop/sealeap-tiktokshop-analytics-attribution",
+      "sources": [
+        "N01",
+        "X03"
+      ],
+      "rule_checks": [
+        "R09",
+        "R10"
+      ],
+      "merged_topics": [
+        "指标字典",
+        "订单去重表",
+        "归因与利润差异"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-market-demand",
+      "platform": "walmart",
+      "mode": "selection",
+      "title": "Walmart 搜索需求与候选验证",
+      "path": "walmart/sealeap-walmart-market-demand",
+      "sources": [
+        "N01",
+        "W03"
+      ],
+      "rule_checks": [
+        "R16",
+        "R17"
+      ],
+      "merged_topics": [
+        "需求证据表",
+        "跨平台差异",
+        "验证计划"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-assortment-gaps",
+      "platform": "walmart",
+      "mode": "selection",
+      "title": "Walmart 商品组合与竞争空缺",
+      "path": "walmart/sealeap-walmart-assortment-gaps",
+      "sources": [
+        "N01",
+        "W03"
+      ],
+      "rule_checks": [
+        "R17",
+        "R19"
+      ],
+      "merged_topics": [
+        "组合地图",
+        "差异候选",
+        "打样与需求任务"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-wfs-economics",
+      "platform": "walmart",
+      "mode": "selection",
+      "title": "Walmart WFS 费用与仓龄情景",
+      "path": "walmart/sealeap-walmart-wfs-economics",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R19"
+      ],
+      "merged_topics": [
+        "WFS成本表",
+        "仓龄情景",
+        "入仓判断"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-pricing-floors",
+      "platform": "walmart",
+      "mode": "selection",
+      "title": "Walmart 价格底线与优惠情景",
+      "path": "walmart/sealeap-walmart-pricing-floors",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R13",
+        "R19"
+      ],
+      "merged_topics": [
+        "SKU价格底线",
+        "优惠情景",
+        "调价方案"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-catalog-identity",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart 商品身份与 Feed 回读",
+      "path": "walmart/sealeap-walmart-catalog-identity",
+      "sources": [
+        "N01",
+        "BL01"
+      ],
+      "rule_checks": [
+        "R14"
+      ],
+      "merged_topics": [
+        "身份映射",
+        "目录异常",
+        "提交/处理/前台回读"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-listing-quality",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart Listing Quality 与内容修正",
+      "path": "walmart/sealeap-walmart-listing-quality",
+      "sources": [
+        "N01",
+        "W04"
+      ],
+      "rule_checks": [
+        "R14"
+      ],
+      "merged_topics": [
+        "质量问题表",
+        "字段修正稿",
+        "前台验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-search-query-insights",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart 搜索排名与查询份额",
+      "path": "walmart/sealeap-walmart-search-query-insights",
+      "sources": [
+        "N01",
+        "X04"
+      ],
+      "rule_checks": [
+        "R16",
+        "R17"
+      ],
+      "merged_topics": [
+        "指标字典",
+        "查询诊断",
+        "待核假设"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-offer-buybox",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart Offer 与 Buy Box 准备",
+      "path": "walmart/sealeap-walmart-offer-buybox",
+      "sources": [
+        "N01",
+        "BL02"
+      ],
+      "rule_checks": [
+        "R13"
+      ],
+      "merged_topics": [
+        "Offer对照",
+        "零售准备检查",
+        "改善验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-inventory-planning",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart 库存健康与仓龄行动",
+      "path": "walmart/sealeap-walmart-inventory-planning",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R19",
+        "R21"
+      ],
+      "merged_topics": [
+        "库存风险表",
+        "补货/去化情景",
+        "行动清单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-fulfillment-comparison",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart WFS 与自发货比较",
+      "path": "walmart/sealeap-walmart-fulfillment-comparison",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R19",
+        "R20",
+        "R21"
+      ],
+      "merged_topics": [
+        "履约总成本表",
+        "服务差异",
+        "试运行计划"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-seller-performance",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart 卖家绩效与异常修复",
+      "path": "walmart/sealeap-walmart-seller-performance",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R20"
+      ],
+      "merged_topics": [
+        "绩效定义表",
+        "异常与根因",
+        "整改/证据包"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-returns-recovery",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart 退货、库存与结算对账",
+      "path": "walmart/sealeap-walmart-returns-recovery",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R21"
+      ],
+      "merged_topics": [
+        "退货状态桥接",
+        "费用差异",
+        "改善与询证清单"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-price-monitoring",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart 价格监控与利润响应",
+      "path": "walmart/sealeap-walmart-price-monitoring",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R13"
+      ],
+      "merged_topics": [
+        "可比价格快照",
+        "响应规则",
+        "改价验收"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-sponsored-products-structure",
+      "platform": "walmart",
+      "mode": "advertising",
+      "title": "Walmart Sponsored Products 结构",
+      "path": "walmart/sealeap-walmart-sponsored-products-structure",
+      "sources": [
+        "N01",
+        "W02"
+      ],
+      "rule_checks": [
+        "R11",
+        "R12",
+        "R13"
+      ],
+      "merged_topics": [
+        "活动结构",
+        "商品分组",
+        "预算与回读表"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-keyword-harvest",
+      "platform": "walmart",
+      "mode": "advertising",
+      "title": "Walmart 搜索词迁移与关键词验证",
+      "path": "walmart/sealeap-walmart-keyword-harvest",
+      "sources": [
+        "N01",
+        "BL01"
+      ],
+      "rule_checks": [
+        "R11",
+        "R16"
+      ],
+      "merged_topics": [
+        "词证据表",
+        "迁移候选",
+        "出价情景和复盘"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-placement-testing",
+      "platform": "walmart",
+      "mode": "advertising",
+      "title": "Walmart 广告位与加价测试",
+      "path": "walmart/sealeap-walmart-placement-testing",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R11",
+        "R13"
+      ],
+      "merged_topics": [
+        "版位对比",
+        "最大成本情景",
+        "单变量实验"
+      ],
+      "scope": "specialist"
+    },
+    {
+      "name": "sealeap-walmart-ads-reconciliation",
+      "platform": "walmart",
+      "mode": "advertising",
+      "title": "Walmart 广告与订单贡献对账",
+      "path": "walmart/sealeap-walmart-ads-reconciliation",
+      "sources": [
+        "N01"
+      ],
+      "rule_checks": [
+        "R11",
+        "R19"
+      ],
+      "merged_topics": [
+        "广告到账单桥接",
+        "SKU贡献",
+        "差异与预算建议"
+      ],
+      "scope": "specialist"
+    }
+  ]
+}

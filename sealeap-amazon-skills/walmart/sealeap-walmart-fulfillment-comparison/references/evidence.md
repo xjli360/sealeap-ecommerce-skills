@@ -1,0 +1,31 @@
+# 证据与规则
+
+## N01：开源参考的实际用途
+
+参考仓库采用MIT，保留版权声明。2026-09-24公开API观察的社区规模：Stars 100–999、Forks 100–999；这是整个仓库的指标，不是单个Skill的互动或商业效果。
+
+本任务对应文件，固定到研究时提交：
+
+- [参考主题：walmart-seller-guide](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-seller-guide/SKILL.md)
+- [参考主题：supply-chain-optimization-walmart](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-walmart/SKILL.md)
+
+仅采纳主题范围与已读能力/方法段落；其中简短Beta模板只提供选题线索。未复制营销推荐、原示例账户、无依据增长百分比、旧费率或不存在的执行能力。新增输入、步骤、决策条件和合成案例属于M，不冒充上游完整教程。源文件有脚本示例不表示本Skill附带或运行了这些脚本。
+
+## 补充网络证据
+
+| 编号 | 渠道 | 互动证据与范围 | 支持的有限判断 |
+| --- | --- | --- | --- |
+| N01 | GitHub | stars 100–999；forks 100–999；live_public_api；mapped_topic_capability_and_method_sections | MIT开源仓库的主题划分与已读有限框架；详细业务流程为M重写。 |
+
+
+个人社媒原帖、精确计数和身份映射只留在仓库外的受限审计中。开源组织许可所需归属公开保留，不将许可证署名当成应删的私人信息。互动只支持传播观察，不证明方法正确。
+
+## 当前规则核验
+
+- R19：[Walmart WFS费用与仓龄](https://marketplacelearn.walmart.com/guides/Walmart%20Fulfillment%20Services%20%28WFS%29/WFS%20basics/WFS-fees)。存在履约、仓储和超龄费用；按商品尺寸、仓龄、时间和实际结算核算，不沿用免长期仓储费说法。
+- R20：[Walmart卖家绩效标准](https://marketplacelearn.walmart.com/guides/Policies%20%26%20standards/Performance/Seller-performance-standards)。查当期指标、评估窗口与履约模式差异；2026年退货、未收到及负面反馈也须关注。
+- R21：[Walmart履约与结算报告](https://marketplacelearn.walmart.com/guides/fulfillment-reports-overview)。分别核对WFS退货、库存调整、订单、结算和自发货报表，状态与费用不能互相替代。
+
+R01–R18于2026-09-23查阅，R19–R29于2026-09-24查阅；规则文档不计入互动来源数量。单次查阅不保证长期有效。
+
+许可见本Skill附带的 [MIT文本](../LICENSE)。

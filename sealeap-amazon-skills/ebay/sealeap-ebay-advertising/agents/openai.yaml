@@ -1,0 +1,4 @@
+interface:
+  display_name: "eBay 推广广告与归因"
+  short_description: "eBay 推广广告与归因，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-ebay-advertising，分别分析 eBay General 和 Priority 的真实费用与订单贡献，说明归因边界后再给费率或CPC测试建议。"

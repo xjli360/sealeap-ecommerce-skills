@@ -1,0 +1,4 @@
+interface:
+  display_name: "Walmart 市场与商品选择"
+  short_description: "Walmart 市场与商品选择，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-walmart-product-selection，评估已有产品能否进入 Walmart，把站内同规格竞争与WFS/自发货成本分开测算，并给出首批测试上限。"

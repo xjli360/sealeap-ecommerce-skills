@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify 选品与市场验证"
+  short_description: "Shopify 选品与市场验证，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-shopify-product-selection，判断某家居用品是否适合面向美国的 Shopify 独立站，先列出需求与成本证据，再给出可承受 CAC 和有限测品方案。"

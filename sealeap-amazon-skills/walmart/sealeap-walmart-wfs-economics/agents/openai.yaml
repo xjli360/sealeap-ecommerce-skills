@@ -1,0 +1,4 @@
+interface:
+  display_name: "Walmart WFS 费用与仓龄情景"
+  short_description: "Walmart WFS 费用与仓龄情景，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-walmart-wfs-economics，根据我提供的数据完成Walmart WFS 费用与仓龄情景，说明依据、缺口和下一步。"

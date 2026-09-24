@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify 获客广告与实验"
+  short_description: "Shopify 获客广告与实验，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-shopify-advertising，用最近两周的 Shopify 与广告导出诊断 CAC 上升，先核对归因，再设计一个有预算上限的素材或落地页实验。"

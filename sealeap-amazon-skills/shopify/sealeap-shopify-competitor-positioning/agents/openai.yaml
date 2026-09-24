@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify 竞品定位与差异化"
+  short_description: "Shopify 竞品定位与差异化，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-shopify-competitor-positioning，根据我提供的数据完成Shopify 竞品定位与差异化，说明依据、缺口和下一步。"

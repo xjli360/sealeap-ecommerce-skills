@@ -1,0 +1,4 @@
+interface:
+  display_name: "Etsy 搜索、商品与交付运营"
+  short_description: "Etsy 搜索、商品与交付运营，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-etsy-shop-operations，审计一条 Etsy Listing 的搜索意图、主图、定制要求和交付承诺，给出可直接审阅的修改草稿。"

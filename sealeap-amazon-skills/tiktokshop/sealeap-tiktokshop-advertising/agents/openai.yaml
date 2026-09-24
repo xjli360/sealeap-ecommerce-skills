@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Shop GMV Max 广告诊断"
+  short_description: "TikTok Shop GMV Max 广告诊断，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-tiktokshop-advertising，诊断 TikTok Shop GMV Max 不消耗或ROI变化，先核对全域归因、商品与素材条件，再拟有损失上限的实验。"

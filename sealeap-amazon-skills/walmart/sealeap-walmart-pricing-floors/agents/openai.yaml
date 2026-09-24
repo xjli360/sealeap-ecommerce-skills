@@ -1,0 +1,4 @@
+interface:
+  display_name: "Walmart 价格底线与优惠情景"
+  short_description: "Walmart 价格底线与优惠情景，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-walmart-pricing-floors，根据我提供的数据完成Walmart 价格底线与优惠情景，说明依据、缺口和下一步。"

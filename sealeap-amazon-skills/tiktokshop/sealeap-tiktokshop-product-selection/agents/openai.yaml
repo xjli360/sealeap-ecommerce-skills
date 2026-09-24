@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Shop 内容适配选品"
+  short_description: "TikTok Shop 内容适配选品，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-tiktokshop-product-selection，评估一个 TikTok Shop 商品能否做，结合内容演示、达人集中度、佣金和履约成本，给出有限测品方案。"

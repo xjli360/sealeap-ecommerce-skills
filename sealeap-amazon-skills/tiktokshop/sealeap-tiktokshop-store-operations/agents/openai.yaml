@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Shop 内容、达人与履约"
+  short_description: "TikTok Shop 内容、达人与履约，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-tiktokshop-store-operations，梳理 TikTok Shop 的达人寄样和内容漏斗，产出brief、授权检查以及影响成交和履约的优先问题。"

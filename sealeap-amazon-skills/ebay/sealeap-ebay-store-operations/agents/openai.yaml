@@ -1,0 +1,4 @@
+interface:
+  display_name: "eBay 商品、履约与店铺运营"
+  short_description: "eBay 商品、履约与店铺运营，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-ebay-store-operations，审计一组 eBay Listing 的标题、属性、成色、总到手价和物流承诺，给出字段级修改草稿。"

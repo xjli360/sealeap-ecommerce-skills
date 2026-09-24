@@ -1,0 +1,4 @@
+interface:
+  display_name: "Walmart 目录、报价与履约运营"
+  short_description: "Walmart 目录、报价与履约运营，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-walmart-store-operations，检查 Walmart 一组SKU的可售状态、五项Listing Quality和内容更新结果，输出字段级修复及前台回读证据。"

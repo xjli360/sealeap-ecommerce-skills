@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Shop 爆量与库存风险"
+  short_description: "TikTok Shop 爆量与库存风险，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-tiktokshop-inventory-spikes，根据我提供的数据完成TikTok Shop 爆量与库存风险，说明依据、缺口和下一步。"

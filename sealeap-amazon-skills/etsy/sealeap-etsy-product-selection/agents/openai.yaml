@@ -1,0 +1,4 @@
+interface:
+  display_name: "Etsy 原创选品与需求验证"
+  short_description: "Etsy 原创选品与需求验证，将证据、利润和执行条件整理为可验证方案"
+  default_prompt: "使用 $sealeap-etsy-product-selection，评估一个 Etsy 个性化礼品方向，核对原创资格、买家搜索需求、制作工时和不同广告费用情景，再决定是否打样。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Shop 活动与优惠叠加"
+  short_description: "TikTok Shop 活动与优惠叠加，核对证据与口径并给出可验证的具体执行方案"
+  default_prompt: "使用 $sealeap-tiktokshop-promotion-margin，根据我提供的数据完成TikTok Shop 活动与优惠叠加，说明依据、缺口和下一步。"
