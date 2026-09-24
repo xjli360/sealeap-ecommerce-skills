@@ -6,7 +6,7 @@
   <p>
     <a href="https://sealeap.cn/"><img src="https://img.shields.io/badge/Website-sealeap.cn-0ea5e9?style=for-the-badge" alt="SeaLeap 官网" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License" /></a>
-    <img src="https://img.shields.io/badge/Skills-100-00a8e1?style=for-the-badge" alt="100 Skills" />
+    <img src="https://img.shields.io/badge/Skills-114-00a8e1?style=for-the-badge" alt="114 Skills" />
     <img src="https://img.shields.io/badge/Platforms-5-8b5cf6?style=for-the-badge" alt="5 Platforms" />
     <img src="https://img.shields.io/badge/Free-100%25-22c55e?style=for-the-badge" alt="完全免费" />
     <a href="https://github.com/xjli360/sealeap-ecommerce-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-ecommerce-skills?style=for-the-badge&logo=github" alt="GitHub stars" /></a>
@@ -22,16 +22,18 @@
 
 ## 技能目录
 
-截至 **2026-09-24**，共有 **100 个 Skills，每个平台 20 个**：15 个综合评审入口 + 85 个专项任务。全部使用独立的 `SKILL.md` 架构，并附带参考文件、调用元数据和 MIT 许可。
+截至 **2026-09-24**，共有 **114 个 Skills**：15 个综合评审入口 + 99 个专项任务，五个平台均超过20个。全部使用独立的 `SKILL.md` 架构，并附带参考文件、调用元数据和 MIT 许可。
 
 | 平台 | 数量 | 主要方向 | 目录 |
 | --- | ---: | --- | --- |
-| Shopify | 20 | 定位与单位经济、供应验证、Feed、SEO、转化、弃单、邮件、多仓、本地化、Meta、Shopping、增量 | [Shopify](sealeap-amazon-skills/shopify/) |
-| Etsy | 20 | 关键词与季节、原创/POD、数字品、工时定价、标签、摄影、定制、交期、客服、站内与站外广告 | [Etsy](sealeap-amazon-skills/etsy/) |
-| eBay | 20 | 已售比价、成色、类目、价格底线、属性、实拍、多渠道库存、绩效、VeRO、General/Priority、对账 | [eBay](sealeap-amazon-skills/ebay/) |
-| TikTok Shop | 20 | 趋势与演示、全成本、达人、佣金、寄样、素材权利、短视频、直播、爆量库存、履约、GMV Max | [TikTok Shop](sealeap-amazon-skills/tiktokshop/) |
-| Walmart | 20 | 搜索需求、商品组合、WFS、价格底线、目录身份、质量、查询份额、Buy Box、库存、绩效、广告位 | [Walmart](sealeap-amazon-skills/walmart/) |
-| **合计** | **100** | **选品、运营与广告的具体任务** | [完整索引](sealeap-amazon-skills/README.md) |
+| Shopify | 26 | 定位与单位经济、供应验证、Feed、SEO、转化、弃单、邮件、多仓、本地化、Meta、Shopping、增量 | [Shopify](sealeap-amazon-skills/shopify/) |
+| Etsy | 22 | 关键词与季节、原创/POD、数字品、工时定价、标签、摄影、定制、交期、客服、站内与站外广告 | [Etsy](sealeap-amazon-skills/etsy/) |
+| eBay | 22 | 已售比价、成色、类目、价格底线、属性、实拍、多渠道库存、绩效、VeRO、General/Priority、对账 | [eBay](sealeap-amazon-skills/ebay/) |
+| TikTok Shop | 21 | 趋势与演示、全成本、达人、佣金、寄样、素材权利、短视频、直播、爆量库存、履约、GMV Max | [TikTok Shop](sealeap-amazon-skills/tiktokshop/) |
+| Walmart | 23 | 搜索需求、商品组合、WFS、价格底线、目录身份、质量、查询份额、Buy Box、库存、绩效、广告位 | [Walmart](sealeap-amazon-skills/walmart/) |
+| **合计** | **114** | **选品、运营与广告的具体任务** | [完整索引](sealeap-amazon-skills/README.md) |
+
+本轮新增14项并补强3项：订阅状态、组合履约、主题许可、MMM准备与预算评审、储备金与休店、国际配送与合并运费、WFS装箱与收货、商用音乐。见[本轮增量](sealeap-amazon-skills/RESEARCH-MORE-20260924.md)。
 
 ### 从常见问题开始
 
@@ -68,13 +70,13 @@ cd sealeap-ecommerce-skills
 请给出SKU贡献、可承受CAC、数据缺口和有限测试建议。
 ```
 
-只有一个具体问题时使用专项入口；需要完整选品评审、多环节巡检或广告联合诊断时，选择对应的综合入口。单个 Skill 可独立复制，不要求加载全部 100 个，也不依赖私人审计目录或特定付费服务。
+只有一个具体问题时使用专项入口；需要完整选品评审、多环节巡检或广告联合诊断时，选择对应的综合入口。单个 Skill 可独立复制，不要求加载全部 114 个，也不依赖私人审计目录或特定付费服务。
 
 ## 来源与质量
 
-本版包含 **35 个证据单元：33 条公开内容与 2 个开源仓库**，另有 **29 项官方规则核查入口**。来源覆盖小红书、知乎、B站、抖音、YouTube、GitHub及行业公开文章。
+本版包含 **46 个证据单元：43 条可访问内容与 3 个开源仓库**，另有 **41 项官方规则核查入口**。来源覆盖小红书、知乎、B站、抖音、YouTube、GitHub及行业公开文章。
 
-本次补充研究了 [eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)（MIT），建立 **98 个上游文件到85个专项任务**的映射。仓库Stars/Forks是仓库级社区指标，不能拆成每个Skill的点赞，也不证明商业效果。部分上游文件只有主题简介，仅用作选题线索，执行流程由本项目重新编写。
+此前已研究了 [eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)（MIT），建立 **98 个上游文件到85个专项任务**的映射。仓库Stars/Forks是仓库级社区指标，不能拆成每个Skill的点赞，也不证明商业效果。部分上游文件只有主题简介，仅用作选题线索，执行流程由本项目重新编写。
 
 质量检查包括：
 
@@ -102,11 +104,11 @@ sealeap-ecommerce-skills/
 ├── assets/sealeap-logo.png
 ├── sealeap-amazon-skills/
 │   ├── assets/             # 匿名证据索引、目录与交付模板
-│   ├── shopify/            # 20 Skills
-│   ├── etsy/               # 20 Skills
-│   ├── ebay/               # 20 Skills
-│   ├── tiktokshop/         # 20 Skills
-│   ├── walmart/            # 20 Skills
+│   ├── shopify/            # 26 Skills
+│   ├── etsy/               # 22 Skills
+│   ├── ebay/               # 22 Skills
+│   ├── tiktokshop/         # 21 Skills
+│   ├── walmart/            # 23 Skills
 │   └── validate_collection.py
 ├── README.md
 ├── LICENSE
@@ -131,4 +133,3 @@ python3 validate_repo.py
   <p><strong>知识持续汇聚，成果免费开源。</strong></p>
   <p>由 <a href="https://sealeap.cn">SeaLeap</a> 维护</p>
 </div>
-

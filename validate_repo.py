@@ -53,7 +53,7 @@ allowed_hosts = {"github.com", "img.shields.io", "sealeap.cn", "help.shopify.com
     "marketplacelearn.walmart.com", "support.google.com", "help.klaviyo.com"}
 allowed_github = ("https://github.com/xjli360/sealeap-ecommerce-skills",
     "https://github.com/xjli360/sealeap-amazon-skills",
-    "https://github.com/nexscope-ai/eCommerce-Skills")
+    "https://github.com/nexscope-ai/eCommerce-Skills", "https://github.com/facebookexperimental/Robyn")
 patterns = {
     "local user path": r"/Users/[A-Za-z0-9_.-]+/",
     "email": r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}",
@@ -100,4 +100,3 @@ output={"ok":not errors,"skills":len(entries),"per_platform":counts,
     "files":len(files),"errors":errors,"boundary":"Static structure, license, reference and privacy checks; no live seller results."}
 print(json.dumps(output,ensure_ascii=False,indent=2))
 sys.exit(0 if not errors else 1)
-

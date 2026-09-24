@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "collection": "sealeap-amazon-skills",
-  "edition": "2026-09-24",
+  "edition": "2026-09-24-research-more",
   "platforms": [
     "shopify",
     "etsy",
@@ -636,13 +636,18 @@
       "title": "Shopify 复购、组合与优惠经济性",
       "path": "shopify/sealeap-shopify-retention-bundles",
       "sources": [
-        "N01"
+        "N01",
+        "A02",
+        "A03"
       ],
-      "rule_checks": [],
+      "rule_checks": [
+        "R31"
+      ],
       "merged_topics": [
         "组合候选表",
         "优惠情景",
-        "队列复盘"
+        "队列复盘",
+        "组合收益与履约资格分开核验"
       ],
       "scope": "specialist"
     },
@@ -1218,15 +1223,20 @@
       "title": "eBay 配送模板与到货承诺",
       "path": "ebay/sealeap-ebay-shipping-policy",
       "sources": [
-        "N01"
+        "N01",
+        "A06",
+        "A12"
       ],
       "rule_checks": [
-        "R27"
+        "R27",
+        "R36",
+        "R37"
       ],
       "merged_topics": [
         "配送方案表",
         "模板草稿",
-        "交付证据清单"
+        "交付证据清单",
+        "国际项目与合并运费的作用范围"
       ],
       "scope": "specialist"
     },
@@ -1566,16 +1576,19 @@
       "path": "tiktokshop/sealeap-tiktokshop-creator-brief-rights",
       "sources": [
         "N01",
-        "X03"
+        "X03",
+        "A14"
       ],
       "rule_checks": [
         "R08",
-        "R10"
+        "R10",
+        "R40"
       ],
       "merged_topics": [
         "合作brief",
         "权利矩阵",
-        "内容验收单"
+        "内容验收单",
+        "音轨与跨平台权利补充"
       ],
       "scope": "specialist"
     },
@@ -2095,6 +2108,301 @@
         "差异与预算建议"
       ],
       "scope": "specialist"
+    },
+    {
+      "name": "sealeap-shopify-subscription-launch-audit",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 订阅上线与购买路径验收",
+      "path": "shopify/sealeap-shopify-subscription-launch-audit",
+      "sources": [
+        "A01"
+      ],
+      "rule_checks": [
+        "R30",
+        "R31",
+        "R41"
+      ],
+      "merged_topics": [
+        "计划-商品映射",
+        "购买与管理路径验收表",
+        "首单/续期条件差异",
+        "上线HOLD项与恢复办法"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-shopify-subscription-renewal-recovery",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 续费失败与合同状态诊断",
+      "path": "shopify/sealeap-shopify-subscription-renewal-recovery",
+      "sources": [
+        "A01"
+      ],
+      "rule_checks": [
+        "R30",
+        "R41"
+      ],
+      "merged_topics": [
+        "合同事件时间线",
+        "失败分类与处理建议",
+        "重试/通知变更草稿",
+        "未对平状态清单"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-shopify-bundle-fulfillment-audit",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 组合商品库存与履约验收",
+      "path": "shopify/sealeap-shopify-bundle-fulfillment-audit",
+      "sources": [
+        "A02",
+        "A03"
+      ],
+      "rule_checks": [
+        "R31"
+      ],
+      "merged_topics": [
+        "组件与数量矩阵",
+        "渠道/购买选项兼容表",
+        "拆单与部分退货验收",
+        "可售估算和实际供应差异"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-shopify-theme-license-recovery",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify 主题许可与恢复准备",
+      "path": "shopify/sealeap-shopify-theme-license-recovery",
+      "sources": [
+        "A09"
+      ],
+      "rule_checks": [
+        "R32"
+      ],
+      "merged_topics": [
+        "主题-许可-商店对照",
+        "告警与证据缺口",
+        "可审阅恢复方案",
+        "后台和前台验收记录"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-shopify-mmm-data-readiness",
+      "platform": "shopify",
+      "mode": "advertising",
+      "title": "Shopify 营销组合建模数据准备",
+      "path": "shopify/sealeap-shopify-mmm-data-readiness",
+      "sources": [
+        "A10"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "变量与来源字典",
+        "时间序列质量表",
+        "可识别性与混杂清单",
+        "建模准备判定及补证任务"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-shopify-marginal-budget-review",
+      "platform": "shopify",
+      "mode": "advertising",
+      "title": "Shopify 边际收益与预算方案评审",
+      "path": "shopify/sealeap-shopify-marginal-budget-review",
+      "sources": [
+        "A10"
+      ],
+      "rule_checks": [],
+      "merged_topics": [
+        "预算约束表",
+        "基线与候选情景",
+        "边际响应/不确定性说明",
+        "有限实验与回退清单"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-etsy-reserve-cashflow",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 储备金与可用现金诊断",
+      "path": "etsy/sealeap-etsy-reserve-cashflow",
+      "sources": [
+        "A08"
+      ],
+      "rule_checks": [
+        "R38"
+      ],
+      "merged_topics": [
+        "订单-追踪-资金状态桥接",
+        "现金需求情景",
+        "同步异常清单",
+        "支持询证草稿"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-etsy-vacation-restart",
+      "platform": "etsy",
+      "mode": "operations",
+      "title": "Etsy 休店与恢复接单验收",
+      "path": "etsy/sealeap-etsy-vacation-restart",
+      "sources": [
+        "A13"
+      ],
+      "rule_checks": [
+        "R39"
+      ],
+      "merged_topics": [
+        "休店责任与费用清单",
+        "恢复前准备表",
+        "买家端与后台验收",
+        "恢复观察计划"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-ebay-international-shipping-controls",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 国际配送范围与政策变更",
+      "path": "ebay/sealeap-ebay-international-shipping-controls",
+      "sources": [
+        "A06"
+      ],
+      "rule_checks": [
+        "R36"
+      ],
+      "merged_topics": [
+        "四层设置与作用域表",
+        "变更前后及影响清单",
+        "目的地验收样本",
+        "未覆盖刊登与恢复记录"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-ebay-combined-shipping-audit",
+      "platform": "ebay",
+      "mode": "operations",
+      "title": "eBay 合并运费与购物篮验收",
+      "path": "ebay/sealeap-ebay-combined-shipping-audit",
+      "sources": [
+        "A12"
+      ],
+      "rule_checks": [
+        "R37"
+      ],
+      "merged_topics": [
+        "购物篮测试矩阵",
+        "规则-政策-刊登映射",
+        "实收/实付运费桥接",
+        "发票或差额处理草稿"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-walmart-wfs-packaging-labels",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart WFS 包装与标签预检",
+      "path": "walmart/sealeap-walmart-wfs-packaging-labels",
+      "sources": [
+        "A04"
+      ],
+      "rule_checks": [
+        "R33",
+        "R34"
+      ],
+      "merged_topics": [
+        "可售单元包装清单",
+        "三类标签对应表",
+        "缺陷/修复与复检",
+        "承运交接资料"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-walmart-wfs-box-reconciliation",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart WFS 箱内明细与数量核对",
+      "path": "walmart/sealeap-walmart-wfs-box-reconciliation",
+      "sources": [
+        "A04"
+      ],
+      "rule_checks": [
+        "R34"
+      ],
+      "merged_topics": [
+        "计划/实装差异表",
+        "箱与收货标签矩阵",
+        "离线核对结果",
+        "待人工复核的实物和扫码项"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-walmart-wfs-receiving-resolution",
+      "platform": "walmart",
+      "mode": "operations",
+      "title": "Walmart WFS 收货差异与处理准备",
+      "path": "walmart/sealeap-walmart-wfs-receiving-resolution",
+      "sources": [
+        "A04"
+      ],
+      "rule_checks": [
+        "R35"
+      ],
+      "merged_topics": [
+        "五阶段数量桥接",
+        "异常分类与证据清单",
+        "期限和下一步",
+        "工单/争议草稿与结果记录"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
+    },
+    {
+      "name": "sealeap-tiktokshop-commercial-audio-clearance",
+      "platform": "tiktokshop",
+      "mode": "operations",
+      "title": "TikTok Shop 商用音乐与跨平台素材验收",
+      "path": "tiktokshop/sealeap-tiktokshop-commercial-audio-clearance",
+      "sources": [
+        "A14"
+      ],
+      "rule_checks": [
+        "R40"
+      ],
+      "merged_topics": [
+        "音轨权利矩阵",
+        "平台/地区/用途版本表",
+        "补证或替换清单",
+        "发布前验收记录"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-24-research-more"
     }
   ]
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "eBay 合并运费与购物篮验收"
+  short_description: "eBay 合并运费与购物篮验收，核查口径、分支与证据并形成可验收的操作方案"
+  default_prompt: "使用 $sealeap-ebay-combined-shipping-audit，根据我提供的资料完成检查，输出证据、缺口及可执行的下一步。"

@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-09-24",
+  "rules": {
+    "R30": {
+      "title": "Shopify订阅管理、通知与失败重试",
+      "url": "https://help.shopify.com/en/manual/products/purchase-options/subscriptions/shopify-subscriptions/manage-subscriptions/manage-app-settings",
+      "note": "区分付款失败与库存不足；重试耗尽可有跳过、暂停或取消等动作；顾客管理入口与通知分别验收。"
+    },
+    "R31": {
+      "title": "Shopify组合商品的兼容与库存",
+      "url": "https://help.shopify.com/en/manual/products/bundles/eligibility-and-considerations",
+      "note": "库存按组件所需数量取可完成套数；不追踪或允许超售组件影响估算；订阅、发货、退货与渠道兼容必须单独核验。"
+    },
+    "R32": {
+      "title": "Shopify主题许可与转移",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/managing-themes/unlicensed-themes",
+      "note": "Theme Store许可对应购买商店；授权证明、购买、符合条件的转移或移除分别处理，不能通过改名规避。"
+    },
+    "R33": {
+      "title": "WFS入仓包装",
+      "url": "https://marketplacelearn.walmart.com/guides/WFS-inbound-orders-Prepare-and-pack-shipments",
+      "note": "按商品性质准备包装与标签；不合规包装可能导致费用、退回或收货问题。"
+    },
+    "R34": {
+      "title": "WFS箱内明细与唯一箱标",
+      "url": "https://marketplacelearn.walmart.com/guides/wfs-multi-pack-box-contents",
+      "note": "每箱标签须对应真实SKU、GTIN、数量与shipment；不能重用收货标签，箱内总量要与计划一致。"
+    },
+    "R35": {
+      "title": "WFS收货异常与争议",
+      "url": "https://marketplacelearn.walmart.com/guides/troubleshoot-wfs-shipments-with-receiving-issues",
+      "note": "Delivered不等于已收货可售；区分包装、身份、超量、损坏；最终差异核对与申诉资格/时效分别检查。"
+    },
+    "R36": {
+      "title": "eBay International Shipping",
+      "url": "https://www.ebay.com/help/ship-track/ship-track-selling/ebay-international-shipping-program?id=5348",
+      "note": "项目资格、目的地排除、交至国内枢纽和国际段责任按当前站点核验；自发货国际选项不等于项目退出状态。"
+    },
+    "R37": {
+      "title": "eBay合并运费",
+      "url": "https://www.ebay.com/help/ship-track/ship-track-selling/ebay-combined-postage?id=4169",
+      "note": "区分未付款合并发票与付款后部分退款，并核立即付款、议价、鉴定等资格限制；物理合箱与财务合并分开。"
+    },
+    "R38": {
+      "title": "Etsy Payment Account Reserve",
+      "url": "https://help.etsy.com/hc/en-in/articles/360058722214-What-is-a-Payment-Account-Reserve",
+      "note": "储备比例和期限因账户而异；需Etsy确认追踪在途才能提前释放相关资金，可用余额不等于银行到账。"
+    },
+    "R39": {
+      "title": "Etsy休店模式",
+      "url": "https://help.etsy.com/hc/en-us/articles/115015662947-How-to-Manage-Vacation-Mode-for-Your-Shop",
+      "note": "暂停新单不暂停已有订单、消息、纠纷及部分经常性费用；平台强制休店与主动休店不同。"
+    },
+    "R40": {
+      "title": "TikTok商用音乐库",
+      "url": "https://ads.tiktok.com/help/article/commercial-music-library?lang=en",
+      "note": "商业内容核对CML或独立许可；一般音乐库和其他用户原声不能自动作为商用授权。"
+    },
+    "R41": {
+      "title": "Shopify订阅订单与库存",
+      "url": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/subscriptions-fulfillment",
+      "note": "退款、订阅合同和未来履约状态分开；预付订阅的未来周期并不在创建时全部预留库存。"
+    }
+  }
+}

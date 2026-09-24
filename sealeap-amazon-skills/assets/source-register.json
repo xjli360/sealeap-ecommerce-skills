@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "created_on": "2026-09-23",
-  "edition": "v3",
+  "edition": "v4",
   "sources": [
     {
       "id": "S01",
@@ -813,6 +813,212 @@
         "sealeap-walmart-keyword-harvest",
         "sealeap-walmart-placement-testing",
         "sealeap-walmart-ads-reconciliation"
+      ]
+    },
+    {
+      "id": "A01",
+      "platform": "shopify",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_auto_generated_french_transcript",
+      "quality_scope": "订阅配置需验证计划与购买选项、顾客自助管理、通知、失败扣款后的合同动作，商品页显示与后台状态分别检查。",
+      "limitations": "完整自动字幕已读，可能有识别错误；不沿用示例折扣、固定五次/每日重试、催收威胁或收益承诺，当前能力另用官方规则核验。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-shopify-subscription-launch-audit",
+        "sealeap-shopify-subscription-renewal-recovery"
+      ]
+    },
+    {
+      "id": "A02",
+      "platform": "shopify",
+      "channel": "shopify_community",
+      "observed_on": "2026-09-24",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "post_views": "1,000–9,999",
+        "likes": "0–49"
+      },
+      "content_coverage": "public_thread_body",
+      "quality_scope": "组合商品需要校验组件、选项和变体组合，不能从单品可售直接推断所有组合都可售。",
+      "limitations": "历史案例，只用作问题结构；不沿用旧变体上限、无限数量或绝不超卖的保证；多个回复的浏览不相加。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-shopify-bundle-fulfillment-audit",
+        "sealeap-shopify-retention-bundles"
+      ]
+    },
+    {
+      "id": "A03",
+      "platform": "shopify",
+      "channel": "shopify_community",
+      "observed_on": "2026-09-24",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "post_views": "1,000–9,999",
+        "likes": "0–49"
+      },
+      "content_coverage": "public_thread_body",
+      "quality_scope": "组件已发布到渠道不证明组合商品可发布；要分别验收商品组合、渠道与履约应用的能力。",
+      "limitations": "旧版渠道限制需现查；不推广回复中付费应用，也不把个案当今日全局限制。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-shopify-bundle-fulfillment-audit",
+        "sealeap-shopify-retention-bundles"
+      ]
+    },
+    {
+      "id": "A04",
+      "platform": "walmart",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "50–99"
+      },
+      "content_coverage": "complete_official_video_transcript",
+      "quality_scope": "WFS入仓先核可售单元包装，分开单品标签、收货标签和承运标签；收货匹配与承运交付不是同一阶段。",
+      "limitations": "完整字幕已读；不硬编码视频中旧重量/尺寸/收货天数，不把准备正确当作必然按时收货；类目特殊要求另查官方规则。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-walmart-wfs-packaging-labels",
+        "sealeap-walmart-wfs-box-reconciliation",
+        "sealeap-walmart-wfs-receiving-resolution"
+      ]
+    },
+    {
+      "id": "A06",
+      "platform": "ebay",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_official_video_auto_transcript",
+      "quality_scope": "目的地区排除可涉及单条刊登、批量刊登、业务政策和账户层级；更改影响已有还是未来刊登应明确。",
+      "limitations": "完整自动字幕已读；旧菜单和优先级按当前后台核对，不将退出国际项目作为唯一做法，不凭保存成功断言买家端已生效。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ebay-international-shipping-controls",
+        "sealeap-ebay-shipping-policy"
+      ]
+    },
+    {
+      "id": "A10",
+      "platform": "shopify",
+      "channel": "github",
+      "observed_on": "2026-09-24",
+      "metric_verification": "live_public_api",
+      "engagement_bands": {
+        "stars": "1,000–9,999",
+        "forks": "100–999"
+      },
+      "content_coverage": "readme_license_selected_analyst_features_sections",
+      "quality_scope": "MMM需先定义经营问题、统一时间序列及媒体/非媒体变量，检查数据变动；预算分配应在响应曲线和明确约束下分析。",
+      "limitations": "Stars属仓库级。未运行模型，不移植代码、默认行业参数或宣称因果已识别；模型拟合、实验校准与预算上线分别验收。",
+      "metric_scope": "repository_not_individual_document",
+      "used_by": [
+        "sealeap-shopify-mmm-data-readiness",
+        "sealeap-shopify-marginal-budget-review"
+      ]
+    },
+    {
+      "id": "A08",
+      "platform": "etsy",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "储备金订单、追踪在途确认、可用余额与实际打款要分开；POD等先行生产费用仍需要现金预算。",
+      "limitations": "不采纳固定45–90天解冻、Star Seller必定24小时解除或立刻银行到账；比例和日期用当期账户。过期供应商连接可作为追踪缺口的检查项，不接触凭证。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-etsy-reserve-cashflow"
+      ]
+    },
+    {
+      "id": "A09",
+      "platform": "shopify",
+      "channel": "bilibili",
+      "observed_on": "2026-09-24",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "1,000–9,999"
+      },
+      "content_coverage": "video_description_and_linked_author_article_body",
+      "quality_scope": "主题授权问题需核查具体主题、许可和商店；只切换已发布主题可能未解决未授权副本问题，恢复须观察实际后台和前台状态。",
+      "limitations": "B站计数为索引快照，公开API本轮不可用；已读关联原文文字，未将截图邮件转录。第三方合法主题不一概判盗版，不承诺删除或购买后必然解封。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-shopify-theme-license-recovery"
+      ]
+    },
+    {
+      "id": "A12",
+      "platform": "ebay",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "同一刊登的追加件运费与跨刊登合并运费是不同控制；运费规则需关联到业务政策，并以实际购物篮核验收费。",
+      "limitations": "不复用作者商品、价格和重量模板；具体计算、立即付款限制和付款后退款按当前官方规则核验，不未经授权发票或退款。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ebay-combined-shipping-audit",
+        "sealeap-ebay-shipping-policy"
+      ]
+    },
+    {
+      "id": "A13",
+      "platform": "etsy",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_auto_transcript_limited_operational_sections_adopted",
+      "quality_scope": "恢复接单前核制作周期与实际产能，恢复后更新店铺公告并检查买家端；收藏不能作为直接营销消息许可。",
+      "limitations": "页面标为未列出，通过公开检索链接可访问；不发布原文或身份。只采纳运营检查，不采纳算法因果、固定开广告/每日发帖次数、个案出单时间或刷互动。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-etsy-vacation-restart"
+      ]
+    },
+    {
+      "id": "A14",
+      "platform": "tiktokshop",
+      "channel": "youtube",
+      "observed_on": "2026-09-24",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "商业内容应核音乐用途权利；平台商用曲库授权不能自动扩展到其他平台，素材合作还应核品牌许可要求。",
+      "limitations": "不把热门音乐一概判不能使用，也不把曲库里的所有音频当无限制版权素材；按具体地区、用途、期限、投放与转发范围核查。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-tiktokshop-commercial-audio-clearance",
+        "sealeap-tiktokshop-creator-brief-rights"
       ]
     }
   ],

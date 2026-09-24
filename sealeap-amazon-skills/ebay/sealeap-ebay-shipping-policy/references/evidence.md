@@ -27,3 +27,17 @@
 R01–R18于2026-09-23查阅，R19–R29于2026-09-24查阅；规则文档不计入互动来源数量。单次查阅不保证长期有效。
 
 许可见本Skill附带的 [MIT文本](../LICENSE)。
+
+
+## 本轮补强（2026-09-24）
+
+| 编号 | 渠道 | 互动区间 | 范围 |
+| --- | --- | --- | --- |
+| A06 | youtube | views 10,000–99,999；likes 100–999 | complete_official_video_auto_transcript |
+| A12 | youtube | views 10,000–99,999；likes 100–999 | complete_auto_transcript |
+
+- A06：目的地区排除可涉及单条刊登、批量刊登、业务政策和账户层级；更改影响已有还是未来刊登应明确。 限制：完整自动字幕已读；旧菜单和优先级按当前后台核对，不将退出国际项目作为唯一做法，不凭保存成功断言买家端已生效。
+- A12：同一刊登的追加件运费与跨刊登合并运费是不同控制；运费规则需关联到业务政策，并以实际购物篮核验收费。 限制：不复用作者商品、价格和重量模板；具体计算、立即付款限制和付款后退款按当前官方规则核验，不未经授权发票或退款。
+
+- R36：[eBay International Shipping](https://www.ebay.com/help/ship-track/ship-track-selling/ebay-international-shipping-program?id=5348)。项目资格、目的地排除、交至国内枢纽和国际段责任按当前站点核验；自发货国际选项不等于项目退出状态。
+- R37：[eBay合并运费](https://www.ebay.com/help/ship-track/ship-track-selling/ebay-combined-postage?id=4169)。区分未付款合并发票与付款后部分退款，并核立即付款、议价、鉴定等资格限制；物理合箱与财务合并分开。

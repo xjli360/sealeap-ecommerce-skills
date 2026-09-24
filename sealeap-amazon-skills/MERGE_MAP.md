@@ -1,6 +1,6 @@
 # 主题拆分与合并
 
-本版按平台与独立决策拆成100个入口。原15个综合入口保留为完整选品、店铺总诊断、广告联合评审；85个专题各自拥有输入、判断、交付与误判案例。相同主题的多条来源在一个入口合并，不为每篇材料复制入口。
+本版按平台与独立决策拆成114个入口。原15个综合入口保留为完整选品、店铺总诊断、广告联合评审；99个专题各自拥有输入、判断、交付与误判案例。相同主题的多条来源在一个入口合并，不为每篇材料复制入口。
 
 - [Shopify 选品与市场验证](shopify/sealeap-shopify-product-selection/SKILL.md)：细分市场；趋势选品；广告素材观察；供应链筛选；测品与单位经济；购买任务细分；供应阶段与现金风险。
 - [Shopify 店铺运营与转化](shopify/sealeap-shopify-store-operations/SKILL.md)：商品页优化；移动端体验；结账与支付；SEO；弃单与留存；库存履约；商品Feed字段映射；供应交接脱敏；邮件口径与内容意图。
@@ -102,3 +102,5 @@
 - [Walmart 搜索词迁移与关键词验证](walmart/sealeap-walmart-keyword-harvest/SKILL.md)：词证据表；迁移候选；出价情景和复盘。
 - [Walmart 广告位与加价测试](walmart/sealeap-walmart-placement-testing/SKILL.md)：版位对比；最大成本情景；单变量实验。
 - [Walmart 广告与订单贡献对账](walmart/sealeap-walmart-ads-reconciliation/SKILL.md)：广告到账单桥接；SKU贡献；差异与预算建议。
+
+本轮14个专项的边界与证据见[本轮增量](RESEARCH-MORE-20260924.md)，没有将同一作者每段内容机械拆成入口。

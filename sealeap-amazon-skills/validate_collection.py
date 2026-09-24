@@ -101,7 +101,7 @@ for f in ROOT.rglob("*"):
         host = urlsplit(url).hostname
         require(host in ALLOWED_HOSTS, "Unapproved source/identity URL: " + str(f.relative_to(ROOT)))
         if host == "github.com":
-            require(any(url.startswith(prefix) for prefix in ["https://github.com/xjli360/sealeap-amazon-skills", "https://github.com/nexscope-ai/eCommerce-Skills"]), "Unexpected GitHub identity/source mapping")
+            require(any(url.startswith(prefix) for prefix in ["https://github.com/xjli360/sealeap-amazon-skills", "https://github.com/nexscope-ai/eCommerce-Skills", "https://github.com/facebookexperimental/Robyn"]), "Unexpected GitHub identity/source mapping")
     for target in re.findall(r"\[[^\]]*\]\(([^)]+)\)", content):
         if "://" not in target and not target.startswith("#"):
             dest = (f.parent / unquote(target.split("#")[0])).resolve()
@@ -116,4 +116,3 @@ result = {
 }
 print(json.dumps(result, ensure_ascii=False, indent=2))
 sys.exit(0 if not errors else 1)
-
