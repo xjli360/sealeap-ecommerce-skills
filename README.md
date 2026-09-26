@@ -98,7 +98,7 @@ cd sealeap-ecommerce-skills
 
 开源许可不转移第三方原始文章、课程、音视频、商标或客户数据的权利。可选外部工具的费用由服务方决定；使用本仓库本身不收费。
 
-本项目由 SeaLeap 独立维护，不代表 Shopify、Etsy、eBay、TikTok 或 Walmart 官方认证或背书。
+本项目由 SeaLeap 独立维护，不代表 Shopify、Etsy、eBay、TikTok、Walmart 或 Mercado Libre 官方认证或背书。
 
 ## 仓库结构
 
