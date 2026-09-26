@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "created_on": "2026-09-23",
-  "edition": "v5",
+  "edition": "v6",
   "sources": [
     {
       "id": "S01",
@@ -1129,7 +1129,234 @@
       "used_by": [
         "sealeap-tiktokshop-short-video-tests"
       ]
+    },
+    {
+      "id": "ML01",
+      "platform": "mercadolibre",
+      "channel": "youtube",
+      "observed_on": "2026-09-26",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "100,000以上",
+        "likes": "1,000–9,999",
+        "comments": "50–99"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "ROAS、ACOS、TACOS分母区分；广告收入倍数不等于净利润；统一窗口后对照全店收入及贡献。",
+      "limitations": "不采纳固定15%/20%贡献门槛、广告必然创造自然收入的因果推断、所有店铺都必须投放的结论；不公开原始账户、金额、营销服务或身份。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-unit-economics",
+        "sealeap-mercadolibre-payment-fee-reconciliation",
+        "sealeap-mercadolibre-promotion-net-proceeds",
+        "sealeap-mercadolibre-product-ads-grouping",
+        "sealeap-mercadolibre-roas-budget-experiment",
+        "sealeap-mercadolibre-ads-attribution-profit",
+        "sealeap-mercadolibre-ads-impression-loss-diagnosis"
+      ]
+    },
+    {
+      "id": "ML02",
+      "platform": "mercadolibre",
+      "channel": "youtube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "100–999",
+        "comments": "50–99"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "候选表、同规格报价与可售交期比较，使用官方计算器核单品可承受价格；平台回款不是利润。",
+      "limitations": "不采用50/200搜索结果划分竞争的阈值、评价多就当最畅销、7–15天保证出单或旧包邮/固定费用；首屏样本不是全市场普查。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-category-demand-validation",
+        "sealeap-mercadolibre-competitor-offer-benchmark",
+        "sealeap-mercadolibre-unit-economics",
+        "sealeap-mercadolibre-supplier-sample-validation",
+        "sealeap-mercadolibre-catalog-identity-corrections",
+        "sealeap-mercadolibre-payment-fee-reconciliation"
+      ]
+    },
+    {
+      "id": "ML04",
+      "platform": "mercadolibre",
+      "channel": "youtube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "Full入仓要区分单品标、外箱标和预约；核对实收与发出数量；结合需求、占仓、仓龄和移出成本决定发仓量，未知需求先小批验证。",
+      "limitations": "不采用Full全面免除信誉责任、固定30–45天库存、保证排名/销量或讲者的具体收费；智利本土Flex/揽收能力不外推到跨境账号。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-market-entry-route",
+        "sealeap-mercadolibre-seasonal-stock-planning",
+        "sealeap-mercadolibre-full-inbound-precheck",
+        "sealeap-mercadolibre-full-receiving-reconciliation",
+        "sealeap-mercadolibre-full-inventory-aging",
+        "sealeap-mercadolibre-returns-case-evidence"
+      ]
+    },
+    {
+      "id": "ML05",
+      "platform": "mercadolibre",
+      "channel": "youtube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "1,000–9,999"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "分开在途、可售、不可售与仓龄；入仓计划、商品标识、箱件数量、交接文件和实收跟踪；移出与弃置的结果不同。",
+      "limitations": "不采用资格销量/月份、默认100件容量、4个月仓龄、24/48小时窗口、1–3天入库承诺及凭直觉超补；条码和外箱标签按当前计划要求核验，不跳过系统标签。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-full-inbound-precheck",
+        "sealeap-mercadolibre-full-receiving-reconciliation",
+        "sealeap-mercadolibre-full-inventory-aging",
+        "sealeap-mercadolibre-fulfillment-dispatch-controls",
+        "sealeap-mercadolibre-reputation-incident-triage"
+      ]
+    },
+    {
+      "id": "ML06",
+      "platform": "mercadolibre",
+      "channel": "youtube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "1,000–9,999",
+        "comments": "100–999"
+      },
+      "content_coverage": "complete_auto_transcript_limited_dashboard_workflow_adopted",
+      "quality_scope": "账户/活动/商品层级分开，核对所选时段，区分直接与辅助销售，以及预算损失与广告排名损失；先有商品事实再讨论投放。",
+      "limitations": "剔除CTR/TACOS口述分子分母错误、简单平均ACOS、旧资格/最低预算/策略区间、亏损拉新必选及自然排名因果保证；不采用粗暴降价或按一周数据固定停启。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-product-ads-readiness",
+        "sealeap-mercadolibre-product-ads-grouping",
+        "sealeap-mercadolibre-roas-budget-experiment",
+        "sealeap-mercadolibre-ads-attribution-profit",
+        "sealeap-mercadolibre-ads-impression-loss-diagnosis"
+      ]
+    },
+    {
+      "id": "ML07",
+      "platform": "mercadolibre",
+      "channel": "xiaohongshu",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "0–49",
+        "saves": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "complete_visible_note_body",
+      "quality_scope": "仅采用候选需求/竞争/成本/供应准备分层，以及差评作为待验证需求、先做样品质检的流程顺序。",
+      "limitations": "按赞、收藏与评论合计达到编辑门槛，不代表独立人数；不采用7天成功率翻倍、固定评论/CTR/CVR/利润阈值、强行低价、统一主图参数或把差评反向写成未经验证的产品卖点。",
+      "metric_scope": "individual_content",
+      "qualification_basis": "combined_interactions_at_least_50_not_unique_people",
+      "used_by": [
+        "sealeap-mercadolibre-category-demand-validation",
+        "sealeap-mercadolibre-supplier-sample-validation",
+        "sealeap-mercadolibre-listing-localization",
+        "sealeap-mercadolibre-customer-questions-responses"
+      ]
+    },
+    {
+      "id": "ML09",
+      "platform": "mercadolibre",
+      "channel": "youtube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "100,000以上",
+        "likes": "1,000–9,999"
+      },
+      "content_coverage": "complete_auto_transcript_limited_operational_sections_adopted",
+      "quality_scope": "区分类目属性、图片与货物事实，已售后的包裹与渠道匹配，订单、资金待释放和银行到账分开；信誉包含履约、投诉和取消，不能自买或虚假交易。",
+      "limitations": "标题后来含2026但发布日期为2025；不采用旧佣金/税率/包邮门槛、企业免扣税、10单必绿、瞬时到账、独家经销等于IP禁售、必须跨多个类目或自动Full邀请。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-market-entry-route",
+        "sealeap-mercadolibre-unit-economics",
+        "sealeap-mercadolibre-listing-localization",
+        "sealeap-mercadolibre-catalog-identity-corrections",
+        "sealeap-mercadolibre-variations-sizecharts",
+        "sealeap-mercadolibre-product-visuals-clips",
+        "sealeap-mercadolibre-fulfillment-dispatch-controls",
+        "sealeap-mercadolibre-reputation-incident-triage",
+        "sealeap-mercadolibre-customer-questions-responses",
+        "sealeap-mercadolibre-returns-case-evidence",
+        "sealeap-mercadolibre-payment-fee-reconciliation",
+        "sealeap-mercadolibre-ip-policy-response",
+        "sealeap-mercadolibre-product-ads-readiness"
+      ]
+    },
+    {
+      "id": "ML10",
+      "platform": "mercadolibre",
+      "channel": "youtube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999"
+      },
+      "content_coverage": "visible_description_and_frame_at_00m26s_no_transcript",
+      "quality_scope": "约26秒可见画面说明：参与BPP的权利方可以针对涉嫌侵犯其知识产权的刊登提出报告。",
+      "limitations": "字幕不可导出，仅核读描述及指定画面，未声称完整转录；不据此推断举报必然成立、固定处理期限或所有经销行为均侵权。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-ip-policy-response"
+      ]
+    },
+    {
+      "id": "ML11",
+      "platform": "mercadolibre",
+      "channel": "douyin",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "100–999",
+        "comments": "0–49",
+        "saves": "100–999",
+        "shares": "100–999"
+      },
+      "content_coverage": "visible_caption_platform_ai_chapter_summary_and_author_sample_note",
+      "quality_scope": "按墨西哥季节/事件拆分需求峰值与备货倒排；把活动后一月回落和一次性节庆品积压纳入情景。",
+      "limitations": "AI章节摘要并非人工逐字稿；未取得底层月度Top50数据，商品榜与峰值月份仅作待复核假设；不沿用统一提前2–4个月备货或推断巴西同季节。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-category-demand-validation",
+        "sealeap-mercadolibre-seasonal-stock-planning",
+        "sealeap-mercadolibre-promotion-net-proceeds"
+      ]
+    },
+    {
+      "id": "ML12",
+      "platform": "mercadolibre",
+      "channel": "youtube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "complete_auto_transcript",
+      "quality_scope": "视频通过刊登或管理入口关联具体商品；上传、审核和已发布分开；展示实际商品信息并给挂链按钮预留安全区。",
+      "limitations": "纠正字幕开头横版/后文竖版的冲突；不采用固定2–4天审核、只按点赞排名或必增销量；长度、文件规范、地区与内容政策按当前官方说明及实际入口核验。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-mercadolibre-product-visuals-clips"
+      ]
     }
   ],
-  "updated_on": "2026-09-24"
+  "updated_on": "2026-09-27"
 }

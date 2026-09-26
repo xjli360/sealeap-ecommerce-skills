@@ -1,0 +1,167 @@
+{
+  "checked_on": "2026-09-27",
+  "rules": {
+    "R50": {
+      "title": "Global Selling 物流方案",
+      "url": "https://global-selling.mercadolibre.com/landing/shipping-solutions",
+      "note": "跨境直邮与Full等路径分开核对，包裹尺寸、重量、起讫国家和账户实际可用方式影响操作。",
+      "read_scope": "indexed_shipping_sections"
+    },
+    "R51": {
+      "title": "Global Selling 费用结构",
+      "url": "https://global-selling.mercadolibre.com/landing/pricing",
+      "note": "费用按站点、类目、刊登类型及物流条件区分；固定单件费、日常仓储、仓龄和移出成本不能遗漏，也不能把未知TBD当零。",
+      "read_scope": "public_page_body"
+    },
+    "R52": {
+      "title": "官方 Revenue Calculator",
+      "url": "https://global-selling.mercadolibre.com/listings/cost-calculator",
+      "note": "需选择商品类目与销售条件；空表默认零不是费率报价，计算结果是估算，包装尺寸变化会影响运费。",
+      "read_scope": "public_calculator_explanatory_text"
+    },
+    "R53": {
+      "title": "有效刊登与商品事实",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/how-to-create-effective-listings-in-mercado-libre?guideKeyId=GE24",
+      "note": "标题、属性、图片、描述和本地语言应对应真实商品；不能把来源里的固定图片尺寸、关键词位置或曝光承诺直接套用。",
+      "read_scope": "indexed_listing_sections"
+    },
+    "R54": {
+      "title": "Catalog 刊登、共享库存与竞争",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/guide-on-your-catalog-listings?guideKeyId=GE31&moduleKeyId=MO246&suScope=prod",
+      "note": "相同商品的交易条件参与竞争；赢家可随买家和变体而变。关联普通刊登与目录刊登共享库存，暂停其中一条不自动停止另一条。",
+      "read_scope": "complete_browser_body"
+    },
+    "R55": {
+      "title": "目录产品资料更正",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/how-to-correct-catalog-product-details?guideKeyId=GE31&moduleKeyId=MO246",
+      "note": "共享目录资料更正需审核；提交确认、审核状态和前台实际应用分别回读，不能把提交成功当已更正。",
+      "read_scope": "indexed_complete_relevant_workflow"
+    },
+    "R56": {
+      "title": "尺码表与关联",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/size-guide",
+      "note": "使用与商品兼容的尺码表并核尺码等价关系；批量表格需正确表码，买家看到的表与真实规格要一致。",
+      "read_scope": "indexed_size_chart_sections"
+    },
+    "R57": {
+      "title": "Full 商品包装与标识",
+      "url": "https://sellers.mercadolibre.com/learning-center/news/how-to-prepare-and-identify-your-products-to-be-sent-to-full",
+      "note": "可售单元需完整包装；通用条码应与刊登及准备步骤一致，所需商品标签位于包装外且可扫描。",
+      "read_scope": "complete_browser_body"
+    },
+    "R58": {
+      "title": "Full 外箱、DUN-14 与托盘",
+      "url": "https://sellers.mercadolibre.com/learning-center/news/how-to-group-and-identify-your-products-into-volumes-to-be-sent-to-full",
+      "note": "外箱标识与商品标识作用不同；原厂DUN-14整箱及以整箱为销售单元的情况要分别处理，标签不可互相遮挡。",
+      "read_scope": "complete_browser_body"
+    },
+    "R59": {
+      "title": "Full 入仓规划",
+      "url": "https://sellers.mercadolibre.com/learning-center/news/how-to-plan-your-shipment-to-full",
+      "note": "补货建议结合预计发货日、在途、在库、历史销量和高峰；建议值不代替卖家验证，Full另有可入仓商品限制。",
+      "read_scope": "complete_browser_body"
+    },
+    "R60": {
+      "title": "墨西哥 Full 仓储与仓龄费用",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/what-are-my-costs-to-operate-with-full-in-mexico",
+      "note": "日常仓储与旧库存费分别核；费用受尺寸、仓龄等影响，按当前适用表复核，不能套用智利本土案例的月份和单价。",
+      "read_scope": "indexed_complete_relevant_cost_sections"
+    },
+    "R61": {
+      "title": "Full 移出与弃置",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/how-to-pick-up-my-store-from-full?suScope=prod",
+      "note": "取回和弃置的结果、成本不同；确认弃置后不能取消或收回商品，不把便宜方案自动等同更优方案。",
+      "read_scope": "indexed_complete_workflow"
+    },
+    "R62": {
+      "title": "Global Selling 卖家信誉",
+      "url": "https://global-selling.mercadolibre.com/devsite/seller-reputation-global-selling",
+      "note": "按实际站点、物流、指标周期、分母及排除状态判读；保护期展示色与真实状态可不同，不能统一套一个门槛。",
+      "read_scope": "reputation_fields_and_country_period_tables"
+    },
+    "R63": {
+      "title": "订单取消与预防",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/cancellations-how-to-avoid-them?guideKeyId=GE32",
+      "note": "同步库存、准确描述和价格可减少可避免取消；部分直邮包裹异常造成的取消也影响信誉及运费。",
+      "read_scope": "indexed_complete_body"
+    },
+    "R64": {
+      "title": "投诉影响与排除条件",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/learn-about-the-exclusion-rules-to-your-orders-with-complaints?guideKeyId=GE53",
+      "note": "不是所有投诉都可排除；按事实、案件状态和当前资格申请复核，不诱导买家选择不真实原因或压制投诉。",
+      "read_scope": "indexed_complete_relevant_sections"
+    },
+    "R65": {
+      "title": "退货、资金状态与复核",
+      "url": "https://global-selling.mercadolibre.com/devsite/manage-returns",
+      "note": "退货物流、资金、仓库判定和卖家复核分别记录；先查可执行动作，Model 6等受限角色不能假设有API能力。",
+      "read_scope": "return_statuses_review_availability_and_model6_notice"
+    },
+    "R66": {
+      "title": "退货费用与 Release Report 对账",
+      "url": "https://global-selling.mercadolibre.com/help/34856",
+      "note": "按订单连接买家退款、销售费返还、运费及内部抵销行；成对内部调账不能重复计成收入或损失。",
+      "read_scope": "indexed_reconciliation_example"
+    },
+    "R67": {
+      "title": "新版 Product Ads 与 Ad Group",
+      "url": "https://global-selling.mercadolibre.com/devsite/new-product-ads",
+      "note": "按实际广告主/站点和Ad Group管理，目标控制转为ROAS；平均日预算不一定是单日硬上限，旧Ads资源已标注退役，目标值不等于实绩。",
+      "read_scope": "eligibility_grouping_campaign_budget_and_metrics_sections"
+    },
+    "R68": {
+      "title": "促销类型与定价模型",
+      "url": "https://global-selling.mercadolibre.com/devsite/api-docs/manage-promotions-gs",
+      "note": "2026-09-22资料将部分Net Proceeds能力标为Coming soon；执行前核子卖家、pricing_model、活动类型、报价和实际开放能力。",
+      "read_scope": "dated_notice_and_promotion_characteristics"
+    },
+    "R69": {
+      "title": "CBT 自动促销的能力限制",
+      "url": "https://global-selling.mercadolibre.com/devsite/manage-questions-answers-global-selling/automatic-promotions-and-limitations-of-promotions-apis-for-cbt",
+      "note": "部分自动价格匹配活动不能由CBT排除API完整管理，需要在当前网页促销面板处理；不能把API缺失当活动不存在。",
+      "read_scope": "dated_FAQ_body"
+    },
+    "R70": {
+      "title": "避免刊登侵犯知识产权",
+      "url": "https://sellers.mercadolibre.com/learning-center/news/how-can-i-list-without-infringing-intellectual-property?guideKeyId=GE31&moduleKeyId=MO234",
+      "note": "商品真实品牌、来源与素材权利分别检查；未发现注册或其他卖家在卖，不构成使用第三方品牌/素材的授权。",
+      "read_scope": "indexed_IP_listing_sections"
+    },
+    "R71": {
+      "title": "BPP 举报范围",
+      "url": "https://sellers.mercadolibre.com/learning-center/news/the-report-falls-outside-the-scope-of-the-bpp",
+      "note": "BPP针对知识产权，不能用于控制销售价格；区分侵权证据、商业渠道争议和真实合法的经销来源。",
+      "read_scope": "indexed_scope_examples"
+    },
+    "R72": {
+      "title": "Clips 内容审核要求",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/learn-the-requirements-for-your-videos-to-be-approved?guideKeyId=GE56",
+      "note": "核竖版、真实商品/套装展示、声音、安全区和内容权利；不要嵌联系方式、促销价格等禁止信息，审核要求按目标站点复核。",
+      "read_scope": "indexed_requirements_body"
+    },
+    "R73": {
+      "title": "Clips 上传与状态",
+      "url": "https://global-selling.mercadolibre.com/devsite/en_us/receive-notifications/working-with-clips",
+      "note": "核商品有效状态、可用站点、媒体规范和审核能力；上传accepted不等于前台已发布，省略站点范围可能扩大投放范围。",
+      "read_scope": "upload_scope_media_requirements_and_response"
+    },
+    "R74": {
+      "title": "售前 Questions 与 Answers",
+      "url": "https://global-selling.mercadolibre.com/devsite/manage-questions-answers-global-selling",
+      "note": "售前问题有独立状态、原文和翻译；hold或受限角色影响可回复性，不能把售前公开回答当作订单私信。",
+      "read_scope": "question_statuses_model6_notice_and_answer_fields"
+    },
+    "R75": {
+      "title": "买家沟通与避免处罚",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/follow-these-best-practices-to-avoid-potential-sanctions",
+      "note": "在平台内真实、尊重地处理问题；不诱导买家不开投诉、填错误原因或通过外部联系方式规避平台处理。",
+      "read_scope": "indexed_complete_body"
+    },
+    "R76": {
+      "title": "商品信息与投诉预防",
+      "url": "https://global-selling.mercadolibre.com/learning-center/news/tips-to-prevent-your-buyers-from-opening-a-complaint?guideKeyId=GE53&moduleKeyId=MO281",
+      "note": "图片中的配件、实际交付、型号颜色和使用说明应一致；Full并不免除产品质量相关投诉责任。",
+      "read_scope": "indexed_complete_relevant_body"
+    }
+  }
+}

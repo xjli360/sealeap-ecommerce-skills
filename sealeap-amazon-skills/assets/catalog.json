@@ -1,13 +1,14 @@
 {
   "schema_version": 3,
   "collection": "sealeap-amazon-skills",
-  "edition": "2026-09-24-research-extra",
+  "edition": "2026-09-27-mercadolibre",
   "platforms": [
     "shopify",
     "etsy",
     "ebay",
     "tiktokshop",
-    "walmart"
+    "walmart",
+    "mercadolibre"
   ],
   "skills": [
     {
@@ -2513,6 +2514,676 @@
       ],
       "scope": "specialist",
       "edition_added": "2026-09-24-research-extra"
+    },
+    {
+      "name": "sealeap-mercadolibre-market-entry-route",
+      "platform": "mercadolibre",
+      "mode": "selection",
+      "title": "美客多站点与经营模式评审",
+      "path": "mercadolibre/sealeap-mercadolibre-market-entry-route",
+      "sources": [
+        "ML09",
+        "ML04"
+      ],
+      "rule_checks": [
+        "R50",
+        "R51",
+        "R62"
+      ],
+      "merged_topics": [
+        "国家/模式/物流",
+        "商品与控制权",
+        "准入证据",
+        "单位贡献",
+        "峰值现金需求",
+        "未知条件",
+        "试点/暂缓"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-category-demand-validation",
+      "platform": "mercadolibre",
+      "mode": "selection",
+      "title": "美客多类目需求与新品验证",
+      "path": "mercadolibre/sealeap-mercadolibre-category-demand-validation",
+      "sources": [
+        "ML02",
+        "ML07",
+        "ML11"
+      ],
+      "rule_checks": [
+        "R53",
+        "R52"
+      ],
+      "merged_topics": [
+        "候选规格",
+        "词与样本范围",
+        "需求证据及口径",
+        "季节/新品干扰",
+        "差异可验证性",
+        "贡献区间",
+        "验证任务"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-competitor-offer-benchmark",
+      "platform": "mercadolibre",
+      "mode": "selection",
+      "title": "美客多同款报价与目录竞争分析",
+      "path": "mercadolibre/sealeap-mercadolibre-competitor-offer-benchmark",
+      "sources": [
+        "ML02"
+      ],
+      "rule_checks": [
+        "R54",
+        "R51"
+      ],
+      "merged_topics": [
+        "同款核对",
+        "买家条件",
+        "可购总价",
+        "交期/分期",
+        "目录及关联刊登",
+        "贡献底线",
+        "差距与试验"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-unit-economics",
+      "platform": "mercadolibre",
+      "mode": "selection",
+      "title": "美客多单位经济与现金测算",
+      "path": "mercadolibre/sealeap-mercadolibre-unit-economics",
+      "sources": [
+        "ML01",
+        "ML02",
+        "ML09"
+      ],
+      "rule_checks": [
+        "R51",
+        "R52",
+        "R66"
+      ],
+      "merged_topics": [
+        "输入口径/证据",
+        "收入",
+        "可变成本",
+        "广告前贡献",
+        "广告后贡献",
+        "代扣/暂扣现金",
+        "情景与未知"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-seasonal-stock-planning",
+      "platform": "mercadolibre",
+      "mode": "selection",
+      "title": "美客多季节需求与备货倒排",
+      "path": "mercadolibre/sealeap-mercadolibre-seasonal-stock-planning",
+      "sources": [
+        "ML11",
+        "ML04"
+      ],
+      "rule_checks": [
+        "R59",
+        "R60"
+      ],
+      "merged_topics": [
+        "国家/事件",
+        "数据范围",
+        "需求情景",
+        "可售目标日",
+        "分段提前期",
+        "首批/补单条件",
+        "退坡与余货处理"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-supplier-sample-validation",
+      "platform": "mercadolibre",
+      "mode": "selection",
+      "title": "美客多供应报价与样品验证",
+      "path": "mercadolibre/sealeap-mercadolibre-supplier-sample-validation",
+      "sources": [
+        "ML07",
+        "ML02"
+      ],
+      "rule_checks": [
+        "R57",
+        "R70"
+      ],
+      "merged_topics": [
+        "供应方代号",
+        "规格/报价条件",
+        "样品检查",
+        "关键声称证据",
+        "包装与标识",
+        "交期/现金",
+        "可采购条件"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-listing-localization",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多刊登事实与本地化文案",
+      "path": "mercadolibre/sealeap-mercadolibre-listing-localization",
+      "sources": [
+        "ML09",
+        "ML07"
+      ],
+      "rule_checks": [
+        "R53",
+        "R70",
+        "R76"
+      ],
+      "merged_topics": [
+        "字段",
+        "旧内容",
+        "拟改内容",
+        "事实/词意依据",
+        "可编辑性",
+        "目标语言",
+        "回读结果"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-catalog-identity-corrections",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多目录匹配与资料更正",
+      "path": "mercadolibre/sealeap-mercadolibre-catalog-identity-corrections",
+      "sources": [
+        "ML02",
+        "ML09"
+      ],
+      "rule_checks": [
+        "R54",
+        "R55",
+        "R70"
+      ],
+      "merged_topics": [
+        "实物字段",
+        "目录字段",
+        "一致性证据",
+        "关联刊登/库存",
+        "修改途径",
+        "审核状态",
+        "前台确认"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-variations-sizecharts",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多变体与尺码表验收",
+      "path": "mercadolibre/sealeap-mercadolibre-variations-sizecharts",
+      "sources": [
+        "ML09"
+      ],
+      "rule_checks": [
+        "R56",
+        "R53",
+        "R54"
+      ],
+      "merged_topics": [
+        "SKU/变体",
+        "真实规格",
+        "图片/尺码表码",
+        "库存来源",
+        "选择后显示",
+        "差异",
+        "修正与回读"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-product-visuals-clips",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多商品图片与 Clips 验收",
+      "path": "mercadolibre/sealeap-mercadolibre-product-visuals-clips",
+      "sources": [
+        "ML12",
+        "ML09"
+      ],
+      "rule_checks": [
+        "R53",
+        "R72",
+        "R73",
+        "R76"
+      ],
+      "merged_topics": [
+        "素材/镜头",
+        "要解决的疑问",
+        "真实证据",
+        "权利/规范",
+        "关联商品和站点",
+        "审核状态",
+        "买家端结果"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-full-inbound-precheck",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多 Full 入仓包装与计划预检",
+      "path": "mercadolibre/sealeap-mercadolibre-full-inbound-precheck",
+      "sources": [
+        "ML04",
+        "ML05"
+      ],
+      "rule_checks": [
+        "R57",
+        "R58",
+        "R59"
+      ],
+      "merged_topics": [
+        "SKU/销售单元",
+        "识别码",
+        "数量/箱件",
+        "包装状态",
+        "标签版本",
+        "目的仓/预约",
+        "交接证据"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-full-receiving-reconciliation",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多 Full 实收与可售对账",
+      "path": "mercadolibre/sealeap-mercadolibre-full-receiving-reconciliation",
+      "sources": [
+        "ML04",
+        "ML05"
+      ],
+      "rule_checks": [
+        "R57",
+        "R59"
+      ],
+      "merged_topics": [
+        "入仓批次/SKU",
+        "计划/实发",
+        "签收证据",
+        "实收/可售/处理中",
+        "差异类型",
+        "证据缺口",
+        "案件与回读"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-full-inventory-aging",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多 Full 库存、仓龄与移出决策",
+      "path": "mercadolibre/sealeap-mercadolibre-full-inventory-aging",
+      "sources": [
+        "ML04",
+        "ML05"
+      ],
+      "rule_checks": [
+        "R59",
+        "R60",
+        "R61",
+        "R54"
+      ],
+      "merged_topics": [
+        "库存池/SKU",
+        "可售/在途/不可售",
+        "覆盖与仓龄",
+        "费用情景",
+        "补货或清理选项",
+        "容量/现金影响",
+        "执行条件"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-fulfillment-dispatch-controls",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多订单履约与交接控制",
+      "path": "mercadolibre/sealeap-mercadolibre-fulfillment-dispatch-controls",
+      "sources": [
+        "ML09",
+        "ML05"
+      ],
+      "rule_checks": [
+        "R50",
+        "R63",
+        "R76"
+      ],
+      "merged_topics": [
+        "订单/包裹",
+        "履约责任/路线",
+        "库存与面单",
+        "承诺/时区",
+        "交接证据",
+        "异常责任",
+        "下一动作"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-reputation-incident-triage",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多信誉指标与异常处理",
+      "path": "mercadolibre/sealeap-mercadolibre-reputation-incident-triage",
+      "sources": [
+        "ML09",
+        "ML05"
+      ],
+      "rule_checks": [
+        "R62",
+        "R63",
+        "R64",
+        "R75",
+        "R76"
+      ],
+      "merged_topics": [
+        "指标/窗口",
+        "实际分母",
+        "异常订单",
+        "排除/保护状态",
+        "真实原因",
+        "修复动作",
+        "更新后回读"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-customer-questions-responses",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多售前问答与事实回复",
+      "path": "mercadolibre/sealeap-mercadolibre-customer-questions-responses",
+      "sources": [
+        "ML09",
+        "ML07"
+      ],
+      "rule_checks": [
+        "R74",
+        "R53",
+        "R75"
+      ],
+      "merged_topics": [
+        "问题/商品",
+        "公开或私信",
+        "状态/可回复性",
+        "事实依据",
+        "本地语言草稿",
+        "发送范围",
+        "实际回读"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-returns-case-evidence",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多退货案件与证据处理",
+      "path": "mercadolibre/sealeap-mercadolibre-returns-case-evidence",
+      "sources": [
+        "ML09",
+        "ML04"
+      ],
+      "rule_checks": [
+        "R65",
+        "R64",
+        "R75",
+        "R76"
+      ],
+      "merged_topics": [
+        "订单/案件/退货",
+        "物流/资金/库存状态",
+        "责任方与期限",
+        "实物证据",
+        "允许的方案",
+        "处理记录",
+        "未闭环事项"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-payment-fee-reconciliation",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多回款、费用与退货对账",
+      "path": "mercadolibre/sealeap-mercadolibre-payment-fee-reconciliation",
+      "sources": [
+        "ML09",
+        "ML02",
+        "ML01"
+      ],
+      "rule_checks": [
+        "R66",
+        "R51",
+        "R65"
+      ],
+      "merged_topics": [
+        "订单/交易引用",
+        "订单收入",
+        "费用与退款",
+        "内部抵销",
+        "代扣/暂扣",
+        "可用/转出/到账",
+        "差异与凭据"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-ip-policy-response",
+      "platform": "mercadolibre",
+      "mode": "operations",
+      "title": "美客多知识产权与刊登限制初筛",
+      "path": "mercadolibre/sealeap-mercadolibre-ip-policy-response",
+      "sources": [
+        "ML10",
+        "ML09"
+      ],
+      "rule_checks": [
+        "R70",
+        "R71",
+        "R75"
+      ],
+      "merged_topics": [
+        "通知/刊登",
+        "所指权利或规则",
+        "商品/素材事实",
+        "支持证据",
+        "缺口",
+        "拟回应/整改",
+        "期限/结果"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-promotion-net-proceeds",
+      "platform": "mercadolibre",
+      "mode": "advertising",
+      "title": "美客多促销资格与净回款评审",
+      "path": "mercadolibre/sealeap-mercadolibre-promotion-net-proceeds",
+      "sources": [
+        "ML11",
+        "ML01"
+      ],
+      "rule_checks": [
+        "R68",
+        "R69",
+        "R51"
+      ],
+      "merged_topics": [
+        "活动/子卖家",
+        "定价模型",
+        "买家价/资金承担",
+        "净回款口径",
+        "贡献与库存",
+        "时间/状态",
+        "前台与账单确认"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-product-ads-readiness",
+      "platform": "mercadolibre",
+      "mode": "advertising",
+      "title": "美客多 Product Ads 投放准备",
+      "path": "mercadolibre/sealeap-mercadolibre-product-ads-readiness",
+      "sources": [
+        "ML06",
+        "ML09"
+      ],
+      "rule_checks": [
+        "R67",
+        "R53"
+      ],
+      "merged_topics": [
+        "广告主/站点/币种",
+        "商品或广告组",
+        "资格证据",
+        "内容/库存准备",
+        "成本上限",
+        "阻塞项",
+        "测试条件"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-product-ads-grouping",
+      "platform": "mercadolibre",
+      "mode": "advertising",
+      "title": "美客多广告组与商品映射",
+      "path": "mercadolibre/sealeap-mercadolibre-product-ads-grouping",
+      "sources": [
+        "ML06",
+        "ML01"
+      ],
+      "rule_checks": [
+        "R67"
+      ],
+      "merged_topics": [
+        "campaign",
+        "ad_group及类型",
+        "external_id/成员",
+        "业务分组理由",
+        "控制限制",
+        "迁移前后",
+        "回读/恢复"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-roas-budget-experiment",
+      "platform": "mercadolibre",
+      "mode": "advertising",
+      "title": "美客多目标 ROAS 与预算试验",
+      "path": "mercadolibre/sealeap-mercadolibre-roas-budget-experiment",
+      "sources": [
+        "ML01",
+        "ML06"
+      ],
+      "rule_checks": [
+        "R67",
+        "R51"
+      ],
+      "merged_topics": [
+        "假设/对象",
+        "当前与目标值",
+        "贡献依据",
+        "预算及累计上限",
+        "观察条件",
+        "停止/恢复",
+        "实绩与结论"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-ads-attribution-profit",
+      "platform": "mercadolibre",
+      "mode": "advertising",
+      "title": "美客多广告归因与贡献对账",
+      "path": "mercadolibre/sealeap-mercadolibre-ads-attribution-profit",
+      "sources": [
+        "ML01",
+        "ML06"
+      ],
+      "rule_checks": [
+        "R67",
+        "R66"
+      ],
+      "merged_topics": [
+        "范围/窗口",
+        "花费",
+        "直接/辅助/总归因收入",
+        "全量销售",
+        "退款/费用",
+        "比率与口径",
+        "差异/证据"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-mercadolibre-ads-impression-loss-diagnosis",
+      "platform": "mercadolibre",
+      "mode": "advertising",
+      "title": "美客多广告曝光损失诊断",
+      "path": "mercadolibre/sealeap-mercadolibre-ads-impression-loss-diagnosis",
+      "sources": [
+        "ML06",
+        "ML01"
+      ],
+      "rule_checks": [
+        "R67",
+        "R53"
+      ],
+      "merged_topics": [
+        "状态/口径",
+        "曝光与损失",
+        "预算使用",
+        "点击/转化链路",
+        "商品条件",
+        "贡献约束",
+        "下一试验"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-mercadolibre"
     }
   ]
 }

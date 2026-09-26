@@ -1,6 +1,6 @@
-# SeaLeap 五平台技能目录
+# SeaLeap 六平台技能目录
 
-119个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
+144个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
 
 ## shopify · 27 Skills
 
@@ -146,4 +146,34 @@
 | [Walmart WFS 收货差异与处理准备](walmart/sealeap-walmart-wfs-receiving-resolution/SKILL.md) | 运营 | 专项任务 |
 | [Walmart 官方评价计划资格与预算](walmart/sealeap-walmart-review-program-planning/SKILL.md) | 运营 | 专项任务 |
 
-每个目录保留MIT许可与全部本地参考。[最新补充](RESEARCH-EXTRA-20260924.md) · [前一批增量](RESEARCH-MORE-20260924.md) · [研究边界](RESEARCH.md) · [验证](VALIDATION.md)。
+## mercadolibre · 25 Skills
+
+| Skill | 方向 | 定位 |
+| --- | --- | --- |
+| [美客多站点与经营模式评审](mercadolibre/sealeap-mercadolibre-market-entry-route/SKILL.md) | 选品 | 专项任务 |
+| [美客多类目需求与新品验证](mercadolibre/sealeap-mercadolibre-category-demand-validation/SKILL.md) | 选品 | 专项任务 |
+| [美客多同款报价与目录竞争分析](mercadolibre/sealeap-mercadolibre-competitor-offer-benchmark/SKILL.md) | 选品 | 专项任务 |
+| [美客多单位经济与现金测算](mercadolibre/sealeap-mercadolibre-unit-economics/SKILL.md) | 选品 | 专项任务 |
+| [美客多季节需求与备货倒排](mercadolibre/sealeap-mercadolibre-seasonal-stock-planning/SKILL.md) | 选品 | 专项任务 |
+| [美客多供应报价与样品验证](mercadolibre/sealeap-mercadolibre-supplier-sample-validation/SKILL.md) | 选品 | 专项任务 |
+| [美客多刊登事实与本地化文案](mercadolibre/sealeap-mercadolibre-listing-localization/SKILL.md) | 运营 | 专项任务 |
+| [美客多目录匹配与资料更正](mercadolibre/sealeap-mercadolibre-catalog-identity-corrections/SKILL.md) | 运营 | 专项任务 |
+| [美客多变体与尺码表验收](mercadolibre/sealeap-mercadolibre-variations-sizecharts/SKILL.md) | 运营 | 专项任务 |
+| [美客多商品图片与 Clips 验收](mercadolibre/sealeap-mercadolibre-product-visuals-clips/SKILL.md) | 运营 | 专项任务 |
+| [美客多 Full 入仓包装与计划预检](mercadolibre/sealeap-mercadolibre-full-inbound-precheck/SKILL.md) | 运营 | 专项任务 |
+| [美客多 Full 实收与可售对账](mercadolibre/sealeap-mercadolibre-full-receiving-reconciliation/SKILL.md) | 运营 | 专项任务 |
+| [美客多 Full 库存、仓龄与移出决策](mercadolibre/sealeap-mercadolibre-full-inventory-aging/SKILL.md) | 运营 | 专项任务 |
+| [美客多订单履约与交接控制](mercadolibre/sealeap-mercadolibre-fulfillment-dispatch-controls/SKILL.md) | 运营 | 专项任务 |
+| [美客多信誉指标与异常处理](mercadolibre/sealeap-mercadolibre-reputation-incident-triage/SKILL.md) | 运营 | 专项任务 |
+| [美客多售前问答与事实回复](mercadolibre/sealeap-mercadolibre-customer-questions-responses/SKILL.md) | 运营 | 专项任务 |
+| [美客多退货案件与证据处理](mercadolibre/sealeap-mercadolibre-returns-case-evidence/SKILL.md) | 运营 | 专项任务 |
+| [美客多回款、费用与退货对账](mercadolibre/sealeap-mercadolibre-payment-fee-reconciliation/SKILL.md) | 运营 | 专项任务 |
+| [美客多知识产权与刊登限制初筛](mercadolibre/sealeap-mercadolibre-ip-policy-response/SKILL.md) | 运营 | 专项任务 |
+| [美客多促销资格与净回款评审](mercadolibre/sealeap-mercadolibre-promotion-net-proceeds/SKILL.md) | 广告 | 专项任务 |
+| [美客多 Product Ads 投放准备](mercadolibre/sealeap-mercadolibre-product-ads-readiness/SKILL.md) | 广告 | 专项任务 |
+| [美客多广告组与商品映射](mercadolibre/sealeap-mercadolibre-product-ads-grouping/SKILL.md) | 广告 | 专项任务 |
+| [美客多目标 ROAS 与预算试验](mercadolibre/sealeap-mercadolibre-roas-budget-experiment/SKILL.md) | 广告 | 专项任务 |
+| [美客多广告归因与贡献对账](mercadolibre/sealeap-mercadolibre-ads-attribution-profit/SKILL.md) | 广告 | 专项任务 |
+| [美客多广告曝光损失诊断](mercadolibre/sealeap-mercadolibre-ads-impression-loss-diagnosis/SKILL.md) | 广告 | 专项任务 |
+
+每个目录保留MIT许可与全部本地参考。[美客多新增](RESEARCH-MERCADOLIBRE-20260927.md) · [此前补充](RESEARCH-EXTRA-20260924.md) · [研究边界](RESEARCH.md) · [验证](VALIDATION.md)。

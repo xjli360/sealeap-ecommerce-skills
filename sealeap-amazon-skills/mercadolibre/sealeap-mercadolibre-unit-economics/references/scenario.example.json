@@ -1,0 +1,22 @@
+{
+  "site": "MLM",
+  "currency": "MXN",
+  "sku": "SYNTHETIC-SKU-A",
+  "basis_note": "Synthetic one-price scenario. All amounts in MXN; discounts and pass-through taxes already excluded from revenue.",
+  "revenue_basis": "seller_sales_before_platform_deductions",
+  "units": 10,
+  "unit_revenue": "100.00",
+  "unit_costs": {
+    "product": "30.00",
+    "inbound": "5.00",
+    "platform_fee": "12.00",
+    "shipping": "10.00",
+    "nonrecoverable_tax": "0.00",
+    "storage": "1.00",
+    "expected_returns": "2.00",
+    "other": "0.00"
+  },
+  "ad_spend": "100.00",
+  "recoverable_withholding_cash": "40.00",
+  "held_cash": "50.00"
+}

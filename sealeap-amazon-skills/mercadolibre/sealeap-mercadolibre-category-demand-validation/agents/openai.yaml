@@ -1,0 +1,4 @@
+interface:
+  display_name: "美客多类目需求与新品验证"
+  short_description: "美客多类目需求与新品验证，核对真实输入、国家差异与关键边界并交付可执行的方案"
+  default_prompt: "使用 $sealeap-mercadolibre-category-demand-validation，根据我的站点与资料完成任务，给出事实依据、数据缺口、方案与验收结果。"

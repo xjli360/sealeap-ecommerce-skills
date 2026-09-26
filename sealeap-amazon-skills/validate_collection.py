@@ -7,12 +7,13 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 
 ROOT = Path(__file__).resolve().parent
-PLATFORMS = {"shopify", "etsy", "ebay", "tiktokshop", "walmart"}
+PLATFORMS = {"shopify", "etsy", "ebay", "tiktokshop", "walmart", "mercadolibre"}
 ALLOWED_HOSTS = {
     "github.com", "help.shopify.com", "www.etsy.com", "help.etsy.com",
     "www.ebay.com", "pages.ebay.com", "export.ebay.com",
     "ads.tiktok.com", "seller-us.tiktok.com", "www.walmartconnect.com",
     "marketplacelearn.walmart.com", "support.google.com", "help.klaviyo.com",
+    "global-selling.mercadolibre.com", "sellers.mercadolibre.com",
 }
 errors = []
 def require(ok, message):
