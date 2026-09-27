@@ -1,0 +1,117 @@
+{
+  "checked_on": "2026-09-27",
+  "rules": [
+    {
+      "id": "R77",
+      "title": "MPstats OZON Analytics API",
+      "url": "https://mpstats.io/integrations/analytics-oz/",
+      "checked_on": "2026-09-27",
+      "coverage": "公开API文档的商品、关键词、仓库、类目与细分端点及参数；仅核读相关段落。",
+      "correction": "API字段需逐端点映射；不能套用WB路径。文档核对不等于成功取数。"
+    },
+    {
+      "id": "R78",
+      "title": "MPstats API 鉴权与状态",
+      "url": "https://mpstats.io/integrations/docs/description/",
+      "checked_on": "2026-09-27",
+      "coverage": "公开鉴权、返回状态与请求说明。",
+      "correction": "用X-Mpstats-TOKEN请求头；202不是完成；凭证只放私有环境。"
+    },
+    {
+      "id": "R79",
+      "title": "MPstats 官方 MCP 能力",
+      "url": "https://mpstats.io/instruments/ai/mcp",
+      "checked_on": "2026-09-27",
+      "coverage": "官方连接页的能力范围与账户要求。",
+      "correction": "发现工具后选择OZON只读能力；MCP还包含其他平台/写入能力，不能假定全部可用或授权。"
+    },
+    {
+      "id": "R80",
+      "title": "MPstats OZON 细分市场",
+      "url": "https://wiki.mpstats.io/ru/OZON/Выбор_ниши_Ozon",
+      "checked_on": "2026-09-27",
+      "coverage": "浏览器核读完整可见正文，含类型、价格、日期与各报表定义。",
+      "correction": "细分按商品类型组织；估算订单、真实利润与缺货潜力分开。"
+    },
+    {
+      "id": "R81",
+      "title": "MPstats OZON SKU 报告",
+      "url": "https://wiki.mpstats.io/OZON/Поиск_по_артикулу_Ozon",
+      "checked_on": "2026-09-27",
+      "coverage": "浏览器核读完整可见正文，含SKU、日序列、关键词、仓库、评论和FBS口径。",
+      "correction": "尺寸可有独立SKU；首次发现不是上架证明；缺失名次不等于固定名次。"
+    },
+    {
+      "id": "R82",
+      "title": "MPstats OZON 搜索报告",
+      "url": "https://wiki.mpstats.io/ru/OZON/Товары_в_поиске",
+      "checked_on": "2026-09-27",
+      "coverage": "浏览器核读完整可见正文。",
+      "correction": "OZON频次为7天独立用户，不能与WB30天查询次数混算；记录FBS开关。"
+    },
+    {
+      "id": "R83",
+      "title": "MPstats OZON 内部商品报表",
+      "url": "https://wiki.mpstats.io/ru/Кабинет_Ozon/Товары",
+      "checked_on": "2026-09-27",
+      "coverage": "浏览器核读完整可见正文，更新日期、状态、财务、库存与导出。",
+      "correction": "内部模块需授权店铺；记录成本完整性，按字段定义区分订单、销售、退款、贡献与到账。"
+    },
+    {
+      "id": "R84",
+      "title": "Ozon 点击付费原理",
+      "url": "https://global-help.ozon.com/promotion/product-promotions/pay-per-click/what-is-cost-per-click",
+      "checked_on": "2026-09-27",
+      "coverage": "官方帮助页当前中国地区筛选下的可见正文。",
+      "correction": "CPC和PPO可组合；费用和可用策略以账户实际配置核验，未硬编码费率。"
+    },
+    {
+      "id": "R85",
+      "title": "Ozon 订单付费原理",
+      "url": "https://global-help.ozon.com/promotion/product-promotions/pay-per-order/payment-for-the-order",
+      "checked_on": "2026-09-27",
+      "coverage": "官方帮助页当前中国地区筛选下的可见正文。",
+      "correction": "选定商品、全店与组合推广收费条件不同；运行时重新读取。"
+    },
+    {
+      "id": "R86",
+      "title": "Ozon 订单推广结果",
+      "url": "https://global-help.ozon.com/promotion/product-promotions/pay-per-order/view-results",
+      "checked_on": "2026-09-27",
+      "coverage": "官方帮助页当前中国地区筛选下的可见正文。",
+      "correction": "报告可能包含同模型其他变体；核对归因窗口、取消、退款与统计范围。"
+    },
+    {
+      "id": "R87",
+      "title": "Ozon 搜索机制",
+      "url": "https://global-help.ozon.com/promotion/product-promotions/ozon-search",
+      "checked_on": "2026-09-27",
+      "coverage": "官方帮助页当前中国地区筛选下的完整可见正文。",
+      "correction": "相关性、价格、配送、行为与推广共同影响排序，权重依情境变化，不提供保证排名公式。"
+    },
+    {
+      "id": "R88",
+      "title": "Ozon 外部流量分析",
+      "url": "https://global-help.ozon.com/promotion/traffic-analysis",
+      "checked_on": "2026-09-27",
+      "coverage": "核读UTM、直接订单、窗口订单、站内外重复归因与报表部分。",
+      "correction": "站内外可同时归因同一单；会话订单与窗口订单不直接相加，不沿用旧报表时限。"
+    },
+    {
+      "id": "R89",
+      "title": "Ozon 点击广告预算",
+      "url": "https://global-help.ozon.com/promotion/product-promotions/pay-per-click/weekly-budget",
+      "checked_on": "2026-09-27",
+      "coverage": "官方帮助页当前中国地区筛选下的完整可见正文。",
+      "correction": "周预算按活动创建日起算；不限额模式与有限预算分开，遵守用户总损失上限。"
+    },
+    {
+      "id": "R90",
+      "title": "MPstats 旧比较模块停用提示",
+      "url": "https://wiki.mpstats.io/ru/Сравнение_маркетплейсов/По_дням",
+      "checked_on": "2026-09-27",
+      "coverage": "搜索索引可见的停用提示；不是全页实时核读。",
+      "correction": "旧WB+Ozon比较模块不作为必需入口，使用当前各平台报表并明确匹配口径。"
+    }
+  ]
+}

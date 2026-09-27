@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON 相邻拓品与商品组合"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成相邻拓品与商品组合"
+  default_prompt: "使用 $sealeap-ozon-assortment-extension，基于 MPstats 的 OZON 数据完成相邻拓品与商品组合；先列数据缺口，再给证据和行动方案。"

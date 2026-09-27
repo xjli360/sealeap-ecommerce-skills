@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "provider": "mpstats",
+  "marketplace": "ozon",
+  "module": "external",
+  "report": "sku_daily",
+  "metric_kind": "estimated_orders",
+  "evidence_kind": "synthetic",
+  "collected_at": "2026-09-27T10:00:00+03:00",
+  "period": {"start": "2026-09-24", "end": "2026-09-26"},
+  "timezone": "Europe/Moscow",
+  "currency": "RUB",
+  "money_unit": "major",
+  "unit_evidence": "Synthetic fixture declares RUB; no live MPstats response is represented.",
+  "fulfillment": "FBO",
+  "raw_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "field_mapping": {"sku": "synthetic SKU", "date": "synthetic day", "sales": "synthetic orders", "revenue": "synthetic order amount", "stock": "synthetic closing stock"},
+  "coverage": {"pagination_complete": true, "row_count": 3, "population": "sample", "selection": "One invented SKU; three complete days."},
+  "rows": [
+    {"sku": "example-a", "date": "2026-09-24", "sales": 2, "revenue": 200, "stock": 10, "no_data": false},
+    {"sku": "example-a", "date": "2026-09-25", "sales": 3, "revenue": 300, "stock": 7, "no_data": false},
+    {"sku": "example-a", "date": "2026-09-26", "sales": 4, "revenue": 400, "stock": 3, "no_data": false}
+  ]
+}

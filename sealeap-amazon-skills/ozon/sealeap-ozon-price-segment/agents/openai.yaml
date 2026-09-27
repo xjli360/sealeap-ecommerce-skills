@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON 价格带与规格机会"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成价格带与规格机会"
+  default_prompt: "使用 $sealeap-ozon-price-segment，基于 MPstats 的 OZON 数据完成价格带与规格机会；先列数据缺口，再给证据和行动方案。"

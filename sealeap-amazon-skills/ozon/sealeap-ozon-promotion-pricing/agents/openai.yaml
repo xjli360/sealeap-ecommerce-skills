@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON 促销价格与贡献保护"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成促销价格与贡献保护"
+  default_prompt: "使用 $sealeap-ozon-promotion-pricing，基于 MPstats 的 OZON 数据完成促销价格与贡献保护；先列数据缺口，再给证据和行动方案。"

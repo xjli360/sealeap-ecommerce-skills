@@ -1,14 +1,15 @@
 {
   "schema_version": 3,
   "collection": "sealeap-amazon-skills",
-  "edition": "2026-09-27-mercadolibre",
+  "edition": "2026-09-27-ozon-mpstats",
   "platforms": [
     "shopify",
     "etsy",
     "ebay",
     "tiktokshop",
     "walmart",
-    "mercadolibre"
+    "mercadolibre",
+    "ozon"
   ],
   "skills": [
     {
@@ -3184,6 +3185,681 @@
       ],
       "scope": "specialist",
       "edition_added": "2026-09-27-mercadolibre"
+    },
+    {
+      "name": "sealeap-ozon-mpstats-data-audit",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON MPstats 接入与数据验收",
+      "path": "ozon/sealeap-ozon-mpstats-data-audit",
+      "sources": [
+        "O06",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R78",
+        "R79",
+        "R80",
+        "R81",
+        "R82",
+        "R83",
+        "R90"
+      ],
+      "merged_topics": [
+        "连接 MPstats、验收 OZON 导出、排查数据不一致或为经营分析准备可追溯数据"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "Ozon → Поиск по SKU；API full / by_period；或已授权 MCP 的 OZON 只读工具"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-niche-screening",
+      "platform": "ozon",
+      "mode": "selection",
+      "title": "OZON 细分市场筛选与进入评审",
+      "path": "ozon/sealeap-ozon-niche-screening",
+      "sources": [
+        "O02",
+        "O06",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R80"
+      ],
+      "merged_topics": [
+        "筛选 OZON 类目、评估某个细分市场是否值得小额测试"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "Ozon → Выбор ниши → Товары / Продавцы / По дням"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-competitor-map",
+      "platform": "ozon",
+      "mode": "selection",
+      "title": "OZON 竞争格局与可比商品池",
+      "path": "ozon/sealeap-ozon-competitor-map",
+      "sources": [
+        "O02",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R80",
+        "R81"
+      ],
+      "merged_topics": [
+        "建立 OZON 竞品池，判断卖家集中程度和可突破的位置"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "目标 niche → Продавцы / Бренды / Товары；SKU → Похожие товары"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-seasonality-entry",
+      "platform": "ozon",
+      "mode": "selection",
+      "title": "OZON 季节窗口与上新倒排",
+      "path": "ozon/sealeap-ozon-seasonality-entry",
+      "sources": [
+        "O02",
+        "O05"
+      ],
+      "rule_checks": [
+        "R77",
+        "R80"
+      ],
+      "merged_topics": [
+        "用 MPstats 验证 OZON 季节性，安排备货和上新时间"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "niche → Тренды / По дням / Сравнение периодов；关键词频次趋势"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-price-segment",
+      "platform": "ozon",
+      "mode": "selection",
+      "title": "OZON 价格带与规格机会",
+      "path": "ozon/sealeap-ozon-price-segment",
+      "sources": [
+        "O02",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R80",
+        "R81"
+      ],
+      "merged_topics": [
+        "寻找 OZON 可进入价格带，避免拿不同规格商品直接比价"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "niche → Цены；Товары；SKU → 数据按日"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-newcomer-cohort",
+      "platform": "ozon",
+      "mode": "selection",
+      "title": "OZON 新品进入与存活率观察",
+      "path": "ozon/sealeap-ozon-newcomer-cohort",
+      "sources": [
+        "O02",
+        "O07",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R80",
+        "R81"
+      ],
+      "merged_topics": [
+        "判断 OZON 细分是否给新商品机会并制定首批试销验证"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "niche → Товары；SKU → 首次发现日期与日序列"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-review-opportunity",
+      "platform": "ozon",
+      "mode": "selection",
+      "title": "OZON 评论痛点与产品改进定义",
+      "path": "ozon/sealeap-ozon-review-opportunity",
+      "sources": [
+        "O06",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R81"
+      ],
+      "merged_topics": [
+        "结合 MPstats 评论、评分和需求，形成 OZON 可验证产品改进方向"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "SKU → Отзывы；商品日序列与可比 SKU 清单"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-assortment-extension",
+      "platform": "ozon",
+      "mode": "selection",
+      "title": "OZON 相邻拓品与商品组合",
+      "path": "ozon/sealeap-ozon-assortment-extension",
+      "sources": [
+        "O02",
+        "O06",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R80",
+        "R81"
+      ],
+      "merged_topics": [
+        "利用 MPstats 为 OZON 现有店铺筛选相邻品类与扩展规格"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "niche → Похожие ниши；Продавцы / Бренды → 商品矩阵"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-unit-economics",
+      "platform": "ozon",
+      "mode": "selection",
+      "title": "OZON 单位经济与广告承受力",
+      "path": "ozon/sealeap-ozon-unit-economics",
+      "sources": [
+        "O02",
+        "O06",
+        "O12"
+      ],
+      "rule_checks": [
+        "R80",
+        "R81",
+        "R83",
+        "R85"
+      ],
+      "merged_topics": [
+        "结合 MPstats 价格带与自家成本测算 OZON 单品贡献、保本价和广告上限"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "外部 Цены / SKU 价格；内部 Кабинет Ozon → Товары 成本与扣费"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-fulfillment-choice",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 履约模式与跨境可行性",
+      "path": "ozon/sealeap-ozon-fulfillment-choice",
+      "sources": [
+        "O09",
+        "O11"
+      ],
+      "rule_checks": [
+        "R80",
+        "R81",
+        "R83"
+      ],
+      "merged_topics": [
+        "依据 MPstats 需求和库存表现比较 OZON 可用履约模式"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "可比 SKU → delivery_scheme / 仓库；内部商品库存及体积重量"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-keyword-map",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 俄语关键词与意图映射",
+      "path": "ozon/sealeap-ozon-keyword-map",
+      "sources": [
+        "O01",
+        "O02",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R81",
+        "R82",
+        "R87"
+      ],
+      "merged_topics": [
+        "用 MPstats 建立 OZON 俄语关键词库和商品信息对应关系"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "SKU → Запросы и позиции；niche → Запросы；Товары в поиске"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-listing-localization",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 俄语 Listing 与属性校验",
+      "path": "ozon/sealeap-ozon-listing-localization",
+      "sources": [
+        "O01",
+        "O06",
+        "O08"
+      ],
+      "rule_checks": [
+        "R81",
+        "R82",
+        "R87"
+      ],
+      "merged_topics": [
+        "结合 MPstats 搜索意图改写 OZON 标题、描述和真实属性草稿"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "MPstats 关键词/可比 SKU 属性；自家实际产品事实表"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-visual-brief",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 主图与富内容改进简报",
+      "path": "ozon/sealeap-ozon-visual-brief",
+      "sources": [
+        "O01",
+        "O06",
+        "O08"
+      ],
+      "rule_checks": [
+        "R81",
+        "R82",
+        "R87"
+      ],
+      "merged_topics": [
+        "从 MPstats 可比商品和评论问题生成 OZON 主图、图文与富内容测试简报"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "可比 SKU 的图片/评论、价带、关键词与日序列"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-search-visibility",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 搜索可见性与排名异常诊断",
+      "path": "ozon/sealeap-ozon-search-visibility",
+      "sources": [
+        "O01",
+        "O08"
+      ],
+      "rule_checks": [
+        "R77",
+        "R81",
+        "R82",
+        "R87"
+      ],
+      "merged_topics": [
+        "用 MPstats 判断 OZON 关键词排名消失、下滑和搜索流量异常"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "SKU → keywords/search_stats/by_period；Товары в поиске 历史"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-warehouse-allocation",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 仓库配置与区域供给",
+      "path": "ozon/sealeap-ozon-warehouse-allocation",
+      "sources": [
+        "O04",
+        "O11"
+      ],
+      "rule_checks": [
+        "R77",
+        "R81",
+        "R83",
+        "R87"
+      ],
+      "merged_topics": [
+        "用 MPstats 仓库与需求观察辅助 OZON 配仓方案"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "外部 SKU → sales/balance/stores；内部库存与自家目的地区订单"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-replenishment",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 补货、缺货与积压处置",
+      "path": "ozon/sealeap-ozon-replenishment",
+      "sources": [
+        "O02",
+        "O11"
+      ],
+      "rule_checks": [
+        "R80",
+        "R81",
+        "R83"
+      ],
+      "merged_topics": [
+        "结合 MPstats 市场趋势与内部真实库存制定 OZON 补货或清仓方案"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "外部细分趋势；内部 Кабинет Ozon → Товары / История остатков"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-promotion-pricing",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 促销价格与贡献保护",
+      "path": "ozon/sealeap-ozon-promotion-pricing",
+      "sources": [
+        "O02",
+        "O08",
+        "O12"
+      ],
+      "rule_checks": [
+        "R80",
+        "R81",
+        "R83",
+        "R85"
+      ],
+      "merged_topics": [
+        "利用 MPstats 价格和库存变化评估 OZON 促销折扣及价格竞争"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "MPstats SKU 价格日序列/Цены；内部商品收入与成本"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-settlement-audit",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 账单、积分与回款对账",
+      "path": "ozon/sealeap-ozon-settlement-audit",
+      "sources": [
+        "O12"
+      ],
+      "rule_checks": [
+        "R83",
+        "R84",
+        "R85",
+        "R86"
+      ],
+      "merged_topics": [
+        "核对 MPstats 内部 OZON 报表与平台结算、折扣积分及广告收费"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "Кабинет Ozon → Товары / Сводка；Ozon 财务明细"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-returns-quality",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 退货归因与质量改进",
+      "path": "ozon/sealeap-ozon-returns-quality",
+      "sources": [
+        "O06",
+        "O08",
+        "O11"
+      ],
+      "rule_checks": [
+        "R81",
+        "R83"
+      ],
+      "merged_topics": [
+        "结合 MPstats 评论与内部订单状态诊断 OZON 退货、取消和产品问题"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "MPstats 内部 Товары 的已完成/退货/取消；外部 SKU 评论"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-weekly-diagnostics",
+      "platform": "ozon",
+      "mode": "operations",
+      "title": "OZON 经营周报与异常归因",
+      "path": "ozon/sealeap-ozon-weekly-diagnostics",
+      "sources": [
+        "O06",
+        "O08",
+        "O12"
+      ],
+      "rule_checks": [
+        "R77",
+        "R81",
+        "R83",
+        "R87"
+      ],
+      "merged_topics": [
+        "以 MPstats 市场基线和内部经营数据解释 OZON 周度变化"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "外部 SKU/细分日序列；内部 Товары；广告和结算报告"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-ad-readiness",
+      "platform": "ozon",
+      "mode": "advertising",
+      "title": "OZON 推广资格与投前选品",
+      "path": "ozon/sealeap-ozon-ad-readiness",
+      "sources": [
+        "O04",
+        "O07"
+      ],
+      "rule_checks": [
+        "R81",
+        "R83",
+        "R84",
+        "R85"
+      ],
+      "merged_topics": [
+        "结合 MPstats 为 OZON 广告选择有需求、供给和贡献基础的商品"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "MPstats 价带/查询/库存；内部商品贡献；本账户推广可用性"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-pay-per-click-test",
+      "platform": "ozon",
+      "mode": "advertising",
+      "title": "OZON 点击付费测试与漏斗诊断",
+      "path": "ozon/sealeap-ozon-pay-per-click-test",
+      "sources": [
+        "O01",
+        "O04"
+      ],
+      "rule_checks": [
+        "R81",
+        "R82",
+        "R84",
+        "R87",
+        "R89"
+      ],
+      "merged_topics": [
+        "结合 MPstats 竞争环境设计 OZON CPC 测试和亏损诊断"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "MPstats 查询/排名/价格；Ozon CPC 明细及真实订单贡献"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-pay-per-order-economics",
+      "platform": "ozon",
+      "mode": "advertising",
+      "title": "OZON 订单付费与组合推广经济性",
+      "path": "ozon/sealeap-ozon-pay-per-order-economics",
+      "sources": [
+        "O04",
+        "O12"
+      ],
+      "rule_checks": [
+        "R83",
+        "R84",
+        "R85",
+        "R86"
+      ],
+      "merged_topics": [
+        "结合 MPstats 评估 OZON 按订单付费与 CPC 组合推广是否有净贡献"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "MPstats 内部商品贡献与外部价带；Ozon PPO/组合模式明细"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-budget-pacing",
+      "platform": "ozon",
+      "mode": "advertising",
+      "title": "OZON 预算节奏与商品分配",
+      "path": "ozon/sealeap-ozon-budget-pacing",
+      "sources": [
+        "O04",
+        "O02"
+      ],
+      "rule_checks": [
+        "R80",
+        "R81",
+        "R83",
+        "R89"
+      ],
+      "merged_topics": [
+        "利用 MPstats 需求走势与商品贡献分配 OZON 广告预算"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "MPstats 细分/查询趋势与内部SKU贡献；Ozon预算周期/消耗"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-attribution-audit",
+      "platform": "ozon",
+      "mode": "advertising",
+      "title": "OZON 站内外广告归因与去重",
+      "path": "ozon/sealeap-ozon-attribution-audit",
+      "sources": [
+        "O04",
+        "O10"
+      ],
+      "rule_checks": [
+        "R81",
+        "R83",
+        "R86",
+        "R88"
+      ],
+      "merged_topics": [
+        "用 MPstats 市场基线和 Ozon 明细核对广告收入、同模型订单及站内外重复归因"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "Ozon CPC/PPO/外部流量订单明细；MPstats内部销售与外部日序列"
+      ]
+    },
+    {
+      "name": "sealeap-ozon-incrementality",
+      "platform": "ozon",
+      "mode": "advertising",
+      "title": "OZON 广告增量与市场对照实验",
+      "path": "ozon/sealeap-ozon-incrementality",
+      "sources": [
+        "O04",
+        "O10",
+        "O08"
+      ],
+      "rule_checks": [
+        "R81",
+        "R83",
+        "R86",
+        "R88"
+      ],
+      "merged_topics": [
+        "借 MPstats 市场走势辅助判断 OZON 推广是否带来新增贡献"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-27-ozon-mpstats",
+      "mpstats_required": true,
+      "mpstats_reports": [
+        "MPstats 冻结竞品/细分时间序列；自家成熟销售、广告与成本"
+      ]
     }
   ]
 }

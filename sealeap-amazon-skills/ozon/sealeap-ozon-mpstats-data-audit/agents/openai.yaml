@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON MPstats 接入与数据验收"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成MPstats 接入与数据验收"
+  default_prompt: "使用 $sealeap-ozon-mpstats-data-audit，基于 MPstats 的 OZON 数据完成MPstats 接入与数据验收；先列数据缺口，再给证据和行动方案。"

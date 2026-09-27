@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON 退货归因与质量改进"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成退货归因与质量改进"
+  default_prompt: "使用 $sealeap-ozon-returns-quality，基于 MPstats 的 OZON 数据完成退货归因与质量改进；先列数据缺口，再给证据和行动方案。"

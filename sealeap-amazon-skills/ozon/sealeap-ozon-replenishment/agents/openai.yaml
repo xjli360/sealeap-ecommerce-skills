@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON 补货、缺货与积压处置"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成补货、缺货与积压处置"
+  default_prompt: "使用 $sealeap-ozon-replenishment，基于 MPstats 的 OZON 数据完成补货、缺货与积压处置；先列数据缺口，再给证据和行动方案。"

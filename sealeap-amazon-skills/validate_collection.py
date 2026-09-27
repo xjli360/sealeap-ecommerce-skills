@@ -7,13 +7,13 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 
 ROOT = Path(__file__).resolve().parent
-PLATFORMS = {"shopify", "etsy", "ebay", "tiktokshop", "walmart", "mercadolibre"}
+PLATFORMS = {"shopify", "etsy", "ebay", "tiktokshop", "walmart", "mercadolibre", "ozon"}
 ALLOWED_HOSTS = {
     "github.com", "help.shopify.com", "www.etsy.com", "help.etsy.com",
     "www.ebay.com", "pages.ebay.com", "export.ebay.com",
     "ads.tiktok.com", "seller-us.tiktok.com", "www.walmartconnect.com",
     "marketplacelearn.walmart.com", "support.google.com", "help.klaviyo.com",
-    "global-selling.mercadolibre.com", "sellers.mercadolibre.com",
+    "global-selling.mercadolibre.com", "sellers.mercadolibre.com", "mpstats.io", "wiki.mpstats.io", "global-help.ozon.com",
 }
 errors = []
 def require(ok, message):
@@ -42,6 +42,11 @@ for row in entries:
     for rel in needed:
         require((folder / rel).is_file(), "Missing resource: " + row["path"] + "/" + rel)
     text = (folder / "SKILL.md").read_text()
+    if row["platform"] == "ozon":
+        require(row.get("mpstats_required") is True, "OZON requires MPstats: " + row["name"])
+        require(bool(row.get("mpstats_reports")), "Missing task MPstats report: " + row["name"])
+        require((folder / "references/mpstats.md").is_file(), "Missing portable MPstats contract: " + row["name"])
+        require("references/mpstats.md" in text and "HOLD" in text, "Missing MPstats gate: " + row["name"])
     front = re.match(r"\A---\n(.*?)\n---\n", text, re.S)
     require(front is not None, "Missing frontmatter: " + row["name"])
     if front:

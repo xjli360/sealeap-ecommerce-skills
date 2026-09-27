@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON 订单付费与组合推广经济性"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成订单付费与组合推广经济性"
+  default_prompt: "使用 $sealeap-ozon-pay-per-order-economics，基于 MPstats 的 OZON 数据完成订单付费与组合推广经济性；先列数据缺口，再给证据和行动方案。"

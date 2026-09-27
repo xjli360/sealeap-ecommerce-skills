@@ -1,6 +1,6 @@
-# SeaLeap 六平台技能目录
+# SeaLeap 七平台技能目录
 
-144个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
+170个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
 
 ## shopify · 27 Skills
 
@@ -177,3 +177,38 @@
 | [美客多广告曝光损失诊断](mercadolibre/sealeap-mercadolibre-ads-impression-loss-diagnosis/SKILL.md) | 广告 | 专项任务 |
 
 每个目录保留MIT许可与全部本地参考。[美客多新增](RESEARCH-MERCADOLIBRE-20260927.md) · [此前补充](RESEARCH-EXTRA-20260924.md) · [研究边界](RESEARCH.md) · [验证](VALIDATION.md)。
+
+## ozon · 26 Skills · MPstats 必需
+
+每包自带MPstats接入约定；先用数据验收入口，再按任务选择。
+
+| Skill | 方向 | 定位 |
+| --- | --- | --- |
+| [OZON MPstats 接入与数据验收](ozon/sealeap-ozon-mpstats-data-audit/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 细分市场筛选与进入评审](ozon/sealeap-ozon-niche-screening/SKILL.md) | 选品 | MPstats专项 |
+| [OZON 竞争格局与可比商品池](ozon/sealeap-ozon-competitor-map/SKILL.md) | 选品 | MPstats专项 |
+| [OZON 季节窗口与上新倒排](ozon/sealeap-ozon-seasonality-entry/SKILL.md) | 选品 | MPstats专项 |
+| [OZON 价格带与规格机会](ozon/sealeap-ozon-price-segment/SKILL.md) | 选品 | MPstats专项 |
+| [OZON 新品进入与存活率观察](ozon/sealeap-ozon-newcomer-cohort/SKILL.md) | 选品 | MPstats专项 |
+| [OZON 评论痛点与产品改进定义](ozon/sealeap-ozon-review-opportunity/SKILL.md) | 选品 | MPstats专项 |
+| [OZON 相邻拓品与商品组合](ozon/sealeap-ozon-assortment-extension/SKILL.md) | 选品 | MPstats专项 |
+| [OZON 单位经济与广告承受力](ozon/sealeap-ozon-unit-economics/SKILL.md) | 选品 | MPstats专项 |
+| [OZON 履约模式与跨境可行性](ozon/sealeap-ozon-fulfillment-choice/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 俄语关键词与意图映射](ozon/sealeap-ozon-keyword-map/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 俄语 Listing 与属性校验](ozon/sealeap-ozon-listing-localization/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 主图与富内容改进简报](ozon/sealeap-ozon-visual-brief/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 搜索可见性与排名异常诊断](ozon/sealeap-ozon-search-visibility/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 仓库配置与区域供给](ozon/sealeap-ozon-warehouse-allocation/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 补货、缺货与积压处置](ozon/sealeap-ozon-replenishment/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 促销价格与贡献保护](ozon/sealeap-ozon-promotion-pricing/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 账单、积分与回款对账](ozon/sealeap-ozon-settlement-audit/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 退货归因与质量改进](ozon/sealeap-ozon-returns-quality/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 经营周报与异常归因](ozon/sealeap-ozon-weekly-diagnostics/SKILL.md) | 运营 | MPstats专项 |
+| [OZON 推广资格与投前选品](ozon/sealeap-ozon-ad-readiness/SKILL.md) | 广告 | MPstats专项 |
+| [OZON 点击付费测试与漏斗诊断](ozon/sealeap-ozon-pay-per-click-test/SKILL.md) | 广告 | MPstats专项 |
+| [OZON 订单付费与组合推广经济性](ozon/sealeap-ozon-pay-per-order-economics/SKILL.md) | 广告 | MPstats专项 |
+| [OZON 预算节奏与商品分配](ozon/sealeap-ozon-budget-pacing/SKILL.md) | 广告 | MPstats专项 |
+| [OZON 站内外广告归因与去重](ozon/sealeap-ozon-attribution-audit/SKILL.md) | 广告 | MPstats专项 |
+| [OZON 广告增量与市场对照实验](ozon/sealeap-ozon-incrementality/SKILL.md) | 广告 | MPstats专项 |
+
+[OZON来源、规则与验证边界](RESEARCH-OZON-20260927.md)

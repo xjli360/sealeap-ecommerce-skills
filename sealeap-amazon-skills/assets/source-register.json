@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "created_on": "2026-09-23",
-  "edition": "v6",
+  "edition": "v7",
   "sources": [
     {
       "id": "S01",
@@ -1355,6 +1355,258 @@
       "metric_scope": "individual_content",
       "used_by": [
         "sealeap-mercadolibre-product-visuals-clips"
+      ]
+    },
+    {
+      "id": "O01",
+      "platform": "ozon",
+      "channel": "YouTube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "50–99"
+      },
+      "content_coverage": "自动字幕身份匹配；核读标题/属性、搜索词、地区与可见性章节；未逐帧观看",
+      "quality_scope": "相关词、真实属性、地区化搜索诊断",
+      "limitations": "制造商编号塞词、一次成交决定收录等未经官方证实的机制",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-keyword-map",
+        "sealeap-ozon-listing-localization",
+        "sealeap-ozon-visual-brief",
+        "sealeap-ozon-search-visibility",
+        "sealeap-ozon-pay-per-click-test"
+      ]
+    },
+    {
+      "id": "O02",
+      "platform": "ozon",
+      "channel": "YouTube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "字幕身份匹配；核读0–11分及12–26分的类目、卖家、价格、季节和词表章节",
+      "quality_scope": "从细分需求、卖家集中、价格带、趋势到成本复核的流程",
+      "limitations": "旧商品清单、固定利润、将潜力视为上限、中位数等于去极值、旧搜索频次周期",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-niche-screening",
+        "sealeap-ozon-competitor-map",
+        "sealeap-ozon-seasonality-entry",
+        "sealeap-ozon-price-segment",
+        "sealeap-ozon-newcomer-cohort",
+        "sealeap-ozon-assortment-extension",
+        "sealeap-ozon-unit-economics",
+        "sealeap-ozon-keyword-map",
+        "sealeap-ozon-replenishment",
+        "sealeap-ozon-promotion-pricing",
+        "sealeap-ozon-budget-pacing"
+      ]
+    },
+    {
+      "id": "O04",
+      "platform": "ozon",
+      "channel": "YouTube",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "100–999"
+      },
+      "content_coverage": "字幕身份匹配；限定核读3:03–9:45、57:01–61:00及预算/竞价相关字幕片段",
+      "quality_scope": "投前贡献筛选、预算和效率分开、下载广告明细",
+      "limitations": "固定最低竞价和预算比例、相加模型收入、必须花完预算、完全忽略CTR",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-warehouse-allocation",
+        "sealeap-ozon-ad-readiness",
+        "sealeap-ozon-pay-per-click-test",
+        "sealeap-ozon-pay-per-order-economics",
+        "sealeap-ozon-budget-pacing",
+        "sealeap-ozon-attribution-audit",
+        "sealeap-ozon-incrementality"
+      ]
+    },
+    {
+      "id": "O05",
+      "platform": "ozon",
+      "channel": "Xiaohongshu",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "100–999",
+        "saves": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "4页季节图文可见区域及正文；末页边缘部分裁切",
+      "quality_scope": "节日、气候、开学季作为待验证候选日历",
+      "limitations": "没有销量依据；月份清单不是采购推荐，也不是精确峰值日期",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-seasonality-entry"
+      ]
+    },
+    {
+      "id": "O06",
+      "platform": "ozon",
+      "channel": "Xiaohongshu",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "100–999",
+        "saves": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "笔记正文完整核读，评论只看使用限制，不作效果验证",
+      "quality_scope": "需求/价带/竞争/物流/风险/评论形成选品卡和每周复核",
+      "limitations": "未检验作者软件；不引入其私有Skill、安装包或效果声称",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-mpstats-data-audit",
+        "sealeap-ozon-niche-screening",
+        "sealeap-ozon-review-opportunity",
+        "sealeap-ozon-assortment-extension",
+        "sealeap-ozon-unit-economics",
+        "sealeap-ozon-listing-localization",
+        "sealeap-ozon-visual-brief",
+        "sealeap-ozon-returns-quality",
+        "sealeap-ozon-weekly-diagnostics"
+      ]
+    },
+    {
+      "id": "O07",
+      "platform": "ozon",
+      "channel": "Bilibili",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "100–999",
+        "likes": "0–49",
+        "saves": "0–49",
+        "shares": "0–49"
+      },
+      "content_coverage": "完整视频简介方法文字；点赞和收藏标签核对；未观看登录限定视频",
+      "quality_scope": "小规模试销后根据曝光、点击、加购复筛",
+      "limitations": "无限铺货、最快爆单和跳过前置经济性审查",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-newcomer-cohort",
+        "sealeap-ozon-ad-readiness"
+      ],
+      "qualification_basis": "可见赞和收藏合计达到编辑门槛；不是独立人数。"
+    },
+    {
+      "id": "O08",
+      "platform": "ozon",
+      "channel": "trade_press",
+      "observed_on": "2026-09-27",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "1,000–9,999"
+      },
+      "content_coverage": "检索索引页面；核读类目、卖家、SKU日序列、属性、关键词和相似商品章节",
+      "quality_scope": "将MPstats报表对应到不同经营问题",
+      "limitations": "服务营销保证、估算收入或毛利不能视为实收利润；旧覆盖范围须更新",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-mpstats-data-audit",
+        "sealeap-ozon-niche-screening",
+        "sealeap-ozon-competitor-map",
+        "sealeap-ozon-price-segment",
+        "sealeap-ozon-newcomer-cohort",
+        "sealeap-ozon-review-opportunity",
+        "sealeap-ozon-assortment-extension",
+        "sealeap-ozon-keyword-map",
+        "sealeap-ozon-listing-localization",
+        "sealeap-ozon-visual-brief",
+        "sealeap-ozon-search-visibility",
+        "sealeap-ozon-promotion-pricing",
+        "sealeap-ozon-returns-quality",
+        "sealeap-ozon-weekly-diagnostics",
+        "sealeap-ozon-incrementality"
+      ]
+    },
+    {
+      "id": "O09",
+      "platform": "ozon",
+      "channel": "trade_press",
+      "observed_on": "2026-09-27",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "1,000–9,999"
+      },
+      "content_coverage": "检索索引正文的履约模式与起步选品部分",
+      "quality_scope": "先明确履约责任与需求证据再试销",
+      "limitations": "俄罗斯本土主体资格不能套用中国跨境账号；旧费率未采用",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-fulfillment-choice"
+      ]
+    },
+    {
+      "id": "O10",
+      "platform": "ozon",
+      "channel": "trade_press",
+      "observed_on": "2026-09-27",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "1,000–9,999"
+      },
+      "content_coverage": "核读UTM构造、两类报表、会话与归因窗口部分",
+      "quality_scope": "按渠道标记并下载外部流量与订单明细",
+      "limitations": "旧62天报表限制、无订单证据时人工补加归因；由最新官方页校正",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-attribution-audit",
+        "sealeap-ozon-incrementality"
+      ]
+    },
+    {
+      "id": "O11",
+      "platform": "ozon",
+      "channel": "trade_press",
+      "observed_on": "2026-09-27",
+      "metric_verification": "search_index",
+      "engagement_bands": {
+        "views": "1,000–9,999"
+      },
+      "content_coverage": "核读仓群、配送、跨仓转运和模式选择相关正文84–184行",
+      "quality_scope": "仓配选择须结合周转、需求分布与成本",
+      "limitations": "旧仓群数量、旧物流费用、固定补货次数与本土模式普适性",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-fulfillment-choice",
+        "sealeap-ozon-warehouse-allocation",
+        "sealeap-ozon-replenishment",
+        "sealeap-ozon-returns-quality"
+      ]
+    },
+    {
+      "id": "O12",
+      "platform": "ozon",
+      "channel": "Douyin",
+      "observed_on": "2026-09-27",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "50–99",
+        "saves": "50–99",
+        "comments": "0–49",
+        "shares": "0–49"
+      },
+      "content_coverage": "平台AI生成章节摘要和条目；不是完整视频逐字稿",
+      "quality_scope": "折扣积分、伙伴计划、佣金、配送、收单分项对账",
+      "limitations": "不采用未经当前账单确认的抵扣比例、现金返还保证或费率",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-ozon-unit-economics",
+        "sealeap-ozon-promotion-pricing",
+        "sealeap-ozon-settlement-audit",
+        "sealeap-ozon-weekly-diagnostics",
+        "sealeap-ozon-pay-per-order-economics"
       ]
     }
   ],

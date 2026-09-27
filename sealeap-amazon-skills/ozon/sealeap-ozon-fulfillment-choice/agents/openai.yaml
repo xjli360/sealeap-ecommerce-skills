@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON 履约模式与跨境可行性"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成履约模式与跨境可行性"
+  default_prompt: "使用 $sealeap-ozon-fulfillment-choice，基于 MPstats 的 OZON 数据完成履约模式与跨境可行性；先列数据缺口，再给证据和行动方案。"

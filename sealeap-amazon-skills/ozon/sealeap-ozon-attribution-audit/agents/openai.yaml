@@ -1,0 +1,4 @@
+interface:
+  display_name: "OZON 站内外广告归因与去重"
+  short_description: "结合 MPstats 取数、口径校验与证据复核，完成站内外广告归因与去重"
+  default_prompt: "使用 $sealeap-ozon-attribution-audit，基于 MPstats 的 OZON 数据完成站内外广告归因与去重；先列数据缺口，再给证据和行动方案。"

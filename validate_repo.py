@@ -51,7 +51,7 @@ allowed_hosts = {"github.com", "img.shields.io", "sealeap.cn", "help.shopify.com
     "www.etsy.com", "help.etsy.com", "www.ebay.com", "pages.ebay.com", "export.ebay.com",
     "ads.tiktok.com", "seller-us.tiktok.com", "www.walmartconnect.com",
     "marketplacelearn.walmart.com", "support.google.com", "help.klaviyo.com",
-    "global-selling.mercadolibre.com", "sellers.mercadolibre.com"}
+    "global-selling.mercadolibre.com", "sellers.mercadolibre.com", "mpstats.io", "wiki.mpstats.io", "global-help.ozon.com"}
 allowed_github = ("https://github.com/xjli360/sealeap-ecommerce-skills",
     "https://github.com/xjli360/sealeap-amazon-skills",
     "https://github.com/nexscope-ai/eCommerce-Skills", "https://github.com/facebookexperimental/Robyn")
