@@ -8,7 +8,7 @@
 
 - [参考主题：profit-margin-calculator-tiktok](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-tiktok/SKILL.md)
 
-仅采纳主题范围与已读能力/方法段落；其中简短Beta模板只提供选题线索。未复制营销推荐、原示例账户、无依据增长百分比、旧费率或不存在的执行能力。新增输入、步骤、决策条件和合成案例属于M，不冒充上游完整教程。源文件有脚本示例不表示本Skill附带或运行了这些脚本。
+仅采纳主题范围与已读能力/方法段落；其中简短Beta模板只提供选题线索。未复制营销推荐、原示例账户、无依据增长百分比、旧费率或不存在的执行能力。新增输入、步骤、决策条件和合成案例属于M，不冒充上游完整教程。本包现附SeaLeap原创离线计算器与合成测试，不是上游脚本移植；公式和输入设计属于M。
 
 ## 补充网络证据
 
@@ -26,5 +26,13 @@
 - R10：[TikTok 联盟协作设置（美国站）](https://seller-us.tiktok.com/university/essay?knowledge_id=6837873164896001)。Open 与 Target 协作、佣金生效规则及素材权限按站点核验。
 
 R01–R18于2026-09-23查阅，R19–R29于2026-09-24查阅；规则文档不计入互动来源数量。单次查阅不保证长期有效。
+
+## 2026-09-27：可执行计算器规则核对
+
+- R91：[TikTok Shop平台费与退款处理（美国站）](https://seller-us.tiktok.com/university/essay?knowledge_id=5982454398175018)。费用按当前站点与账户输入；平台费和退款管理费分列，避免拿已扣费结算款重复扣费。
+- R92：[标准联盟佣金、退款与保护期（美国站）](https://seller-us.tiktok.com/university/essay?knowledge_id=6077860360177451)。使用退款调整后的计佣基数及实际生效费率；降佣草稿不能替代仍受保护的费率。
+- R93：[Shop Ads佣金建议与费率联动（美国站）](https://seller-us.tiktok.com/university/essay?knowledge_id=1629118999545613)。Shop Ads与标准佣金不重复相加；经济上限须与当前允许区间和联动限制取交集，脚本不自动更新后台。
+
+上述美国站文档用于区分计算口径，不把费率、最低比例或生效期硬编码为全球规则；其他站点需提供适用规则。3项为官方R核查，不增加互动来源数量。计算器只使用用户明确输入，测试采用合成数据。
 
 许可见本Skill附带的 [MIT文本](../LICENSE)。

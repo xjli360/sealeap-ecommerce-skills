@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "collection": "sealeap-amazon-skills",
-  "edition": "2026-09-27-ozon-mpstats",
+  "edition": "2026-09-27-tiktok-executable-economics",
   "platforms": [
     "shopify",
     "etsy",
@@ -1484,14 +1484,26 @@
       ],
       "rule_checks": [
         "R09",
-        "R10"
+        "R10",
+        "R91",
+        "R92",
+        "R93"
       ],
       "merged_topics": [
         "SKU贡献表",
         "佣金/投流上限",
         "现金情景"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "execution": {
+        "runtime": "Python 3.9+ standard library",
+        "entrypoint": "scripts/unit_economics.py",
+        "input_example": "references/example-scenario.json",
+        "reference": "references/calculator.md",
+        "tests": "scripts/test_unit_economics.py",
+        "network": false,
+        "account_mutations": false
+      }
     },
     {
       "name": "sealeap-tiktokshop-listing-localization",

@@ -1,0 +1,29 @@
+{
+  "checked_on": "2026-09-27",
+  "rules": [
+    {
+      "id": "R91",
+      "title": "TikTok Shop平台费与退款处理（美国站）",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5982454398175018",
+      "checked_on": "2026-09-27",
+      "coverage": "核读费用基数、退款后费用返还、管理费与例外的正文；标题为历史费率更新，不将其中数值当作全球当前费率。",
+      "correction": "费用按当前站点与账户输入；平台费和退款管理费分列，避免拿已扣费结算款重复扣费。"
+    },
+    {
+      "id": "R92",
+      "title": "标准联盟佣金、退款与保护期（美国站）",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6077860360177451",
+      "checked_on": "2026-09-27",
+      "coverage": "核读实际佣金与预计佣金、部分/全额退款、标准与Shop Ads保护期和实际生效状态正文。",
+      "correction": "使用退款调整后的计佣基数及实际生效费率；降佣草稿不能替代仍受保护的费率。"
+    },
+    {
+      "id": "R93",
+      "title": "Shop Ads佣金建议与费率联动（美国站）",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1629118999545613",
+      "checked_on": "2026-09-27",
+      "coverage": "核读设置、关闭独立费率时的回退行为、FAQ中的费率下限和保护期正文。",
+      "correction": "Shop Ads与标准佣金不重复相加；经济上限须与当前允许区间和联动限制取交集，脚本不自动更新后台。"
+    }
+  ]
+}

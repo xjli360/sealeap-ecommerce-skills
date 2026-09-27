@@ -99,7 +99,7 @@
 | [TikTok Shop GMV Max 广告诊断](tiktokshop/sealeap-tiktokshop-advertising/SKILL.md) | 广告 | 综合评审 |
 | [TikTok Shop 趋势与需求验证](tiktokshop/sealeap-tiktokshop-trend-validation/SKILL.md) | 选品 | 专项任务 |
 | [TikTok Shop 商品与演示适配](tiktokshop/sealeap-tiktokshop-content-product-fit/SKILL.md) | 选品 | 专项任务 |
-| [TikTok Shop 佣金与内容全成本](tiktokshop/sealeap-tiktokshop-unit-economics/SKILL.md) | 选品 | 专项任务 |
+| [TikTok Shop 佣金与内容全成本（附计算脚本）](tiktokshop/sealeap-tiktokshop-unit-economics/SKILL.md) | 选品 | 专项任务 |
 | [TikTok Shop 商品卡与本地表达](tiktokshop/sealeap-tiktokshop-listing-localization/SKILL.md) | 运营 | 专项任务 |
 | [TikTok Shop 达人筛选与匹配](tiktokshop/sealeap-tiktokshop-creator-discovery/SKILL.md) | 运营 | 专项任务 |
 | [TikTok Shop 联盟佣金设计](tiktokshop/sealeap-tiktokshop-affiliate-commissions/SKILL.md) | 广告 | 专项任务 |

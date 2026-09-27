@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "site": "US",
+  "currency": "USD",
+  "currency_minor_units": 2,
+  "sku": "synthetic-demo-sku",
+  "period": {"start": "2026-09-01", "end": "2026-09-30"},
+  "input_kind": "synthetic",
+  "basis_note": "Invented one-SKU, one-unit shipped-order scenario. All amounts and rates are assumptions, not TikTok fee recommendations. Costs use the same cohort and include refund adjustments.",
+  "revenue_basis": "seller_revenue_before_fees_excluding_pass_through_tax",
+  "unit_basis": "one_paid_shipped_order_one_sellable_unit",
+  "unit_revenue": {
+    "item_after_seller_discount": "40.00",
+    "seller_shipping_income": "0.00",
+    "additional_seller_incentives": "0.00",
+    "refunds": "2.00"
+  },
+  "unit_costs": {
+    "product": "10.00",
+    "inbound": "1.00",
+    "packaging": "0.50",
+    "fulfillment": "4.00",
+    "platform_fee": "2.28",
+    "refund_admin": "0.12",
+    "return_logistics": "0.30",
+    "return_handling": "0.20",
+    "storage": "0.10",
+    "nonrecoverable_tax": "0.00",
+    "other": "0.00"
+  },
+  "unit_inventory_recovery_credit": "0.50",
+  "campaign_costs": {
+    "samples": "60.00",
+    "creator_fixed_fees": "80.00",
+    "content_production": "60.00",
+    "other_fixed": "0.00"
+  },
+  "target_unit_contribution": "4.00",
+  "cohorts": [
+    {
+      "id": "standard-group",
+      "channel": "standard_affiliate",
+      "orders": 60,
+      "unit_commission_base": "36.00",
+      "commission_rate": "0.15",
+      "ad_spend": "0.00",
+      "basis_note": "Synthetic group of 60 disjoint orders; commission base is an independently declared average after refunds, not inferred from seller revenue."
+    },
+    {
+      "id": "ads-group",
+      "channel": "shop_ads_affiliate",
+      "orders": 40,
+      "unit_commission_base": "36.00",
+      "commission_rate": "0.10",
+      "ad_spend": "240.00",
+      "basis_note": "Synthetic group of 40 disjoint ads orders; this effective commission rate replaces the standard rate for these orders, not adds to it."
+    }
+  ]
+}

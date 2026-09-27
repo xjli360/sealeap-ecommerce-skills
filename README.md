@@ -39,6 +39,8 @@
 
 本轮新增 **26 个 OZON Skills**：选品8、运营12、广告6，全部以 **MPstats 数据为必需输入**。支持已配置的官方 MCP、API 或可核验导出，内部财务数据要求已授权店铺。缺数据先 HOLD；外部估算不冒充自家真实销量、利润或广告效果。附只读 API 探针和离线数据验收工具，详见 [OZON 研究与接入边界](sealeap-amazon-skills/RESEARCH-OZON-20260927.md)。
 
+TikTok Shop的22个Skill现补充[单位经济与佣金上限计算器](sealeap-amazon-skills/tiktokshop/sealeap-tiktokshop-unit-economics/references/calculator.md)：按标准联盟、Shop Ads及非联盟订单分组，计算贡献、条件佣金上限和广告预算，计入寄样、报酬、制作与退款成本；仅用Python标准库，附可运行的合成样例。
+
 ### 从常见问题开始
 
 | 你的问题 | 对应 Skill |
@@ -49,6 +51,7 @@
 | 历史达过门槛，现在能退出站外广告吗？ | [Etsy Offsite Ads](sealeap-amazon-skills/etsy/sealeap-etsy-offsite-ads-profit/SKILL.md) |
 | 二手商品的真实成交价怎么比较？ | [eBay 已售样本](sealeap-amazon-skills/ebay/sealeap-ebay-sold-comps/SKILL.md) |
 | 广告费为什么和预期不一致？ | [eBay 归因对账](sealeap-amazon-skills/ebay/sealeap-ebay-ad-attribution/SKILL.md) |
+| 达人佣金最多能给多少，投流后还剩多少贡献？ | [TikTok 单位经济计算器](sealeap-amazon-skills/tiktokshop/sealeap-tiktokshop-unit-economics/SKILL.md) |
 | 寄样、出片和投放权怎么管理？ | [TikTok 素材许可](sealeap-amazon-skills/tiktokshop/sealeap-tiktokshop-creator-brief-rights/SKILL.md) |
 | GMV Max ROI 高就代表广告增量高吗？ | [TikTok 全域归因](sealeap-amazon-skills/tiktokshop/sealeap-tiktokshop-analytics-attribution/SKILL.md) |
 | WFS 仓龄会怎样影响利润？ | [Walmart WFS经济性](sealeap-amazon-skills/walmart/sealeap-walmart-wfs-economics/SKILL.md) |
@@ -80,7 +83,7 @@ cd sealeap-ecommerce-skills
 
 ## 来源与质量
 
-本版包含 **73 个证据单元：70 条可访问内容与 3 个开源仓库**，另有 **90 项官方规则核查入口**。来源覆盖小红书、知乎、B站、抖音、YouTube、GitHub及行业公开文章。
+本版包含 **73 个证据单元：70 条可访问内容与 3 个开源仓库**，另有 **93 项官方规则核查入口**。来源覆盖小红书、知乎、B站、抖音、YouTube、GitHub及行业公开文章。
 
 此前已研究了 [eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)（MIT），建立 **98 个上游文件到85个专项任务**的映射。仓库Stars/Forks是仓库级社区指标，不能拆成每个Skill的点赞，也不证明商业效果。部分上游文件只有主题简介，仅用作选题线索，执行流程由本项目重新编写。
 
