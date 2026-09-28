@@ -11,8 +11,18 @@
     <img src="https://img.shields.io/badge/Free-100%25-22c55e?style=for-the-badge" alt="完全免费" />
     <a href="https://github.com/xjli360/sealeap-ecommerce-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-ecommerce-skills?style=for-the-badge&logo=github" alt="GitHub stars" /></a>
   </p>
-  <p><a href="#项目目标">项目目标</a> · <a href="#技能目录">技能目录</a> · <a href="#开始使用">开始使用</a> · <a href="#来源与质量">来源与质量</a> · <a href="#免费开源">免费开源</a></p>
+  <p><a href="#sealeap-开源项目">开源项目</a> · <a href="#项目目标">项目目标</a> · <a href="#技能目录">技能目录</a> · <a href="#开始使用">开始使用</a> · <a href="#来源与质量">来源与质量</a> · <a href="#免费开源">免费开源</a> · <a href="#关于-sealeap">关于 SeaLeap</a></p>
 </div>
+
+## SeaLeap 开源项目
+
+从亚马逊经营、多平台运营到电商界面设计，按任务选择配套项目：
+
+| 项目 | 内容与用途 |
+| --- | --- |
+| [sealeap-amazon-skills](https://github.com/xjli360/sealeap-amazon-skills) | 亚马逊选品、Listing、广告、库存与经营的 Agent Skills。 |
+| [sealeap-ecommerce-skills](https://github.com/xjli360/sealeap-ecommerce-skills)（本仓库） | Shopify、Etsy、eBay、TikTok Shop、Walmart、Mercado Libre、OZON 等平台的选品、运营与广告工作流。 |
+| [awesome-design-md-ecommerce](https://github.com/xjli360/awesome-design-md-ecommerce) | 电商品牌的 `DESIGN.md` 设计系统，供 AI 生成独立站、商品页和品牌界面时参考。 |
 
 ## 项目目标
 
@@ -140,7 +150,13 @@ python3 validate_repo.py
 
 如果这些工作流对你有帮助，欢迎 [Star](https://github.com/xjli360/sealeap-ecommerce-skills/stargazers)，帮助更多卖家和 Agent 开发者找到它。
 
+## 关于 SeaLeap
+
+**SeaLeap 致力于打造全球最大的 AI 跨境电商社区。** 我们连接跨境卖家、品牌团队、运营者与 AI 开发者，围绕选品、广告、内容、数据分析和运营自动化，分享实战经验、交流工具用法、共同改进工作流。
+
+社区提供实战交流、跨境资讯与 Skill Hub，让人与 Agent 一起把经验整理成可复用的 Skills、工具和方法。这三个开源项目由 SeaLeap 维护，欢迎带着你的业务问题、作品和实践经验加入。
+
 <div align="center">
   <p><strong>知识持续汇聚，成果免费开源。</strong></p>
-  <p>由 <a href="https://sealeap.cn">SeaLeap</a> 维护</p>
+  <p><a href="https://sealeap.cn">访问 SeaLeap · 加入社区</a> · <a href="https://sealeap.cn/skills">浏览 Skill Hub</a></p>
 </div>
