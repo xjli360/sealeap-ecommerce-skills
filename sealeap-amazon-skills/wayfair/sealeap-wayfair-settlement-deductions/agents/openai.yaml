@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 供货发票与扣款回款对账"
+  short_description: "依据Wayfair供货模式与真实数据，完成供货发票与扣款回款对账并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-settlement-deductions，基于我提供的数据完成供货发票与扣款回款对账，先核口径和缺口，再给证据与可执行方案。"

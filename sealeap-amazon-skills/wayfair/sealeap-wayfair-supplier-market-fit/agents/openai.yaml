@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 供应商模式与市场进入"
+  short_description: "依据Wayfair供货模式与真实数据，完成供应商模式与市场进入并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-supplier-market-fit，基于我提供的数据完成供应商模式与市场进入，先核口径和缺口，再给证据与可执行方案。"

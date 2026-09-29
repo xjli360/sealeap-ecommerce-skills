@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 多仓库存与同步验收"
+  short_description: "依据Wayfair供货模式与真实数据，完成多仓库存与同步验收并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-inventory-feed，基于我提供的数据完成多仓库存与同步验收，先核口径和缺口，再给证据与可执行方案。"

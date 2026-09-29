@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 预算、出价与供货贡献分配"
+  short_description: "依据Wayfair供货模式与真实数据，完成预算、出价与供货贡献分配并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-budget-bid-controls，基于我提供的数据完成预算、出价与供货贡献分配，先核口径和缺口，再给证据与可执行方案。"

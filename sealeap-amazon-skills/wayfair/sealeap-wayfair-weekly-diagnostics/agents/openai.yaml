@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair SKU经营周报与行动复盘"
+  short_description: "依据Wayfair供货模式与真实数据，完成SKU经营周报与行动复盘并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-weekly-diagnostics，基于我提供的数据完成SKU经营周报与行动复盘，先核口径和缺口，再给证据与可执行方案。"

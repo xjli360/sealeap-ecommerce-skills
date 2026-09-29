@@ -1,13 +1,13 @@
 <div align="center">
   <p><a href="https://sealeap.cn"><img src="assets/sealeap-logo.png" width="116" alt="SeaLeap Logo" /></a></p>
   <h1>SeaLeap eCommerce Skills</h1>
-  <p><strong>把七大电商平台的公开经验，整理成可以交给 AI Agent 执行的工作流。</strong></p>
-  <p>Shopify · Etsy · eBay · TikTok Shop · Walmart · Mercado Libre · OZON<br/>从选品与利润，到商品、内容、履约、广告与归因。</p>
+  <p><strong>把八大电商平台的公开经验，整理成可以交给 AI Agent 执行的工作流。</strong></p>
+  <p>Shopify · Etsy · eBay · TikTok Shop · Walmart · Mercado Libre · OZON · Wayfair<br/>从选品与利润，到商品、内容、履约、广告与归因。</p>
   <p>
     <a href="https://sealeap.cn/"><img src="https://img.shields.io/badge/Website-sealeap.cn-0ea5e9?style=for-the-badge" alt="SeaLeap 官网" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License" /></a>
-    <img src="https://img.shields.io/badge/Skills-170-00a8e1?style=for-the-badge" alt="170 Skills" />
-    <img src="https://img.shields.io/badge/Platforms-7-8b5cf6?style=for-the-badge" alt="7 Platforms" />
+    <img src="https://img.shields.io/badge/Skills-194-00a8e1?style=for-the-badge" alt="194 Skills" />
+    <img src="https://img.shields.io/badge/Platforms-8-8b5cf6?style=for-the-badge" alt="8 Platforms" />
     <img src="https://img.shields.io/badge/Free-100%25-22c55e?style=for-the-badge" alt="完全免费" />
     <a href="https://github.com/xjli360/sealeap-ecommerce-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-ecommerce-skills?style=for-the-badge&logo=github" alt="GitHub stars" /></a>
   </p>
@@ -21,7 +21,7 @@
 | 项目 | 内容与用途 |
 | --- | --- |
 | [sealeap-amazon-skills](https://github.com/xjli360/sealeap-amazon-skills) | 亚马逊选品、Listing、广告、库存与经营的 Agent Skills。 |
-| [sealeap-ecommerce-skills](https://github.com/xjli360/sealeap-ecommerce-skills)（本仓库） | Shopify、Etsy、eBay、TikTok Shop、Walmart、Mercado Libre、OZON 等平台的选品、运营与广告工作流。 |
+| [sealeap-ecommerce-skills](https://github.com/xjli360/sealeap-ecommerce-skills)（本仓库） | Shopify、Etsy、eBay、TikTok Shop、Walmart、Mercado Libre、OZON、Wayfair 等平台的选品、运营与广告工作流。 |
 | [awesome-design-md-ecommerce](https://github.com/xjli360/awesome-design-md-ecommerce) | 电商品牌的 `DESIGN.md` 设计系统，供 AI 生成独立站、商品页和品牌界面时参考。 |
 
 ## 项目目标
@@ -32,7 +32,7 @@
 
 ## 技能目录
 
-截至 **2026-09-27**，共有 **170 个 Skills**：15 个综合评审入口 + 155 个专项任务，七个平台均超过20个。全部使用独立的 `SKILL.md` 架构，并附带参考文件、调用元数据和 MIT 许可。
+截至 **2026-09-29**，共有 **194 个 Skills**：15 个综合评审入口 + 179 个专项任务，八个平台均超过20个。全部使用独立的 `SKILL.md` 架构，并附带参考文件、调用元数据和 MIT 许可。
 
 | 平台 | 数量 | 主要方向 | 目录 |
 | --- | ---: | --- | --- |
@@ -43,13 +43,16 @@
 | Walmart | 24 | 搜索需求、商品组合、WFS、价格底线、目录身份、质量、查询份额、Buy Box、库存、绩效、广告位 | [Walmart](sealeap-amazon-skills/walmart/) |
 | Mercado Libre / 美客多 | 25 | 国家与模式、需求与季节、目录、Full、信誉、回款、Clips、目标ROAS与曝光损失 | [Mercado Libre](sealeap-amazon-skills/mercadolibre/) |
 | OZON | 26 | MPstats 数据验收、细分/价带/新品、俄语关键词、仓配、账单、CPC/PPO、预算与归因 | [OZON](sealeap-amazon-skills/ozon/) |
-| **合计** | **170** | **选品、运营与广告的具体任务** | [完整索引](sealeap-amazon-skills/README.md) |
+| Wayfair | 24 | 供货价与扣款、家居规格/图片、组件多箱、CastleGate、售后、Sponsored Products/Shops、广告贡献 | [Wayfair](sealeap-amazon-skills/wayfair/) |
+| **合计** | **194** | **选品、运营与广告的具体任务** | [完整索引](sealeap-amazon-skills/README.md) |
 
-上一批新增25个美客多专项Skill，覆盖6个选品、13个运营和6个广告任务；附同币种贡献与现金情景的离线测算工具。见[美客多增量与来源边界](sealeap-amazon-skills/RESEARCH-MERCADOLIBRE-20260927.md)。此前补充见[五平台增量](sealeap-amazon-skills/RESEARCH-EXTRA-20260924.md)。
+此前新增25个美客多专项Skill，覆盖6个选品、13个运营和6个广告任务；附同币种贡献与现金情景的离线测算工具。见[美客多增量与来源边界](sealeap-amazon-skills/RESEARCH-MERCADOLIBRE-20260927.md)。此前补充见[五平台增量](sealeap-amazon-skills/RESEARCH-EXTRA-20260924.md)。
 
-本轮新增 **26 个 OZON Skills**：选品8、运营12、广告6，全部以 **MPstats 数据为必需输入**。支持已配置的官方 MCP、API 或可核验导出，内部财务数据要求已授权店铺。缺数据先 HOLD；外部估算不冒充自家真实销量、利润或广告效果。附只读 API 探针和离线数据验收工具，详见 [OZON 研究与接入边界](sealeap-amazon-skills/RESEARCH-OZON-20260927.md)。
+已收录 **26 个 OZON Skills**：选品8、运营12、广告6，全部以 **MPstats 数据为必需输入**。支持已配置的官方 MCP、API 或可核验导出，内部财务数据要求已授权店铺。缺数据先 HOLD；外部估算不冒充自家真实销量、利润或广告效果。附只读 API 探针和离线数据验收工具，详见 [OZON 研究与接入边界](sealeap-amazon-skills/RESEARCH-OZON-20260927.md)。
 
 TikTok Shop的22个Skill现补充[单位经济与佣金上限计算器](sealeap-amazon-skills/tiktokshop/sealeap-tiktokshop-unit-economics/references/calculator.md)：按标准联盟、Shop Ads及非联盟订单分组，计算贡献、条件佣金上限和广告预算，计入寄样、报酬、制作与退款成本；仅用Python标准库，附可运行的合成样例。
+
+本轮新增 **24 个 Wayfair Skills**：选品6、运营12、广告6。围绕供货模式、家居商品信息、大件与多箱履约、CastleGate、扣款及广告经营编写，附 **供货贡献测算** 和 **多箱发货清单校验** 两个离线工具。见[Wayfair来源与验证边界](sealeap-amazon-skills/RESEARCH-WAYFAIR-20260929.md)。
 
 ### 从常见问题开始
 
@@ -62,6 +65,8 @@ TikTok Shop的22个Skill现补充[单位经济与佣金上限计算器](sealeap-
 | 二手商品的真实成交价怎么比较？ | [eBay 已售样本](sealeap-amazon-skills/ebay/sealeap-ebay-sold-comps/SKILL.md) |
 | 广告费为什么和预期不一致？ | [eBay 归因对账](sealeap-amazon-skills/ebay/sealeap-ebay-ad-attribution/SKILL.md) |
 | 达人佣金最多能给多少，投流后还剩多少贡献？ | [TikTok 单位经济计算器](sealeap-amazon-skills/tiktokshop/sealeap-tiktokshop-unit-economics/SKILL.md) |
+| Wayfair供货价扣完Allowance和广告，还剩多少贡献？ | [Wayfair供货贡献测算](sealeap-amazon-skills/wayfair/sealeap-wayfair-wholesale-economics/SKILL.md) |
+| 多箱家具数量对了，为什么仍会漏发组件？ | [Wayfair多箱发货校验](sealeap-amazon-skills/wayfair/sealeap-wayfair-order-multibox/SKILL.md) |
 | 寄样、出片和投放权怎么管理？ | [TikTok 素材许可](sealeap-amazon-skills/tiktokshop/sealeap-tiktokshop-creator-brief-rights/SKILL.md) |
 | GMV Max ROI 高就代表广告增量高吗？ | [TikTok 全域归因](sealeap-amazon-skills/tiktokshop/sealeap-tiktokshop-analytics-attribution/SKILL.md) |
 | WFS 仓龄会怎样影响利润？ | [Walmart WFS经济性](sealeap-amazon-skills/walmart/sealeap-walmart-wfs-economics/SKILL.md) |
@@ -89,11 +94,11 @@ cd sealeap-ecommerce-skills
 请给出SKU贡献、可承受CAC、数据缺口和有限测试建议。
 ```
 
-只有一个具体问题时使用专项入口；需要完整选品评审、多环节巡检或广告联合诊断时，选择对应的综合入口。单个 Skill 可独立复制，不要求加载全部 170 个，也不依赖私人审计目录。OZON模块必须提供MPstats数据，服务订阅和权限按MPstats要求自行准备。
+只有一个具体问题时使用专项入口；需要完整选品评审、多环节巡检或广告联合诊断时，选择对应的综合入口。单个 Skill 可独立复制，不要求加载全部 194 个，也不依赖私人审计目录。OZON模块必须提供MPstats数据，服务订阅和权限按MPstats要求自行准备。
 
 ## 来源与质量
 
-本版包含 **73 个证据单元：70 条可访问内容与 3 个开源仓库**，另有 **93 项官方规则核查入口**。来源覆盖小红书、知乎、B站、抖音、YouTube、GitHub及行业公开文章。
+本版包含 **81 个证据单元：78 条可访问内容与 3 个开源仓库**，另有 **111 项官方规则核查入口**。来源覆盖小红书、知乎、B站、抖音、YouTube、GitHub及行业公开文章。
 
 此前已研究了 [eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)（MIT），建立 **98 个上游文件到85个专项任务**的映射。仓库Stars/Forks是仓库级社区指标，不能拆成每个Skill的点赞，也不证明商业效果。部分上游文件只有主题简介，仅用作选题线索，执行流程由本项目重新编写。
 
@@ -114,7 +119,7 @@ cd sealeap-ecommerce-skills
 
 开源许可不转移第三方原始文章、课程、音视频、商标或客户数据的权利。外部数据服务费用由服务方决定，OZON模块要求MPstats数据；使用本仓库本身不收费。
 
-本项目由 SeaLeap 独立维护，不代表 Shopify、Etsy、eBay、TikTok、Walmart、Mercado Libre、OZON 或 MPstats 官方认证或背书。
+本项目由 SeaLeap 独立维护，不代表 Shopify、Etsy、eBay、TikTok、Walmart、Mercado Libre、OZON、Wayfair 或 MPstats 官方认证或背书。
 
 ## 仓库结构
 
@@ -130,6 +135,7 @@ sealeap-ecommerce-skills/
 │   ├── walmart/            # 24 Skills
 │   ├── mercadolibre/       # 25 Skills
 │   ├── ozon/               # 26 Skills，全部要求 MPstats
+│   ├── wayfair/            # 24 Skills，含供货贡献与多箱校验工具
 │   └── validate_collection.py
 ├── README.md
 ├── LICENSE

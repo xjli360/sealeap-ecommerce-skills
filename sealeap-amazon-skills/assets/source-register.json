@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "created_on": "2026-09-23",
-  "edition": "v7",
+  "edition": "v8",
   "sources": [
     {
       "id": "S01",
@@ -1608,7 +1608,210 @@
         "sealeap-ozon-weekly-diagnostics",
         "sealeap-ozon-pay-per-order-economics"
       ]
+    },
+    {
+      "id": "WF01",
+      "platform": "wayfair",
+      "channel": "YouTube",
+      "observed_on": "2026-09-29",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "10,000–99,999",
+        "likes": "0–49"
+      },
+      "content_coverage": "Video ID匹配；核读完整自动字幕，非逐帧观看。",
+      "quality_scope": "批发供货、物流/包装、采购到回款现金周期及有限试销的基本框架。",
+      "limitations": "支付服务营销视频；德国市场信息过时、零费用及增长暗示未采纳；不推荐其金融产品。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-wayfair-supplier-market-fit",
+        "sealeap-wayfair-seasonal-launch",
+        "sealeap-wayfair-wholesale-economics",
+        "sealeap-wayfair-professional-assortment",
+        "sealeap-wayfair-packaging-damage",
+        "sealeap-wayfair-inventory-feed",
+        "sealeap-wayfair-leadtime-scorecard",
+        "sealeap-wayfair-castlegate-inbound",
+        "sealeap-wayfair-replenishment-aging",
+        "sealeap-wayfair-settlement-deductions",
+        "sealeap-wayfair-ad-readiness",
+        "sealeap-wayfair-sponsored-products-testing",
+        "sealeap-wayfair-budget-bid-controls",
+        "sealeap-wayfair-promotion-economics",
+        "sealeap-wayfair-attribution-incrementality"
+      ]
+    },
+    {
+      "id": "WF03",
+      "platform": "wayfair",
+      "channel": "YouTube",
+      "observed_on": "2026-09-29",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "完整展开的视频说明正文，含活动、商品/类目、预算和素材步骤；字幕不可用，未宣称观看全片。",
+      "quality_scope": "Sponsored Products与Sponsored Shops任务划分、预算及落地页素材匹配。",
+      "limitations": "2022年界面；旧图片规格、投放选项、审核时限和销量数据不作为当前规则。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-wayfair-ad-readiness",
+        "sealeap-wayfair-sponsored-products-testing",
+        "sealeap-wayfair-sponsored-shops-creative",
+        "sealeap-wayfair-budget-bid-controls",
+        "sealeap-wayfair-attribution-incrementality"
+      ]
+    },
+    {
+      "id": "WF04",
+      "platform": "wayfair",
+      "channel": "YouTube",
+      "observed_on": "2026-09-29",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "100,000以上"
+      },
+      "content_coverage": "Video ID匹配；完整核读2分多钟字幕。",
+      "quality_scope": "区分批发价、零售价、运费责任和Allowance。",
+      "limitations": "历史供应商教学；不沿用所有退货/损坏统一由Allowance覆盖或平台永远承担全部费用的结论。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-wayfair-supplier-market-fit",
+        "sealeap-wayfair-wholesale-economics",
+        "sealeap-wayfair-order-multibox",
+        "sealeap-wayfair-returns-parts",
+        "sealeap-wayfair-settlement-deductions"
+      ]
+    },
+    {
+      "id": "WF05",
+      "platform": "wayfair",
+      "channel": "YouTube",
+      "observed_on": "2026-09-29",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "views": "1,000–9,999",
+        "likes": "0–49"
+      },
+      "content_coverage": "Video ID匹配；完整核读7分多钟字幕。",
+      "quality_scope": "类目趋势与盈利筛选、SKU/MPN、箱规、属性、交期、文档与上传校验。",
+      "limitations": "不采用永久免费、固定保险额度、所有产品统一合规标签、评分等于销量等暗示；当期字段需核验。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-wayfair-supplier-market-fit",
+        "sealeap-wayfair-assortment-opportunity",
+        "sealeap-wayfair-seasonal-launch",
+        "sealeap-wayfair-catalog-identifiers",
+        "sealeap-wayfair-attributes-localization",
+        "sealeap-wayfair-packaging-damage",
+        "sealeap-wayfair-inventory-feed",
+        "sealeap-wayfair-order-multibox",
+        "sealeap-wayfair-leadtime-scorecard",
+        "sealeap-wayfair-castlegate-inbound"
+      ]
+    },
+    {
+      "id": "WF06",
+      "platform": "wayfair",
+      "channel": "Xiaohongshu",
+      "observed_on": "2026-09-29",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "50–99",
+        "saves": "0–49",
+        "comments": "0–49"
+      },
+      "content_coverage": "完整笔记正文；可见评论仅辅助发现争议，不视为独立验证。",
+      "quality_scope": "家具场景与目标审美匹配、尺寸材质与购买预期，不以图片数量代替信息质量。",
+      "limitations": "经营者观察，未获得实验数据；销量下降原因不直接认定为图片的因果效果。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-wayfair-competitor-price-style",
+        "sealeap-wayfair-attributes-localization",
+        "sealeap-wayfair-imagery-waymore",
+        "sealeap-wayfair-returns-parts",
+        "sealeap-wayfair-sponsored-shops-creative"
+      ]
+    },
+    {
+      "id": "WF07",
+      "platform": "wayfair",
+      "channel": "Xiaohongshu",
+      "observed_on": "2026-09-29",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "50–99",
+        "saves": "50–99",
+        "comments": "0–49"
+      },
+      "content_coverage": "完整笔记正文；评论中的提问作为误判线索。",
+      "quality_scope": "按SKU持续复盘内容、库存、配送、售后和促销贡献。",
+      "limitations": "不采用评论中的固定广告归因天数、账号权重机制、特定货源或收益结论。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-wayfair-catalog-identifiers",
+        "sealeap-wayfair-imagery-waymore",
+        "sealeap-wayfair-packaging-damage",
+        "sealeap-wayfair-inventory-feed",
+        "sealeap-wayfair-leadtime-scorecard",
+        "sealeap-wayfair-replenishment-aging",
+        "sealeap-wayfair-returns-parts",
+        "sealeap-wayfair-weekly-diagnostics",
+        "sealeap-wayfair-ad-readiness",
+        "sealeap-wayfair-budget-bid-controls",
+        "sealeap-wayfair-promotion-economics",
+        "sealeap-wayfair-attribution-incrementality"
+      ]
+    },
+    {
+      "id": "WF08",
+      "platform": "wayfair",
+      "channel": "Xiaohongshu",
+      "observed_on": "2026-09-29",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "100–999",
+        "saves": "100–999",
+        "comments": "0–49"
+      },
+      "content_coverage": "视频所附方法正文完整核读；未核读视频逐字稿。",
+      "quality_scope": "Consumer Insights中的品类/价格带观察与现有优势产品线优先验证。",
+      "limitations": "平台宣传内容；工具可见性和导出能力需当前Partner Home核验，需求机会不保证销量。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-wayfair-assortment-opportunity",
+        "sealeap-wayfair-competitor-price-style",
+        "sealeap-wayfair-seasonal-launch",
+        "sealeap-wayfair-professional-assortment",
+        "sealeap-wayfair-replenishment-aging",
+        "sealeap-wayfair-weekly-diagnostics"
+      ]
+    },
+    {
+      "id": "WF10",
+      "platform": "wayfair",
+      "channel": "Xiaohongshu",
+      "observed_on": "2026-09-29",
+      "metric_verification": "authenticated_browser",
+      "engagement_bands": {
+        "likes": "50–99",
+        "saves": "50–99",
+        "comments": "0–49"
+      },
+      "content_coverage": "完整笔记正文。",
+      "quality_scope": "前台价格受到供货、物流和事件成本等影响，先区分供货价与零售价。",
+      "limitations": "不将特定品牌分组、毛利与曝光关系或文中简化算法当作可逆推的统一定价公式。",
+      "metric_scope": "individual_content",
+      "used_by": [
+        "sealeap-wayfair-competitor-price-style",
+        "sealeap-wayfair-wholesale-economics",
+        "sealeap-wayfair-settlement-deductions",
+        "sealeap-wayfair-weekly-diagnostics",
+        "sealeap-wayfair-promotion-economics"
+      ]
     }
   ],
-  "updated_on": "2026-09-27"
+  "updated_on": "2026-09-29"
 }

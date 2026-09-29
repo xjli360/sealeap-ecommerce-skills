@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "site": "US",
+  "currency": "USD",
+  "currency_minor_units": 2,
+  "sku": "synthetic-chair-a",
+  "input_kind": "synthetic",
+  "basis_note": "Invented one-SKU, one-sellable-unit scenario; all fees and deductions are assumptions, not Wayfair rates. No shipping cost is assumed to be borne by this supplier in this example only.",
+  "revenue_basis": "supplier_wholesale_before_adjustments",
+  "incident_basis": "residual_costs_after_allowance_and_claim_reconciliation",
+  "units": 20,
+  "unit_wholesale_price": "200.00",
+  "unit_adjustments": {"promotion_discount": "10.00", "allowances": "12.00", "refunds_and_claims": "3.00", "other_debits": "1.00", "credits": "1.00"},
+  "unit_costs": {"product": "90.00", "inbound": "12.00", "packaging": "6.00", "warehouse_handling": "4.00", "storage": "3.00", "supplier_paid_shipping": "0.00", "uncovered_after_sales": "4.00", "nonrecoverable_tax": "0.00", "other": "1.00"},
+  "unit_inventory_recovery_credit": "2.00",
+  "fixed_costs": {"platform_programs": "30.00", "content_and_samples": "50.00", "other": "0.00"},
+  "ad_spend": "200.00",
+  "target_unit_contribution": "30.00"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 订单、多箱与发货前校验"
+  short_description: "依据Wayfair供货模式与真实数据，完成订单、多箱与发货前校验并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-order-multibox，基于我提供的数据完成订单、多箱与发货前校验，先核口径和缺口，再给证据与可执行方案。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair Sponsored Shops 素材与落地页"
+  short_description: "依据Wayfair供货模式与真实数据，完成Sponsored Shops 素材与落地页并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-sponsored-shops-creative，基于我提供的数据完成Sponsored Shops 素材与落地页，先核口径和缺口，再给证据与可执行方案。"

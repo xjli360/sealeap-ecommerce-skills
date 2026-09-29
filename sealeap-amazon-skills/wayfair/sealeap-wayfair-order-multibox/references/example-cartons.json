@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scope": "full_order_single_warehouse",
+  "order_id": "synthetic-order-a",
+  "warehouse_id": "synthetic-warehouse-a",
+  "destination_ref": "synthetic-destination-a",
+  "mode": "large_parcel",
+  "declared_package_count": 4,
+  "lines": [
+    {"line_id": "line-a", "supplier_part_number": "bed-set-a", "ordered_units": 2,
+     "carton_slots": [{"slot_id": "A", "component_part_number": "headboard-a"}, {"slot_id": "B", "component_part_number": "rail-kit-a"}]}
+  ],
+  "cartons": [
+    {"package_id": "box-a", "line_id": "line-a", "unit_index": 1, "slot_id": "A", "component_part_number": "headboard-a", "warehouse_id": "synthetic-warehouse-a", "destination_ref": "synthetic-destination-a", "tracking_ref": "synthetic-bol-a"},
+    {"package_id": "box-b", "line_id": "line-a", "unit_index": 1, "slot_id": "B", "component_part_number": "rail-kit-a", "warehouse_id": "synthetic-warehouse-a", "destination_ref": "synthetic-destination-a", "tracking_ref": "synthetic-bol-a"},
+    {"package_id": "box-c", "line_id": "line-a", "unit_index": 2, "slot_id": "A", "component_part_number": "headboard-a", "warehouse_id": "synthetic-warehouse-a", "destination_ref": "synthetic-destination-a", "tracking_ref": "synthetic-bol-a"},
+    {"package_id": "box-d", "line_id": "line-a", "unit_index": 2, "slot_id": "B", "component_part_number": "rail-kit-a", "warehouse_id": "synthetic-warehouse-a", "destination_ref": "synthetic-destination-a", "tracking_ref": "synthetic-bol-a"}
+  ]
+}

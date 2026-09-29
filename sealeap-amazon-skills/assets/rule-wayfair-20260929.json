@@ -1,0 +1,149 @@
+{
+  "checked_on": "2026-09-29",
+  "rules": [
+    {
+      "id": "R94",
+      "title": "Wayfair供货模式与前台定价",
+      "url": "https://sell.wayfair.com/",
+      "checked_on": "2026-09-29",
+      "coverage": "核读官网FAQ的定价、入驻、履约和促销说明。",
+      "correction": "供货价和零售价分开；物流、库存位置和事件率参与前台定价，不逆推固定系数。"
+    },
+    {
+      "id": "R95",
+      "title": "供应商入驻准备清单",
+      "url": "https://sell.wayfair.com/onboarding-checklist",
+      "checked_on": "2026-09-29",
+      "coverage": "核读产品、当地仓、银行税务、库存/订单、保险和上线条件正文。",
+      "correction": "按销售地区和当前账户核验资格，3PL需具备真实逐单履约能力。"
+    },
+    {
+      "id": "R96",
+      "title": "供应商基础经营指南",
+      "url": "https://sell.wayfair.com/start-beginners-guide",
+      "checked_on": "2026-09-29",
+      "coverage": "核读命名、图片排序、选项、供货价、发货、回款和报表段落。",
+      "correction": "前台展示、物流及回款有各自边界；历史示例期限/费率不代替合同。"
+    },
+    {
+      "id": "R97",
+      "title": "产品目录与商品信息",
+      "url": "https://sell.wayfair.com/start-adding-assortment",
+      "checked_on": "2026-09-29",
+      "coverage": "核读标识、箱数、规格、文案、图片和商品选项说明。",
+      "correction": "完整的产品数据与箱规需保持一致，不能以箱数代替可售数量。"
+    },
+    {
+      "id": "R98",
+      "title": "商品内容与媒体优化",
+      "url": "https://sell.wayfair.com/start-optimize-products",
+      "checked_on": "2026-09-29",
+      "coverage": "核读描述、规格、图片、视频、指南、纹理与认证说明。",
+      "correction": "内容帮助理解产品；认证与功能必须由实物和适用证明支持。"
+    },
+    {
+      "id": "R99",
+      "title": "家居图片类型",
+      "url": "https://sell.wayfair.com/blog/learn-the-basics/imagery-101",
+      "checked_on": "2026-09-29",
+      "coverage": "核读图片目的和silo、场景、功能、尺寸分类；未下载原图。",
+      "correction": "按购买问题分配图片任务，原创素材与真实比例优先。"
+    },
+    {
+      "id": "R100",
+      "title": "SKU与组合组件",
+      "url": "https://sell.wayfair.com/blog/learn-the-basics/what-is-a-sku",
+      "checked_on": "2026-09-29",
+      "coverage": "核读四种SKU/组件类型及上架资料说明。",
+      "correction": "standalone、composite、sellable component和true component的库存与身份不得混用。"
+    },
+    {
+      "id": "R101",
+      "title": "库存、交期与可靠发货",
+      "url": "https://sell.wayfair.com/start-ship-fast-and-reliably",
+      "checked_on": "2026-09-29",
+      "coverage": "核读库存更新、预留、交期、截单、揽收、事件与绩效段落。",
+      "correction": "按真实能力承诺交期；评分指标与时间口径需在当前报告中确认。"
+    },
+    {
+      "id": "R102",
+      "title": "订单管理与数据集成",
+      "url": "https://sell.wayfair.com/operate-manage-orders",
+      "checked_on": "2026-09-29",
+      "coverage": "核读Partner Home订单、库存、BOL、面单及API/EDI介绍。",
+      "correction": "门户、API与EDI是不同执行通道；工具存在不证明当前账户已授权。"
+    },
+    {
+      "id": "R103",
+      "title": "CastleGate履约",
+      "url": "https://sell.wayfair.com/operate-castlegate-fulfillment",
+      "checked_on": "2026-09-29",
+      "coverage": "核读前置库存、美国/加拿大/英国仓网及多渠道履约说明。",
+      "correction": "资格、费表、仓位和服务范围按当前合同核对；营销增长比例不视为保证。"
+    },
+    {
+      "id": "R104",
+      "title": "退货与Wayfair-managed returns",
+      "url": "https://sell.wayfair.com/operate-returns",
+      "checked_on": "2026-09-29",
+      "coverage": "核读退货流转、自行处理和平台处理、检查退款及减少退货段落。",
+      "correction": "不同退货方案的责任和退款方式分开，不能沿用历史全包假设。"
+    },
+    {
+      "id": "R105",
+      "title": "Wayfair广告产品",
+      "url": "https://sell.wayfair.com/grow-advertising",
+      "checked_on": "2026-09-29",
+      "coverage": "核读Sponsored Products、Sponsored Shops与展示广告介绍。",
+      "correction": "广告目标、落地页及计费模式分开；旧教程界面/素材规格需复核。"
+    },
+    {
+      "id": "R106",
+      "title": "Wayfair Professional",
+      "url": "https://sell.wayfair.com/grow-wayfair-professional",
+      "checked_on": "2026-09-29",
+      "coverage": "核读商业采购客户类型、专门商品组合和内容方向。",
+      "correction": "平台可见不等于具备商用等级或适合所有项目，商用声明须有证明。"
+    },
+    {
+      "id": "R107",
+      "title": "跨市场商品扩展",
+      "url": "https://sell.wayfair.com/grow-global-expansion",
+      "checked_on": "2026-09-29",
+      "coverage": "核读本地偏好、目录复制与翻译、产品标准及税关务提示。",
+      "correction": "目录复制不自动覆盖新市场合规；市场清单与R110交叉核验。"
+    },
+    {
+      "id": "R108",
+      "title": "供应商行为准则",
+      "url": "https://sell.wayfair.com/wayfair-supplier-code-of-conduct",
+      "checked_on": "2026-09-29",
+      "coverage": "核读目录唯一性、真实信息、客户关系/评价、包装、库存和产品安全段落；页面保留历史修订标记。",
+      "correction": "不重复建链、不操纵评价；包装与实际物品一致。具体法规须按当前市场重新核验。"
+    },
+    {
+      "id": "R109",
+      "title": "主协议及CastleGate条款",
+      "url": "https://sell.wayfair.com/msa",
+      "checked_on": "2026-09-29",
+      "coverage": "限定核读产品信息、计划条款优先级、收货/计数、标签、费用与争议及多箱相关条款，未宣称逐条法律审查。",
+      "correction": "以适用计划/费表与实际通知为准；签收、验收、计数、可售和付款分别核对。"
+    },
+    {
+      "id": "R110",
+      "title": "德国市场退出公告",
+      "url": "https://www.aboutwayfair.com/category/company-news/a-message-from-co-founder-and-ceo-niraj-shah",
+      "checked_on": "2026-09-29",
+      "coverage": "核读2025-01-10官方市场退出公告。",
+      "correction": "历史教程中的德国扩站不能直接执行，当前目标地区需重新确认。"
+    },
+    {
+      "id": "R111",
+      "title": "Dropship订单与ASN API",
+      "url": "https://developer.wayfair.io/posts/dropship-orders-asn",
+      "checked_on": "2026-09-29",
+      "coverage": "浏览器核读查询、逐行接受、注册/面单、ASN、错误处理及上线注意事项；未运行API。",
+      "correction": "Dropship与CG流程分开；PROCESSING或有行级错误不是完成；回补订单走当前支持流程。"
+    }
+  ]
+}

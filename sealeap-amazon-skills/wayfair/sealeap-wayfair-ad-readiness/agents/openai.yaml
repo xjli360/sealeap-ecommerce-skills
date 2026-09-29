@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 广告投前资格与商品筛选"
+  short_description: "依据Wayfair供货模式与真实数据，完成广告投前资格与商品筛选并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-ad-readiness，基于我提供的数据完成广告投前资格与商品筛选，先核口径和缺口，再给证据与可执行方案。"

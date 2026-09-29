@@ -1,6 +1,6 @@
-# SeaLeap 七平台技能目录
+# SeaLeap 八平台技能目录
 
-170个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
+194个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
 
 ## shopify · 27 Skills
 
@@ -212,3 +212,34 @@
 | [OZON 广告增量与市场对照实验](ozon/sealeap-ozon-incrementality/SKILL.md) | 广告 | MPstats专项 |
 
 [OZON来源、规则与验证边界](RESEARCH-OZON-20260927.md)
+
+## wayfair · 24 Skills
+
+| Skill | 方向 | 定位 |
+| --- | --- | --- |
+| [Wayfair 供应商模式与市场进入](wayfair/sealeap-wayfair-supplier-market-fit/SKILL.md) | 选品 | 专项任务 |
+| [Wayfair 品类机会与优势产品筛选](wayfair/sealeap-wayfair-assortment-opportunity/SKILL.md) | 选品 | 专项任务 |
+| [Wayfair 竞品价格、规格与风格对照](wayfair/sealeap-wayfair-competitor-price-style/SKILL.md) | 选品 | 专项任务 |
+| [Wayfair 季节选品与到仓倒排](wayfair/sealeap-wayfair-seasonal-launch/SKILL.md) | 选品 | 专项任务 |
+| [Wayfair 供货贡献与广告预算测算](wayfair/sealeap-wayfair-wholesale-economics/SKILL.md) | 选品 | 专项任务，附离线工具 |
+| [Wayfair Professional 商用品类](wayfair/sealeap-wayfair-professional-assortment/SKILL.md) | 选品 | 专项任务 |
+| [Wayfair SKU、组件与商品组建模](wayfair/sealeap-wayfair-catalog-identifiers/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 类目属性与本地化验收](wayfair/sealeap-wayfair-attributes-localization/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 家居图片与 WayMore 简报](wayfair/sealeap-wayfair-imagery-waymore/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 包装、货损与装配改进](wayfair/sealeap-wayfair-packaging-damage/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 多仓库存与同步验收](wayfair/sealeap-wayfair-inventory-feed/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 订单、多箱与发货前校验](wayfair/sealeap-wayfair-order-multibox/SKILL.md) | 运营 | 专项任务，附离线工具 |
+| [Wayfair 交期承诺与供应商绩效](wayfair/sealeap-wayfair-leadtime-scorecard/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair CastleGate 入仓与实收对账](wayfair/sealeap-wayfair-castlegate-inbound/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 补货、仓龄与退出计划](wayfair/sealeap-wayfair-replenishment-aging/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 退货、缺陷与补件决策](wayfair/sealeap-wayfair-returns-parts/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 供货发票与扣款回款对账](wayfair/sealeap-wayfair-settlement-deductions/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair SKU经营周报与行动复盘](wayfair/sealeap-wayfair-weekly-diagnostics/SKILL.md) | 运营 | 专项任务 |
+| [Wayfair 广告投前资格与商品筛选](wayfair/sealeap-wayfair-ad-readiness/SKILL.md) | 广告 | 专项任务 |
+| [Wayfair Sponsored Products 测试与诊断](wayfair/sealeap-wayfair-sponsored-products-testing/SKILL.md) | 广告 | 专项任务 |
+| [Wayfair Sponsored Shops 素材与落地页](wayfair/sealeap-wayfair-sponsored-shops-creative/SKILL.md) | 广告 | 专项任务 |
+| [Wayfair 预算、出价与供货贡献分配](wayfair/sealeap-wayfair-budget-bid-controls/SKILL.md) | 广告 | 专项任务 |
+| [Wayfair 促销、Closeout 与折扣经济性](wayfair/sealeap-wayfair-promotion-economics/SKILL.md) | 广告 | 专项任务 |
+| [Wayfair 广告归因、供货回报与增量](wayfair/sealeap-wayfair-attribution-incrementality/SKILL.md) | 广告 | 专项任务 |
+
+[Wayfair来源与研究边界](RESEARCH-WAYFAIR-20260929.md)

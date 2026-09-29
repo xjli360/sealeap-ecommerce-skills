@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 竞品价格、规格与风格对照"
+  short_description: "依据Wayfair供货模式与真实数据，完成竞品价格、规格与风格对照并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-competitor-price-style，基于我提供的数据完成竞品价格、规格与风格对照，先核口径和缺口，再给证据与可执行方案。"

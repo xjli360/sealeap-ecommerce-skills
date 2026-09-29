@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair SKU、组件与商品组建模"
+  short_description: "依据Wayfair供货模式与真实数据，完成SKU、组件与商品组建模并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-catalog-identifiers，基于我提供的数据完成SKU、组件与商品组建模，先核口径和缺口，再给证据与可执行方案。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 交期承诺与供应商绩效"
+  short_description: "依据Wayfair供货模式与真实数据，完成交期承诺与供应商绩效并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-leadtime-scorecard，基于我提供的数据完成交期承诺与供应商绩效，先核口径和缺口，再给证据与可执行方案。"

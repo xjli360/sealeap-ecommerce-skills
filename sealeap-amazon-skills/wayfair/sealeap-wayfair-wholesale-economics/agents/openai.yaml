@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 供货贡献与广告预算测算"
+  short_description: "依据Wayfair供货模式与真实数据，完成供货贡献与广告预算测算并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-wholesale-economics，基于我提供的数据完成供货贡献与广告预算测算，先核口径和缺口，再给证据与可执行方案。"

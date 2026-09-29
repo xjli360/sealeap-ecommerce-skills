@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "collection": "sealeap-amazon-skills",
-  "edition": "2026-09-27-tiktok-executable-economics",
+  "edition": "2026-09-29-wayfair",
   "platforms": [
     "shopify",
     "etsy",
@@ -9,7 +9,8 @@
     "tiktokshop",
     "walmart",
     "mercadolibre",
-    "ozon"
+    "ozon",
+    "wayfair"
   ],
   "skills": [
     {
@@ -3872,6 +3873,569 @@
       "mpstats_reports": [
         "MPstats 冻结竞品/细分时间序列；自家成熟销售、广告与成本"
       ]
+    },
+    {
+      "name": "sealeap-wayfair-supplier-market-fit",
+      "platform": "wayfair",
+      "mode": "selection",
+      "title": "Wayfair 供应商模式与市场进入",
+      "path": "wayfair/sealeap-wayfair-supplier-market-fit",
+      "sources": [
+        "WF01",
+        "WF04",
+        "WF05"
+      ],
+      "rule_checks": [
+        "R94",
+        "R95",
+        "R96",
+        "R108",
+        "R110"
+      ],
+      "merged_topics": [
+        "评估企业、产品和履约能力是否适合进入某个Wayfair市场"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-assortment-opportunity",
+      "platform": "wayfair",
+      "mode": "selection",
+      "title": "Wayfair 品类机会与优势产品筛选",
+      "path": "wayfair/sealeap-wayfair-assortment-opportunity",
+      "sources": [
+        "WF05",
+        "WF08"
+      ],
+      "rule_checks": [
+        "R95",
+        "R97",
+        "R108"
+      ],
+      "merged_topics": [
+        "结合Partner Home可用消费者洞察和产品能力，筛选Wayfair新品方向"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-competitor-price-style",
+      "platform": "wayfair",
+      "mode": "selection",
+      "title": "Wayfair 竞品价格、规格与风格对照",
+      "path": "wayfair/sealeap-wayfair-competitor-price-style",
+      "sources": [
+        "WF06",
+        "WF08",
+        "WF10"
+      ],
+      "rule_checks": [
+        "R94",
+        "R97",
+        "R98",
+        "R108"
+      ],
+      "merged_topics": [
+        "建立Wayfair同用途商品池，寻找可证明的规格、风格或服务差异"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-seasonal-launch",
+      "platform": "wayfair",
+      "mode": "selection",
+      "title": "Wayfair 季节选品与到仓倒排",
+      "path": "wayfair/sealeap-wayfair-seasonal-launch",
+      "sources": [
+        "WF01",
+        "WF05",
+        "WF08"
+      ],
+      "rule_checks": [
+        "R101",
+        "R103",
+        "R107"
+      ],
+      "merged_topics": [
+        "为Wayfair季节品和活动新品安排生产、到仓、上架与补货窗口"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-wholesale-economics",
+      "platform": "wayfair",
+      "mode": "selection",
+      "title": "Wayfair 供货贡献与广告预算测算",
+      "path": "wayfair/sealeap-wayfair-wholesale-economics",
+      "sources": [
+        "WF01",
+        "WF04",
+        "WF10"
+      ],
+      "rule_checks": [
+        "R94",
+        "R96",
+        "R104",
+        "R109"
+      ],
+      "merged_topics": [
+        "计算Wayfair供货收入扣除折扣、Allowance、履约及货损后的贡献与投流空间"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair",
+      "execution": {
+        "entrypoint": "scripts/wholesale_contribution.py",
+        "input_example": "references/example-scenario.json",
+        "reference": "references/calculator.md",
+        "tests": "scripts/test_wholesale_contribution.py",
+        "network": false,
+        "account_mutations": false
+      }
+    },
+    {
+      "name": "sealeap-wayfair-professional-assortment",
+      "platform": "wayfair",
+      "mode": "selection",
+      "title": "Wayfair Professional 商用品类",
+      "path": "wayfair/sealeap-wayfair-professional-assortment",
+      "sources": [
+        "WF01",
+        "WF08"
+      ],
+      "rule_checks": [
+        "R98",
+        "R106",
+        "R108"
+      ],
+      "merged_topics": [
+        "评估产品进入Wayfair Professional商业采购场景的适配性"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-catalog-identifiers",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair SKU、组件与商品组建模",
+      "path": "wayfair/sealeap-wayfair-catalog-identifiers",
+      "sources": [
+        "WF05",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R95",
+        "R97",
+        "R100",
+        "R108"
+      ],
+      "merged_topics": [
+        "梳理Wayfair SKU、供应商零件号、变体和组合商品映射"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-attributes-localization",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 类目属性与本地化验收",
+      "path": "wayfair/sealeap-wayfair-attributes-localization",
+      "sources": [
+        "WF05",
+        "WF06"
+      ],
+      "rule_checks": [
+        "R95",
+        "R97",
+        "R98",
+        "R107",
+        "R108"
+      ],
+      "merged_topics": [
+        "校验Wayfair类目字段、尺寸单位、文案和合规材料的一致性"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-imagery-waymore",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 家居图片与 WayMore 简报",
+      "path": "wayfair/sealeap-wayfair-imagery-waymore",
+      "sources": [
+        "WF06",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R96",
+        "R98",
+        "R99",
+        "R108"
+      ],
+      "merged_topics": [
+        "设计Wayfair场景图、尺寸图、功能图和WayMore内容的原创改进方案"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-packaging-damage",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 包装、货损与装配改进",
+      "path": "wayfair/sealeap-wayfair-packaging-damage",
+      "sources": [
+        "WF01",
+        "WF05",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R95",
+        "R98",
+        "R101",
+        "R108",
+        "R109"
+      ],
+      "merged_topics": [
+        "从Wayfair破损、缺件和装配反馈定位包装或产品改进"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-inventory-feed",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 多仓库存与同步验收",
+      "path": "wayfair/sealeap-wayfair-inventory-feed",
+      "sources": [
+        "WF01",
+        "WF05",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R95",
+        "R100",
+        "R101",
+        "R102",
+        "R111"
+      ],
+      "merged_topics": [
+        "校验Wayfair多仓可售库存、组件约束及API/EDI同步结果"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-order-multibox",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 订单、多箱与发货前校验",
+      "path": "wayfair/sealeap-wayfair-order-multibox",
+      "sources": [
+        "WF04",
+        "WF05"
+      ],
+      "rule_checks": [
+        "R100",
+        "R102",
+        "R108",
+        "R109",
+        "R111"
+      ],
+      "merged_topics": [
+        "校验Wayfair订单的料号、组件、箱数、仓库和追踪信息是否完整一致"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair",
+      "execution": {
+        "entrypoint": "scripts/check_cartons.py",
+        "input_example": "references/example-cartons.json",
+        "reference": "references/carton-check.md",
+        "tests": "scripts/test_check_cartons.py",
+        "network": false,
+        "account_mutations": false
+      }
+    },
+    {
+      "name": "sealeap-wayfair-leadtime-scorecard",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 交期承诺与供应商绩效",
+      "path": "wayfair/sealeap-wayfair-leadtime-scorecard",
+      "sources": [
+        "WF01",
+        "WF05",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R95",
+        "R101",
+        "R102",
+        "R108",
+        "R111"
+      ],
+      "merged_topics": [
+        "诊断Wayfair备货交期、取消、履约率和供应商评分卡异常"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-castlegate-inbound",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair CastleGate 入仓与实收对账",
+      "path": "wayfair/sealeap-wayfair-castlegate-inbound",
+      "sources": [
+        "WF01",
+        "WF05"
+      ],
+      "rule_checks": [
+        "R103",
+        "R108",
+        "R109"
+      ],
+      "merged_topics": [
+        "准备Wayfair CastleGate入仓并核对送达、验收、数量和可售差异"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-replenishment-aging",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 补货、仓龄与退出计划",
+      "path": "wayfair/sealeap-wayfair-replenishment-aging",
+      "sources": [
+        "WF01",
+        "WF07",
+        "WF08"
+      ],
+      "rule_checks": [
+        "R101",
+        "R103",
+        "R104",
+        "R109"
+      ],
+      "merged_topics": [
+        "结合Wayfair真实动销和仓库约束制定补货、转仓或积压退出方案"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-returns-parts",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 退货、缺陷与补件决策",
+      "path": "wayfair/sealeap-wayfair-returns-parts",
+      "sources": [
+        "WF04",
+        "WF06",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R98",
+        "R104",
+        "R108",
+        "R109"
+      ],
+      "merged_topics": [
+        "区分Wayfair无理由退货、货损缺陷与缺件，并准备补件或退货处理方案"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-settlement-deductions",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair 供货发票与扣款回款对账",
+      "path": "wayfair/sealeap-wayfair-settlement-deductions",
+      "sources": [
+        "WF01",
+        "WF04",
+        "WF10"
+      ],
+      "rule_checks": [
+        "R94",
+        "R96",
+        "R104",
+        "R109"
+      ],
+      "merged_topics": [
+        "将Wayfair PO、发票、Payment Voucher和银行实收桥接到同一供货批次"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-weekly-diagnostics",
+      "platform": "wayfair",
+      "mode": "operations",
+      "title": "Wayfair SKU经营周报与行动复盘",
+      "path": "wayfair/sealeap-wayfair-weekly-diagnostics",
+      "sources": [
+        "WF07",
+        "WF08",
+        "WF10"
+      ],
+      "rule_checks": [
+        "R94",
+        "R96",
+        "R101",
+        "R102",
+        "R108"
+      ],
+      "merged_topics": [
+        "综合Wayfair销售、内容、库存、绩效与费用，形成SKU级经营周报"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-ad-readiness",
+      "platform": "wayfair",
+      "mode": "advertising",
+      "title": "Wayfair 广告投前资格与商品筛选",
+      "path": "wayfair/sealeap-wayfair-ad-readiness",
+      "sources": [
+        "WF01",
+        "WF03",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R98",
+        "R101",
+        "R103",
+        "R105",
+        "R108"
+      ],
+      "merged_topics": [
+        "挑选Wayfair值得投入广告测试的商品并确认当前可用推广能力"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-sponsored-products-testing",
+      "platform": "wayfair",
+      "mode": "advertising",
+      "title": "Wayfair Sponsored Products 测试与诊断",
+      "path": "wayfair/sealeap-wayfair-sponsored-products-testing",
+      "sources": [
+        "WF01",
+        "WF03"
+      ],
+      "rule_checks": [
+        "R94",
+        "R98",
+        "R101",
+        "R105"
+      ],
+      "merged_topics": [
+        "设计Wayfair Sponsored Products的小规模测试和曝光点击转化诊断"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-sponsored-shops-creative",
+      "platform": "wayfair",
+      "mode": "advertising",
+      "title": "Wayfair Sponsored Shops 素材与落地页",
+      "path": "wayfair/sealeap-wayfair-sponsored-shops-creative",
+      "sources": [
+        "WF03",
+        "WF06"
+      ],
+      "rule_checks": [
+        "R98",
+        "R99",
+        "R105",
+        "R108"
+      ],
+      "merged_topics": [
+        "为Wayfair Sponsored Shops或当前等效品牌展示活动准备素材与目录落地页"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-budget-bid-controls",
+      "platform": "wayfair",
+      "mode": "advertising",
+      "title": "Wayfair 预算、出价与供货贡献分配",
+      "path": "wayfair/sealeap-wayfair-budget-bid-controls",
+      "sources": [
+        "WF01",
+        "WF03",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R94",
+        "R101",
+        "R105",
+        "R109"
+      ],
+      "merged_topics": [
+        "按Wayfair商品供货贡献、库存和广告成熟数据分配预算与出价"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-promotion-economics",
+      "platform": "wayfair",
+      "mode": "advertising",
+      "title": "Wayfair 促销、Closeout 与折扣经济性",
+      "path": "wayfair/sealeap-wayfair-promotion-economics",
+      "sources": [
+        "WF01",
+        "WF07",
+        "WF10"
+      ],
+      "rule_checks": [
+        "R94",
+        "R96",
+        "R104",
+        "R109"
+      ],
+      "merged_topics": [
+        "评估Wayfair活动、批发折扣或Closeout对供应商贡献与库存回收的影响"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-wayfair-attribution-incrementality",
+      "platform": "wayfair",
+      "mode": "advertising",
+      "title": "Wayfair 广告归因、供货回报与增量",
+      "path": "wayfair/sealeap-wayfair-attribution-incrementality",
+      "sources": [
+        "WF01",
+        "WF03",
+        "WF07"
+      ],
+      "rule_checks": [
+        "R94",
+        "R96",
+        "R105",
+        "R109"
+      ],
+      "merged_topics": [
+        "核对Wayfair广告报表的收入范围，并评估是否改善真实供货贡献"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-09-29-wayfair"
     }
   ]
 }

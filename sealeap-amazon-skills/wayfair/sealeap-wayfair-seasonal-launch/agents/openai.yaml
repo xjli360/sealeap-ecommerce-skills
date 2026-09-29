@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wayfair 季节选品与到仓倒排"
+  short_description: "依据Wayfair供货模式与真实数据，完成季节选品与到仓倒排并给出验证条件"
+  default_prompt: "使用 $sealeap-wayfair-seasonal-launch，基于我提供的数据完成季节选品与到仓倒排，先核口径和缺口，再给证据与可执行方案。"
