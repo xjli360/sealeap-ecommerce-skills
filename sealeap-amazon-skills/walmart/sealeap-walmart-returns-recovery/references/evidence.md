@@ -26,3 +26,9 @@
 R01–R18于2026-09-23查阅，R19–R29于2026-09-24查阅；规则文档不计入互动来源数量。单次查阅不保证长期有效。
 
 许可见本Skill附带的 [MIT文本](../LICENSE)。
+
+## 2026-10-16 官方规则补核
+
+- R126：[Walmart美国自发货退货政策](https://marketplacelearn.walmart.com/guides/Policies%20%26%20standards/Orders%20%26%20returns/returns-policy)。读取范围：官方索引可见内容，完整条款待核。
+
+本轮补充 R 与 M，不增加个人来源或互动证据；详细适用范围和验收分支见 [美国节日退货与跨年现金](policy-20261016.md)。

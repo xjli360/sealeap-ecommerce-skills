@@ -1,4 +1,4 @@
 interface:
   display_name: "美客多促销资格与净回款评审"
-  short_description: "美客多促销资格与净回款评审，核对真实输入、国家差异与关键边界并交付可执行的方案"
+  short_description: "核查美客多促销和B2B多件价的资格、价格模型、费用与最终生效状态"
   default_prompt: "使用 $sealeap-mercadolibre-promotion-net-proceeds，根据我的站点与资料完成任务，给出事实依据、数据缺口、方案与验收结果。"

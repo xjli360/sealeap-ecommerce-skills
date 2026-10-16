@@ -28,3 +28,11 @@
 R01–R18于2026-09-23查阅，R19–R29于2026-09-24查阅；规则文档不计入互动来源数量。单次查阅不保证长期有效。
 
 许可见本Skill附带的 [MIT文本](../LICENSE)。
+
+## 2026-10-16 官方规则补核
+
+- R112：[TikTok US 新版 SPS 试运行指南](https://seller-us.tiktok.com/university/essay?content_id=2786070166210347&from=new-and-updated&identity=1&is_new_connect=0&is_new_user=0&knowledge_id=7105568016090887&learning_id=7105568016090887&role=seller)。读取范围：官方正文相关章节。
+- R115：[TikTok US 履约政策复核](https://seller-us.tiktok.com/university/essay?content_id=8146792370325290&from=new-and-updated&identity=1&knowledge_id=3995852763301633&learning_id=3995852763301633&role=creator)。读取范围：官方正文相关章节。
+- R127：[TikTok欧盟九月政策更新索引](https://seller.tiktokglobalshop.com/university/new-policies?identity=1&page=2)。读取范围：官方索引可见内容，完整条款待核。
+
+本轮补充 R 与 M，不增加个人来源或互动证据；详细适用范围和验收分支见 [履约SLA、VTR与新版SPS](policy-20261016.md)。

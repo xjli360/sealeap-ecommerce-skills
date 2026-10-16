@@ -23,3 +23,9 @@
 ## M 与许可
 
 本包的输入、流程、判读分支、模板与合成案例为模型综合，并经上述规则校正；未导入本地业务Skill。原创整理采用[MIT许可](../LICENSE)，不转移第三方原始文章、音视频和商标权利。
+
+## 2026-10-16 官方规则补核
+
+- R128：[美客多B2B百分比多件价](https://developers.mercadolibre.com.ar/es_ar/validador-de-publicaciones/pxq-porcentaje-b2b)。读取范围：官方索引可见内容，完整条款待核。
+
+本轮补充 R 与 M，不增加个人来源或互动证据；详细适用范围和验收分支见 [B2B多件价迁移前核验](policy-20261016.md)。

@@ -19,3 +19,8 @@
 
 这些校正不是对整个上游项目的质量评级。来源的具体用途在各Skill证据文件中记录；M流程需要实际业务数据验证。
 
+## 2026-10-16 复核
+
+通过公开GitHub Tree API与远端HEAD交叉复核：原[eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)主分支仍为 `ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e`，与本库既有N01固定版本相同；当前树中有162个SKILL.md路径。README中的不同数量表述不能代替文件树，也不能把已有版本重复计为本轮新来源。
+
+另检视[nexscope-ecommerce-skills](https://github.com/nexscope-ai/nexscope-ecommerce-skills)树快照 `742ccef80fc605842b0249864051e4f690adcabb`，发现140个SKILL.md路径，未找到根级LICENSE文件，GitHub许可元数据为空；进一步核读README的License段落，明确声明为专有软件，API调用需有效访问资格且可能消耗点数。未取得将其内容再分发为MIT的授权，本轮不导入、不安装、不执行，不增加E来源数量。未来若采用，逐包确认授权、数据服务依赖、执行范围与本库任务重复度。

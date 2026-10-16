@@ -14,6 +14,8 @@ ALLOWED_HOSTS = {
     "ads.tiktok.com", "seller-us.tiktok.com", "www.walmartconnect.com",
     "marketplacelearn.walmart.com", "support.google.com", "help.klaviyo.com",
     "global-selling.mercadolibre.com", "sellers.mercadolibre.com", "mpstats.io", "wiki.mpstats.io", "global-help.ozon.com", "sell.wayfair.com", "www.aboutwayfair.com", "developer.wayfair.io",
+    "developers.google.com", "seller.tiktokglobalshop.com",
+    "developers.mercadolibre.com.ar", "seller.ozon.kz",
 }
 errors = []
 def require(ok, message):
@@ -25,6 +27,16 @@ register = json.loads((ROOT / "assets/source-register.json").read_text())
 entries = catalog["skills"]
 source_rows = register["sources"]
 sources = {x["id"]: x for x in source_rows}
+# Rule-only packages must have directly read official evidence, not invented E metrics.
+refresh_rules = {}
+for rule_file in sorted((ROOT / "assets").glob("rule-refresh-*.json")):
+    rule_data = json.loads(rule_file.read_text())
+    for rule in rule_data["rules"]:
+        rid = rule["id"]
+        require(rid not in refresh_rules, "Duplicate refreshed rule ID: " + rid)
+        require(rule.get("read_scope") in {"official_body", "official_index"}, "Missing rule reading scope: " + rid)
+        require(all(rule.get(key) for key in ("title", "url", "checked_on", "coverage", "limitations", "used_by")), "Incomplete refreshed rule: " + rid)
+        refresh_rules[rid] = rule
 require(len(sources) == len(source_rows), "Duplicate source IDs")
 require(len(entries) >= 100, "Expected at least 100 skill entries")
 require(len({x["name"] for x in entries}) == len(entries), "Duplicate skill names")
@@ -57,11 +69,20 @@ for row in entries:
     require("$" + row["name"] in yaml, "Default prompt missing skill invocation: " + row["name"])
     short = re.search(r'short_description: "([^"]+)"', yaml)
     require(bool(short) and 25 <= len(short.group(1)) <= 64, "UI description length: " + row["name"])
-    require(len(row["sources"]) >= 1, "No mapped source: " + row["name"])
+    if not row["sources"]:
+        require(row.get("evidence_basis") == "official_rules_and_model", "No mapped source or explicit official basis: " + row["name"])
+        require(bool(row.get("rule_checks")), "No official rules for rule-only skill: " + row["name"])
+        for rid in row.get("rule_checks", []):
+            require(rid in refresh_rules and refresh_rules[rid].get("read_scope") == "official_body", "Rule-only skill requires registered official body: " + rid)
     if row.get("topic_reference"):
         require((folder / row["topic_reference"]).is_file(), "Missing topic reference: " + row["name"])
         require(row["topic_reference"] in text, "Undiscoverable topic reference: " + row["name"])
     evidence = (folder / "references/evidence.md").read_text()
+    for rid in row.get("rule_checks", []):
+        if rid in refresh_rules:
+            rule = refresh_rules[rid]
+            require(row["name"] in rule["used_by"], "Missing reverse rule mapping: " + rid + " / " + row["name"])
+            require(bool(re.search(r"\b" + re.escape(rid) + r"\b", evidence)) and rule["url"] in evidence, "Missing portable official evidence: " + rid + " / " + row["name"])
     for sid in row["sources"]:
         require(sid in sources, "Unknown source " + sid)
         if sid in sources:
@@ -73,6 +94,11 @@ for row in entries:
                 dest = (f.parent / unquote(target.split("#")[0])).resolve()
                 require(dest.is_relative_to(folder.resolve()), "Skill not independently portable: " + str(f.relative_to(ROOT)))
                 require(dest.is_file(), "Broken skill reference: " + str(f.relative_to(ROOT)) + " -> " + target)
+
+entries_by_name = {row["name"]: row for row in entries}
+for rid, rule in refresh_rules.items():
+    for name in rule["used_by"]:
+        require(name in entries_by_name and rid in entries_by_name[name].get("rule_checks", []), "Unmatched refreshed rule user: " + rid + " / " + name)
 
 for source in source_rows:
     require(bool(source["used_by"]), "Unused accepted source: " + source["id"])

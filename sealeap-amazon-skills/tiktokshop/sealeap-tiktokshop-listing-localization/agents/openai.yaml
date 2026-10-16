@@ -1,4 +1,4 @@
 interface:
   display_name: "TikTok Shop 商品卡与本地表达"
-  short_description: "TikTok Shop 商品卡与本地表达，核对证据与口径并给出可验证的具体执行方案"
+  short_description: "核查 TikTok 商品卡、AI图片真实性与地区资料，输出可追溯修正草稿"
   default_prompt: "使用 $sealeap-tiktokshop-listing-localization，根据我提供的数据完成TikTok Shop 商品卡与本地表达，说明依据、缺口和下一步。"

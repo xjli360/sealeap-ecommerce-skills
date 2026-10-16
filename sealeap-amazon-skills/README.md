@@ -1,8 +1,8 @@
 # SeaLeap 八平台技能目录
 
-194个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
+195个可独立复制的Skill；综合入口用于多环节评审，专项入口用于明确任务。
 
-## shopify · 27 Skills
+## shopify · 28 Skills
 
 | Skill | 方向 | 定位 |
 | --- | --- | --- |
@@ -33,6 +33,7 @@
 | [Shopify 营销组合建模数据准备](shopify/sealeap-shopify-mmm-data-readiness/SKILL.md) | 广告 | 专项任务 |
 | [Shopify 边际收益与预算方案评审](shopify/sealeap-shopify-marginal-budget-review/SKILL.md) | 广告 | 专项任务 |
 | [Shopify 站内筛选与买家结果验收](shopify/sealeap-shopify-storefront-filter-audit/SKILL.md) | 运营 | 专项任务 |
+| [Shopify AI销售渠道可售与数据验收](shopify/sealeap-shopify-agentic-storefront-audit/SKILL.md) | 运营 | 专项任务 |
 
 ## etsy · 23 Skills
 

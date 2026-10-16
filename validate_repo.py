@@ -52,10 +52,13 @@ allowed_hosts = {"github.com", "img.shields.io", "sealeap.cn", "help.shopify.com
     "ads.tiktok.com", "seller-us.tiktok.com", "www.walmartconnect.com",
     "marketplacelearn.walmart.com", "support.google.com", "help.klaviyo.com",
     "global-selling.mercadolibre.com", "sellers.mercadolibre.com", "mpstats.io", "wiki.mpstats.io", "global-help.ozon.com", "sell.wayfair.com", "www.aboutwayfair.com", "developer.wayfair.io"}
+allowed_hosts.update({"developers.google.com", "seller.tiktokglobalshop.com",
+    "developers.mercadolibre.com.ar", "seller.ozon.kz"})
 allowed_github = ("https://github.com/xjli360/sealeap-ecommerce-skills",
     "https://github.com/xjli360/sealeap-amazon-skills",
     "https://github.com/xjli360/awesome-design-md-ecommerce",
-    "https://github.com/nexscope-ai/eCommerce-Skills", "https://github.com/facebookexperimental/Robyn")
+    "https://github.com/nexscope-ai/eCommerce-Skills", "https://github.com/facebookexperimental/Robyn",
+    "https://github.com/nexscope-ai/nexscope-ecommerce-skills")
 patterns = {
     "local user path": r"/Users/[A-Za-z0-9_.-]+/",
     "email": r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}",

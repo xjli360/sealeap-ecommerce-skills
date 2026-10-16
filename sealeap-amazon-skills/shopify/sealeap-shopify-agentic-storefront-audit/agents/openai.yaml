@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify AI销售渠道可售与数据验收"
+  short_description: "核对 Shopify AI 渠道资格、商品映射、购买路径与批发商品排除"
+  default_prompt: "使用 $sealeap-shopify-agentic-storefront-audit，核对我的目标AI渠道、商品数据和购买路径，给出证据、缺口与修复草稿。"

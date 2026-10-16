@@ -1,6 +1,6 @@
 ---
 name: sealeap-shopify-product-feed
-description: Shopify 商品 Feed 映射与诊断。用于Shopify到Merchant Center同步、变体ID与标签排错；交付字段映射表。不替代跨环节经营总诊断。
+description: Shopify 商品Feed映射与诊断。用于Merchant Center同步、变体身份、Content API退役及Merchant API迁移验收；区分自建和第三方连接器责任。
 ---
 
 # Shopify 商品 Feed 映射与诊断
@@ -25,3 +25,7 @@ description: Shopify 商品 Feed 映射与诊断。用于Shopify到Merchant Cent
 ## 执行范围
 
 经营步骤和案例为M（模型综合），不是来源的实测收益或平台保证。工具不可用时交付方案和数据需求，不伪造后台结果。仅执行用户已授权动作；投放、采购、发布、寄样及联系他人须在实际授权范围内，已有授权不重复索取。执行后核对实际状态，不把提交成功当结果已生效。
+
+## 当期规则与专项验收
+
+商品同步间歇失败、出现410或评估接口迁移时，读 [Google商品接口退役排错](references/policy-20261016.md)，按该分支补齐输入、判断与回读证据。

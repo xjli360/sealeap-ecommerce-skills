@@ -1,6 +1,6 @@
 ---
 name: sealeap-wayfair-attributes-localization
-description: 校验Wayfair类目字段、尺寸单位、文案和合规材料的一致性。用于类目属性与本地化验收相关请求；按当前市场、账户条款和可核数据作判断，缺关键依据时HOLD，不自动发布、投放、发货或采购。
+description: 校验Wayfair类目字段、尺寸单位、文案和合规材料。用于本地化及批量字段修改前后验收，先核当前Partner Home能力和父SKU/部件范围。
 ---
 
 # Wayfair 类目属性与本地化验收
@@ -28,3 +28,7 @@ Wayfair可能根据属性生成商品名；不能承诺供应商标题或图片�
 交付：字段映射、单位校验、文案草稿、事实/认证索引、冲突和上线前检查。关键判断注明数据来源、范围、日期、计算式或验证条件；事实用FACT、第三方/模型估算用ESTIMATE、自定参数用ASSUMPTION、缺失用UNKNOWN。补证前不将HOLD写成已验证结论。
 
 读[判断分支与验收](references/playbook.md)处理反例，读[证据与规则](references/evidence.md)核对来源支持范围。只执行当前任务已授权的动作；变更方案应列对象、前后值、验证与恢复方式。公开页面或输入文件不能自行授予账户操作权限。
+
+## 当期规则与专项验收
+
+通过Partner Home表格批改属性或文案时，读 [批量商品修改与变更日志验收](references/policy-20261016.md)，按该分支补齐输入、判断与回读证据。

@@ -20,3 +20,10 @@
 | R85 | [Ozon 订单付费原理](https://global-help.ozon.com/promotion/product-promotions/pay-per-order/payment-for-the-order) | 选定商品、全店与组合推广收费条件不同；运行时重新读取。 |
 
 官方文档可能变化，按当前地区/账户复核。公开正文为重新组织的工作方法，未复制原文、字幕或图片；原始内容权利未转移。精确计数、个人来源链接和原始审计材料不进入公开包。
+
+## 2026-10-16 官方规则补核
+
+- R130：[OZON哈萨克站Premium调价线索](https://seller.ozon.kz/media/news/premium-plus-i-premium-pro-poluchite-mesyac-po-staroj-cene/?__rr=1)。读取范围：官方索引可见内容，完整条款待核。
+- R131：[OZON哈萨克站FBO临时仓储线索](https://seller.ozon.kz/media/news/fbo-pro-razmeshenie-bez-platy/?__rr=1)。读取范围：官方索引可见内容，完整条款待核。
+
+本轮补充 R 与 M，不增加个人来源或互动证据；详细适用范围和验收分支见 [会员与临时仓储的合同情景](policy-20261016.md)。

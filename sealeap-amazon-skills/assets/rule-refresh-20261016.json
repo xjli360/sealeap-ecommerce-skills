@@ -1,0 +1,283 @@
+{
+  "checked_on": "2026-10-16",
+  "basis": "Official rules and model-designed checks; no new engagement evidence",
+  "rules": [
+    {
+      "id": "R112",
+      "title": "TikTok US 新版 SPS 试运行指南",
+      "url": "https://seller-us.tiktok.com/university/essay?content_id=2786070166210347&from=new-and-updated&identity=1&is_new_connect=0&is_new_user=0&knowledge_id=7105568016090887&learning_id=7105568016090887&role=seller",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "2026-10-15页面；计划2026-10-16正式切换",
+      "coverage": "核读版本、指标窗口、物流分项及试运行权益说明。",
+      "limitations": "同knowledge_id简化URL曾返回9月旧版；公告计划日期不证明任一账户已切换。",
+      "used_by": [
+        "sealeap-tiktokshop-store-operations",
+        "sealeap-tiktokshop-fulfillment-service"
+      ]
+    },
+    {
+      "id": "R113",
+      "title": "TikTok US AI商品图片要求",
+      "url": "https://seller-us.tiktok.com/university/essay?identity=1&knowledge_id=5892224899909383&role=1",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "2026-09-24",
+      "coverage": "核读商品一致性、二维/三维、比例、SKU与数量、效果声明。",
+      "limitations": "美国商品图片规则；不能代替其他地区、视频、音乐或商标规则。",
+      "used_by": [
+        "sealeap-tiktokshop-listing-localization",
+        "sealeap-tiktokshop-content-product-fit"
+      ]
+    },
+    {
+      "id": "R114",
+      "title": "TikTok US 九月售后政策回顾",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6747273381791534",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "2026-10-09发布；回顾9月变动",
+      "coverage": "核读POD取消/Final Sale及FBT退货处理段落。",
+      "limitations": "月度回顾不含所有取消期限、退款例外及申诉细节；具体案件需当前完整政策。",
+      "used_by": [
+        "sealeap-tiktokshop-returns-feedback"
+      ]
+    },
+    {
+      "id": "R115",
+      "title": "TikTok US 履约政策复核",
+      "url": "https://seller-us.tiktok.com/university/essay?content_id=8146792370325290&from=new-and-updated&identity=1&knowledge_id=3995852763301633&learning_id=3995852763301633&role=creator",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "2026-09-28",
+      "coverage": "核读SLA、VTR及履约模式豁免。",
+      "limitations": "仅美国站，订单类型和后台承诺决定具体截止时间。",
+      "used_by": [
+        "sealeap-tiktokshop-fulfillment-service"
+      ]
+    },
+    {
+      "id": "R116",
+      "title": "Google Content API退役与迁移",
+      "url": "https://developers.google.com/shopping-content/guides/deprecation-and-sunset",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "2026-09-10更新",
+      "coverage": "核读退役、分阶段410、延期、第三方平台责任与迁移。",
+      "limitations": "8月退役不等于全部请求立即关闭；最终停机安排可修订，未测试真实接口。",
+      "used_by": [
+        "sealeap-shopify-product-feed",
+        "sealeap-shopify-google-shopping"
+      ]
+    },
+    {
+      "id": "R117",
+      "title": "Shopify Agentic Storefronts总览",
+      "url": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "观察时页面未给出统一生效日期",
+      "coverage": "核读渠道发现与管理说明。",
+      "limitations": "渠道、地区与直接结账能力按账户开放状态核验。",
+      "used_by": [
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-agentic-storefront-audit"
+      ]
+    },
+    {
+      "id": "R118",
+      "title": "Shopify Catalog与AI渠道商品发现",
+      "url": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/products",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "观察于2026-10-16",
+      "coverage": "核读数据映射、抓取/分发差异及B2B排除。",
+      "limitations": "可发现不保证展示或成交；自定义批发应用不一定被识别。",
+      "used_by": [
+        "sealeap-shopify-store-operations",
+        "sealeap-shopify-technical-seo",
+        "sealeap-shopify-agentic-storefront-audit"
+      ]
+    },
+    {
+      "id": "R119",
+      "title": "Shopify Catalog资格",
+      "url": "https://help.shopify.com/en/manual/shopify-catalog/requirements",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "观察于2026-10-16",
+      "coverage": "核读商店和商品资格，区分Agentic plan例外。",
+      "limitations": "不把Catalog资格视为所有AI渠道及购买方式通用资格。",
+      "used_by": [
+        "sealeap-shopify-agentic-storefront-audit"
+      ]
+    },
+    {
+      "id": "R120",
+      "title": "Etsy逐Listing广告策略",
+      "url": "https://www.etsy.com/seller-handbook/article/1483338976050",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "2026-06-01",
+      "coverage": "核读预算资格、三种策略、默认继承及修改行为。",
+      "limitations": "功能资格与当前后台复核；策略不保证成本、曝光或利润。",
+      "used_by": [
+        "sealeap-etsy-etsy-ads-tests",
+        "sealeap-etsy-advertising"
+      ]
+    },
+    {
+      "id": "R121",
+      "title": "Etsy Marketplace Insights",
+      "url": "https://help.etsy.com/hc/en-us/articles/35122361353239-How-Do-I-Use-Etsy-s-Marketplace-Insights-Tool",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "观察于2026-10-16",
+      "coverage": "核读近30天数据、免费查询额度和网页入口。",
+      "limitations": "搜索次数不是买家人数、订单或收入；账户和订阅能力可能调整。",
+      "used_by": [
+        "sealeap-etsy-market-keywords",
+        "sealeap-etsy-product-selection"
+      ]
+    },
+    {
+      "id": "R122",
+      "title": "Etsy标题可读性指南",
+      "url": "https://www.etsy.com/ca/seller-handbook/article/1399426136697",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "2026-04-27",
+      "coverage": "核读商品名、关键特征、减少重复及少于15词的建议。",
+      "limitations": "词数是编辑建议，不是新的硬性字段上限；AI建议不证明旧标题差。",
+      "used_by": [
+        "sealeap-etsy-listing-seo"
+      ]
+    },
+    {
+      "id": "R123",
+      "title": "Etsy新版Payment account",
+      "url": "https://www.etsy.com/seller-handbook/article/1502565963692",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "直开正文为2026-09-08；早期搜索快照显示7月日期",
+      "coverage": "核读Current/Pending/Total、Ready for Deposit和reserve模块变化。",
+      "limitations": "页面渐进发布；资金可用、可打款和银行到账分开。",
+      "used_by": [
+        "sealeap-etsy-reserve-cashflow"
+      ]
+    },
+    {
+      "id": "R124",
+      "title": "WFS美国仓储与超龄费用",
+      "url": "https://marketplacelearn.walmart.com/guides/Walmart%20Fulfillment%20Services%20%28WFS%29/WFS-fees",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "页面2026-05-27；超龄表另注明2026-06-30生效",
+      "coverage": "核读旺季30天分界与366/450天仓龄费表。",
+      "limitations": "此为美国WFS观察快照；非加拿大费表，也不保证账单金额。",
+      "used_by": [
+        "sealeap-walmart-wfs-economics",
+        "sealeap-walmart-inventory-planning"
+      ]
+    },
+    {
+      "id": "R125",
+      "title": "WFS入仓处理时间",
+      "url": "https://marketplacelearn.walmart.com/guides/Getting%20started/Walmart%20Fulfillment%20Services%20%28WFS%29/walmart-fulfillment-services-wfs-overview",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "2026-08-06",
+      "coverage": "核读旺季、计划外预处理及最多10个工作日说明。",
+      "limitations": "是规划参考，不是每批保证时效或申诉截止日。",
+      "used_by": [
+        "sealeap-walmart-inventory-planning",
+        "sealeap-walmart-wfs-receiving-resolution"
+      ]
+    },
+    {
+      "id": "R126",
+      "title": "Walmart美国自发货退货政策",
+      "url": "https://marketplacelearn.walmart.com/guides/Policies%20%26%20standards/Orders%20%26%20returns/returns-policy",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_index",
+      "version_note": "官方索引2026-08-31；直开只返回页面框架",
+      "coverage": "索引正文显示多数10至12月购买商品的节日退货延长窗口。",
+      "limitations": "未完整核读所有例外；需按SKU、履约模式、购买日及当期政策复核，不直接套用WFS。",
+      "used_by": [
+        "sealeap-walmart-returns-recovery"
+      ]
+    },
+    {
+      "id": "R127",
+      "title": "TikTok欧盟九月政策更新索引",
+      "url": "https://seller.tiktokglobalshop.com/university/new-policies?identity=1&page=2",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_index",
+      "version_note": "索引显示2026年9月回顾；多版本页面日期不同",
+      "coverage": "索引核读制造商信息、账期、EU/UK跨境OTDR变动。",
+      "limitations": "具体文章与全部例外未完整取得；只支持核验清单，不能给确定到账或处罚结论。",
+      "used_by": [
+        "sealeap-tiktokshop-store-operations",
+        "sealeap-tiktokshop-fulfillment-service",
+        "sealeap-tiktokshop-listing-localization",
+        "sealeap-tiktokshop-unit-economics"
+      ]
+    },
+    {
+      "id": "R128",
+      "title": "美客多B2B百分比多件价",
+      "url": "https://developers.mercadolibre.com.ar/es_ar/validador-de-publicaciones/pxq-porcentaje-b2b",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_index",
+      "version_note": "2026-10-01文档；预告2026-10-27迁移",
+      "coverage": "索引核读绝对值迁移、净价例外、business资格及站点限制。",
+      "limitations": "直开受限；端点和账户权限需在实际迁移前完整核验，不扩展为所有Global Selling账户适用。",
+      "used_by": [
+        "sealeap-mercadolibre-promotion-net-proceeds"
+      ]
+    },
+    {
+      "id": "R129",
+      "title": "Wayfair商品管理工具更新",
+      "url": "https://sell.wayfair.com/merchtoolupdate",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_body",
+      "version_note": "页面同时含既有功能、Beta及Coming Soon in 2025",
+      "coverage": "核读批量表格编辑、父SKU/部件界面和商品变更日志。",
+      "limitations": "未进入Partner Home核对当前账户；历史预告不能证明已全量上线。",
+      "used_by": [
+        "sealeap-wayfair-attributes-localization",
+        "sealeap-wayfair-catalog-identifiers"
+      ]
+    },
+    {
+      "id": "R130",
+      "title": "OZON哈萨克站Premium调价线索",
+      "url": "https://seller.ozon.kz/media/news/premium-plus-i-premium-pro-poluchite-mesyac-po-staroj-cene/?__rr=1",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_index",
+      "version_note": "索引预告2026-10-01调价及部分续订过渡",
+      "coverage": "仅核读官方索引可见的套餐与过渡条款。",
+      "limitations": "正文重定向循环；未确认俄罗斯或中国跨境合同适用性，不写通用价格。",
+      "used_by": [
+        "sealeap-ozon-unit-economics",
+        "sealeap-ozon-settlement-audit"
+      ]
+    },
+    {
+      "id": "R131",
+      "title": "OZON哈萨克站FBO临时仓储线索",
+      "url": "https://seller.ozon.kz/media/news/fbo-pro-razmeshenie-bez-platy/?__rr=1",
+      "checked_on": "2026-10-16",
+      "read_scope": "official_index",
+      "version_note": "2026-09-21公告；索引给出9月22日至12月31日接收批次",
+      "coverage": "仅核读索引中的临时优惠、货物类型及接收批次条件。",
+      "limitations": "正文重定向循环；未核适用合同，不能当长期零仓储费或俄区通用优惠。",
+      "used_by": [
+        "sealeap-ozon-unit-economics",
+        "sealeap-ozon-fulfillment-choice",
+        "sealeap-ozon-settlement-audit"
+      ]
+    }
+  ]
+}

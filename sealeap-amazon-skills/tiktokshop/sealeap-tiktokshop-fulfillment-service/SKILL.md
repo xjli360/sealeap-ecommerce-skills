@@ -1,6 +1,6 @@
 ---
 name: sealeap-tiktokshop-fulfillment-service
-description: TikTok Shop 履约与客服时限。用于FBT/平台物流/自发货选择、有效追踪和客服承接；交付履约时限表。不替代跨环节经营总诊断。
+description: TikTok Shop 履约与客服时限。用于FBT、平台物流、自发货的SLA、有效追踪、VTR和物流SPS诊断；区分市场与订单模式。
 ---
 
 # TikTok Shop 履约与客服时限
@@ -25,3 +25,7 @@ description: TikTok Shop 履约与客服时限。用于FBT/平台物流/自发�
 ## 执行范围
 
 经营步骤和案例为M（模型综合），不是来源的实测收益或平台保证。工具不可用时交付方案和数据需求，不伪造后台结果。仅执行用户已授权动作；投放、采购、发布、寄样及联系他人须在实际授权范围内，已有授权不重复索取。执行后核对实际状态，不把提交成功当结果已生效。
+
+## 当期规则与专项验收
+
+核发货截止、有效追踪或物流评分时，读 [履约SLA、VTR与新版SPS](references/policy-20261016.md)，按该分支补齐输入、判断与回读证据。

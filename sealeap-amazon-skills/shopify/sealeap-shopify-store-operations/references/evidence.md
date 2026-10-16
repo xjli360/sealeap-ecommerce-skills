@@ -38,3 +38,10 @@
 
 操作手册和专题手册中的表格、流程、测算、合成案例、诊断分支及停止条件为独立撰写的执行设计。来源只支持上述有限判断；模型补充不冒充原文结论、平台保证或实测收益。缺证据时保留未知和待验证假设。
 
+
+## 2026-10-16 官方规则补核
+
+- R117：[Shopify Agentic Storefronts总览](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)。读取范围：官方正文相关章节。
+- R118：[Shopify Catalog与AI渠道商品发现](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/products)。读取范围：官方正文相关章节。
+
+本轮补充 R 与 M，不增加个人来源或互动证据；详细适用范围和验收分支见 [AI销售渠道运营验收](policy-20261016.md)。

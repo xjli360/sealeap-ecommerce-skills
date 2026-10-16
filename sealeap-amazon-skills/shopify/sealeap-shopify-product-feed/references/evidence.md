@@ -28,3 +28,9 @@
 R01–R18于2026-09-23查阅，R19–R29于2026-09-24查阅；规则文档不计入互动来源数量。单次查阅不保证长期有效。
 
 许可见本Skill附带的 [MIT文本](../LICENSE)。
+
+## 2026-10-16 官方规则补核
+
+- R116：[Google Content API退役与迁移](https://developers.google.com/shopping-content/guides/deprecation-and-sunset)。读取范围：官方正文相关章节。
+
+本轮补充 R 与 M，不增加个人来源或互动证据；详细适用范围和验收分支见 [Google商品接口退役排错](policy-20261016.md)。

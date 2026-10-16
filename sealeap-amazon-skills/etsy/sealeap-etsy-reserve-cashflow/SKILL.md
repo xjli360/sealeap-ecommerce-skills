@@ -1,6 +1,6 @@
 ---
 name: sealeap-etsy-reserve-cashflow
-description: Etsy 储备金与可用现金诊断。用于Payment Reserve、在途确认、可用余额和生产资金缺口；不处理银行转账或一般利润定价。
+description: Etsy储备金与可用现金诊断。用于新版Current、Pending、Ready for Deposit、储备释放及生产资金缺口；不把可用余额当银行到账。
 ---
 
 # Etsy 储备金与可用现金诊断
@@ -34,3 +34,7 @@ description: Etsy 储备金与可用现金诊断。用于Payment Reserve、在�
 ## 执行边界
 
 本Skill提供任务流程，不表示已经连接平台或取得商户操作权限。事实、估算、假设、未知分别记录；经验与模型输出不保证收益。只执行用户已授权动作，已有明确授权不重复索取；提交、处理和结果回读分开。网络和工具受限时完成可审阅方案，不绕过访问限制或伪造执行成功。
+
+## 当期规则与专项验收
+
+读取新版Payment account或排查款项未到时，读 [新版余额与打款状态桥](references/policy-20261016.md)，按该分支补齐输入、判断与回读证据。

@@ -29,3 +29,10 @@
 
 操作手册和专题手册中的表格、流程、测算、合成案例、诊断分支及停止条件为独立撰写的执行设计。来源只支持上述有限判断；模型补充不冒充原文结论、平台保证或实测收益。缺证据时保留未知和待验证假设。
 
+
+## 2026-10-16 官方规则补核
+
+- R112：[TikTok US 新版 SPS 试运行指南](https://seller-us.tiktok.com/university/essay?content_id=2786070166210347&from=new-and-updated&identity=1&is_new_connect=0&is_new_user=0&knowledge_id=7105568016090887&learning_id=7105568016090887&role=seller)。读取范围：官方正文相关章节。
+- R127：[TikTok欧盟九月政策更新索引](https://seller.tiktokglobalshop.com/university/new-policies?identity=1&page=2)。读取范围：官方索引可见内容，完整条款待核。
+
+本轮补充 R 与 M，不增加个人来源或互动证据；详细适用范围和验收分支见 [美国SPS版本与欧盟规则分支](policy-20261016.md)。

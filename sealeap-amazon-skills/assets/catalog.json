@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "collection": "sealeap-amazon-skills",
-  "edition": "2026-09-29-wayfair",
+  "edition": "2026-10-16-policy-refresh",
   "platforms": [
     "shopify",
     "etsy",
@@ -58,7 +58,9 @@
       "rule_checks": [
         "R01",
         "R15",
-        "R18"
+        "R18",
+        "R117",
+        "R118"
       ],
       "merged_topics": [
         "商品页优化",
@@ -72,7 +74,8 @@
         "邮件口径与内容意图"
       ],
       "topic_reference": "references/feed-and-retention.md",
-      "scope": "integrated"
+      "scope": "integrated",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-shopify-advertising",
@@ -119,7 +122,8 @@
       "rule_checks": [
         "R02",
         "R03",
-        "R04"
+        "R04",
+        "R121"
       ],
       "merged_topics": [
         "原创与POD",
@@ -132,7 +136,8 @@
         "分阶段小批测品"
       ],
       "topic_reference": "references/research-and-tests.md",
-      "scope": "integrated"
+      "scope": "integrated",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-etsy-shop-operations",
@@ -174,7 +179,8 @@
       ],
       "rule_checks": [
         "R03",
-        "R04"
+        "R04",
+        "R120"
       ],
       "merged_topics": [
         "站内广告",
@@ -187,7 +193,8 @@
         "注意力到贡献的诊断"
       ],
       "topic_reference": "references/testing-cohorts.md",
-      "scope": "integrated"
+      "scope": "integrated",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-ebay-product-selection",
@@ -310,7 +317,9 @@
       ],
       "rule_checks": [
         "R10",
-        "R08"
+        "R08",
+        "R112",
+        "R127"
       ],
       "merged_topics": [
         "短视频内容",
@@ -323,7 +332,8 @@
         "直播排品与库存协同"
       ],
       "topic_reference": "references/content-commerce.md",
-      "scope": "integrated"
+      "scope": "integrated",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-tiktokshop-advertising",
@@ -527,14 +537,16 @@
         "X01"
       ],
       "rule_checks": [
-        "R15"
+        "R15",
+        "R116"
       ],
       "merged_topics": [
         "字段映射表",
         "异常分级",
         "修正与回读记录"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-shopify-technical-seo",
@@ -547,13 +559,16 @@
         "S04",
         "X06"
       ],
-      "rule_checks": [],
+      "rule_checks": [
+        "R118"
+      ],
       "merged_topics": [
         "URL问题表",
         "性能证据",
         "修复优先级与验收"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-shopify-content-plan",
@@ -740,14 +755,16 @@
       ],
       "rule_checks": [
         "R15",
-        "R01"
+        "R01",
+        "R116"
       ],
       "merged_topics": [
         "商品分组表",
         "诊断证据",
         "有限投放方案"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-shopify-incrementality-testing",
@@ -779,14 +796,16 @@
         "Z01"
       ],
       "rule_checks": [
-        "R02"
+        "R02",
+        "R121"
       ],
       "merged_topics": [
         "意图词库",
         "词到商品映射",
         "需求缺口"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-etsy-competitor-gap",
@@ -895,14 +914,16 @@
         "N01"
       ],
       "rule_checks": [
-        "R02"
+        "R02",
+        "R122"
       ],
       "merged_topics": [
         "字段改写表",
         "关键词覆盖",
         "事实核对与复盘"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-etsy-listing-visuals",
@@ -1051,14 +1072,16 @@
         "X02"
       ],
       "rule_checks": [
-        "R04"
+        "R04",
+        "R120"
       ],
       "merged_topics": [
         "测试商品表",
         "预算/损失边界",
         "复盘记录"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-etsy-offsite-ads-profit",
@@ -1465,13 +1488,16 @@
         "N01",
         "X03"
       ],
-      "rule_checks": [],
+      "rule_checks": [
+        "R113"
+      ],
       "merged_topics": [
         "演示适配矩阵",
         "样品测试",
         "内容验证brief"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-tiktokshop-unit-economics",
@@ -1488,7 +1514,8 @@
         "R10",
         "R91",
         "R92",
-        "R93"
+        "R93",
+        "R127"
       ],
       "merged_topics": [
         "SKU贡献表",
@@ -1504,7 +1531,8 @@
         "tests": "scripts/test_unit_economics.py",
         "network": false,
         "account_mutations": false
-      }
+      },
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-tiktokshop-listing-localization",
@@ -1516,13 +1544,17 @@
         "N01",
         "X03"
       ],
-      "rule_checks": [],
+      "rule_checks": [
+        "R113",
+        "R127"
+      ],
       "merged_topics": [
         "商品卡改写",
         "跨素材一致性表",
         "待补证据"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-tiktokshop-creator-discovery",
@@ -1692,14 +1724,18 @@
         "N01"
       ],
       "rule_checks": [
-        "R28"
+        "R28",
+        "R112",
+        "R115",
+        "R127"
       ],
       "merged_topics": [
         "履约时限表",
         "异常订单队列",
         "客服草稿"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-tiktokshop-returns-feedback",
@@ -1711,14 +1747,16 @@
         "N01"
       ],
       "rule_checks": [
-        "R28"
+        "R28",
+        "R114"
       ],
       "merged_topics": [
         "退货原因矩阵",
         "内容修正",
         "净贡献复盘"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-tiktokshop-promotion-margin",
@@ -1835,14 +1873,16 @@
         "N01"
       ],
       "rule_checks": [
-        "R19"
+        "R19",
+        "R124"
       ],
       "merged_topics": [
         "WFS成本表",
         "仓龄情景",
         "入仓判断"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-walmart-pricing-floors",
@@ -1956,14 +1996,17 @@
       ],
       "rule_checks": [
         "R19",
-        "R21"
+        "R21",
+        "R124",
+        "R125"
       ],
       "merged_topics": [
         "库存风险表",
         "补货/去化情景",
         "行动清单"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-walmart-fulfillment-comparison",
@@ -2015,14 +2058,16 @@
         "N01"
       ],
       "rule_checks": [
-        "R21"
+        "R21",
+        "R126"
       ],
       "merged_topics": [
         "退货状态桥接",
         "费用差异",
         "改善与询证清单"
       ],
-      "scope": "specialist"
+      "scope": "specialist",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-walmart-price-monitoring",
@@ -2262,7 +2307,8 @@
         "A08"
       ],
       "rule_checks": [
-        "R38"
+        "R38",
+        "R123"
       ],
       "merged_topics": [
         "订单-追踪-资金状态桥接",
@@ -2271,7 +2317,8 @@
         "支持询证草稿"
       ],
       "scope": "specialist",
-      "edition_added": "2026-09-24-research-more"
+      "edition_added": "2026-09-24-research-more",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-etsy-vacation-restart",
@@ -2389,7 +2436,8 @@
         "A04"
       ],
       "rule_checks": [
-        "R35"
+        "R35",
+        "R125"
       ],
       "merged_topics": [
         "五阶段数量桥接",
@@ -2398,7 +2446,8 @@
         "工单/争议草稿与结果记录"
       ],
       "scope": "specialist",
-      "edition_added": "2026-09-24-research-more"
+      "edition_added": "2026-09-24-research-more",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-tiktokshop-commercial-audio-clearance",
@@ -3056,7 +3105,8 @@
       "rule_checks": [
         "R68",
         "R69",
-        "R51"
+        "R51",
+        "R128"
       ],
       "merged_topics": [
         "活动/子卖家",
@@ -3068,7 +3118,8 @@
         "前台与账单确认"
       ],
       "scope": "specialist",
-      "edition_added": "2026-09-27-mercadolibre"
+      "edition_added": "2026-09-27-mercadolibre",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-mercadolibre-product-ads-readiness",
@@ -3419,7 +3470,9 @@
         "R80",
         "R81",
         "R83",
-        "R85"
+        "R85",
+        "R130",
+        "R131"
       ],
       "merged_topics": [
         "结合 MPstats 价格带与自家成本测算 OZON 单品贡献、保本价和广告上限"
@@ -3429,7 +3482,8 @@
       "mpstats_required": true,
       "mpstats_reports": [
         "外部 Цены / SKU 价格；内部 Кабинет Ozon → Товары 成本与扣费"
-      ]
+      ],
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-ozon-fulfillment-choice",
@@ -3444,7 +3498,8 @@
       "rule_checks": [
         "R80",
         "R81",
-        "R83"
+        "R83",
+        "R131"
       ],
       "merged_topics": [
         "依据 MPstats 需求和库存表现比较 OZON 可用履约模式"
@@ -3454,7 +3509,8 @@
       "mpstats_required": true,
       "mpstats_reports": [
         "可比 SKU → delivery_scheme / 仓库；内部商品库存及体积重量"
-      ]
+      ],
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-ozon-keyword-map",
@@ -3652,7 +3708,9 @@
         "R83",
         "R84",
         "R85",
-        "R86"
+        "R86",
+        "R130",
+        "R131"
       ],
       "merged_topics": [
         "核对 MPstats 内部 OZON 报表与平台结算、折扣积分及广告收费"
@@ -3662,7 +3720,8 @@
       "mpstats_required": true,
       "mpstats_reports": [
         "Кабинет Ozon → Товары / Сводка；Ozon 财务明细"
-      ]
+      ],
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-ozon-returns-quality",
@@ -4030,13 +4089,15 @@
         "R95",
         "R97",
         "R100",
-        "R108"
+        "R108",
+        "R129"
       ],
       "merged_topics": [
         "梳理Wayfair SKU、供应商零件号、变体和组合商品映射"
       ],
       "scope": "specialist",
-      "edition_added": "2026-09-29-wayfair"
+      "edition_added": "2026-09-29-wayfair",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-wayfair-attributes-localization",
@@ -4053,13 +4114,15 @@
         "R97",
         "R98",
         "R107",
-        "R108"
+        "R108",
+        "R129"
       ],
       "merged_topics": [
         "校验Wayfair类目字段、尺寸单位、文案和合规材料的一致性"
       ],
       "scope": "specialist",
-      "edition_added": "2026-09-29-wayfair"
+      "edition_added": "2026-09-29-wayfair",
+      "updated_on": "2026-10-16"
     },
     {
       "name": "sealeap-wayfair-imagery-waymore",
@@ -4436,6 +4499,28 @@
       ],
       "scope": "specialist",
       "edition_added": "2026-09-29-wayfair"
+    },
+    {
+      "name": "sealeap-shopify-agentic-storefront-audit",
+      "platform": "shopify",
+      "mode": "operations",
+      "title": "Shopify AI销售渠道可售与数据验收",
+      "path": "shopify/sealeap-shopify-agentic-storefront-audit",
+      "sources": [],
+      "rule_checks": [
+        "R117",
+        "R118",
+        "R119"
+      ],
+      "evidence_basis": "official_rules_and_model",
+      "merged_topics": [
+        "渠道资格",
+        "Catalog映射",
+        "AI购买路径",
+        "B2B排除"
+      ],
+      "scope": "specialist",
+      "edition_added": "2026-10-16-policy-refresh"
     }
   ]
 }

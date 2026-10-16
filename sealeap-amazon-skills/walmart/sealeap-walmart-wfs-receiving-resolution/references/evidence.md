@@ -21,3 +21,9 @@
 具体输入合同、流程组织、分支、合成案例和停止条件为独立撰写；没有相应证据时只给假设或补证任务。所有条件应按用户实际市场和账户再核验。
 
 [本Skill的MIT许可](../LICENSE)随目录保留。
+
+## 2026-10-16 官方规则补核
+
+- R125：[WFS入仓处理时间](https://marketplacelearn.walmart.com/guides/Getting%20started/Walmart%20Fulfillment%20Services%20%28WFS%29/walmart-fulfillment-services-wfs-overview)。读取范围：官方正文相关章节。
+
+本轮补充 R 与 M，不增加个人来源或互动证据；详细适用范围和验收分支见 [旺季收货缓冲与争议时钟](policy-20261016.md)。
